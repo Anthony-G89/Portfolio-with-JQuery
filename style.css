@@ -6,7 +6,7 @@
 #myNavBar {
    position: sticky; 
    text-align: center;
-   background-color: aqua;
+   background-color: silver;
    padding: 0;
    margin: 0; 
 }
@@ -17,5 +17,10 @@
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-   
+    cursor: pointer;  
+}
+
+.links:hover {
+    text-decoration: underline;
+
 }
