@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+#myNavBar {
+   position: sticky;
+   top: 0; 
+   text-align: center;
+   background-color: rgb(247 247 252);
+   padding-bottom: 2px;
+   margin: 0; 
+}
+
+.jumbotron {
+    position: relative;
+}
+
+.headerText {
+    position: absolute;
+    left: 35%;
+    top: 13%;
+    font-size: 5em;
+    color: white;
+    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 30% 100%, 0 90%); */
+    
+}
+
+.myPosition {
+    position: absolute;
+    left: 29%;
+    top: 24%;
+    font-size: 4em;
+    color: white;
+}
+
+
+.links {
+    display: inline-block;
+    padding: 10px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;  
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+
+.headerPicture {
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 196vh;
+    overflow-x: hidden;
+}
+
+#aboutMe {
+    
+    background-color: violet;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 63% 100%, 0 90%);
+}
