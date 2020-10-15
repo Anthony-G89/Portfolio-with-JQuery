@@ -13,7 +13,7 @@
    margin: 0; 
 }
 
-.jumbotron {
+.myHeader {
     position: relative;
 }
 
@@ -61,6 +61,15 @@
 
 #aboutMe {
     
-    background-color: violet;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 63% 100%, 0 90%);
+    
+    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 63% 100%, 0 90%); */
+}
+
+.myInfo {
+text-align: center;
+padding-bottom: 10px;
+}
+
+.middle {
+    justify-content: center;
 }
