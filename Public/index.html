@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Anthony Guerrero | Full-Stack JavaScript Developer</title>
     <link rel="stylesheet" href="../Public/style.css">
 </head>
@@ -21,8 +22,8 @@
         </ul>
 
         <div>
-            <h1 class="headerText"> Anthony Guerrero</h1>
-            <h2 class="myPosition"> Full Stack JavaScript Developer</h2>
+            <h1 data-aos= "fade-right"  data-aos-offset="800" data-aos-delay="400" data-aos-duration="1700" data-aos-easing="ease-in-out" class="headerText"> Anthony Guerrero</h1>
+            <h2 data-aos= "fade-left" data-aos-offset="700" data-aos-delay="400" data-aos-duration="1700" data-aos-easing="ease-in-out" class="myPosition"> Full Stack JavaScript Developer</h2>
             <img src="../Public/images/Coding-and-Coffee-1165x777.jpg" class="headerPicture">
         </div>
 
@@ -40,7 +41,7 @@
                     numquam enim amet soluta cumque odio commodi libero eius voluptas?</p>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-lg-6 sportsMe">
                 <h2 class="text-center">Sports</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo, harum dignissimos quae
                     reprehenderit ratione tenetur dolor unde autem id et ducimus eos repellat alias atque corrupti illo
@@ -73,7 +74,10 @@
     </section>
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
