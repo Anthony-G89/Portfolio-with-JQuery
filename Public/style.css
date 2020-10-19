@@ -1,8 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    
    
 }
+
+.body {
+    overflow-x: hidden;
+}
+
 
 #myNavBar {
    position: sticky;
@@ -11,6 +17,7 @@
    background-color: rgb(247 247 252);
    padding-bottom: 2px;
    margin: 0; 
+   width: 102%;
 }
 
 .myHeader {
@@ -42,11 +49,13 @@
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    cursor: pointer;  
+    cursor: pointer;
+    color: black;  
 }
 
 .links:hover {
     text-decoration: underline;
+    color: blue;
 }
 
 
@@ -55,19 +64,27 @@
     background-repeat: repeat;
     background-size: cover;
     height: 95vh;
-    width: 202vh;
-    overflow-x: hidden;
+    width: 102%;
+    /* overflow-x: hidden; */
+}
+
+#aboutMe {
+    background-color: #ebebec;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 76% 100%, 0 90%);
 }
 
 .aboutMeText {
-    padding-left: 60px;
+    padding: 10px 60px;
+    font-size: large;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     
-    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 63% 100%, 0 90%); */
+    
 }
 
 .myInfo {
-text-align: center;
-padding: 10px 0 10px 0;
+    position: absolute;
+    padding-top: 10px;
+    left: 15%;
 }
 
 
