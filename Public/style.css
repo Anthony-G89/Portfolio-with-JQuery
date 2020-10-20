@@ -11,8 +11,9 @@
 
 
 #myNavBar {
-   position: sticky;
-   top: 0; 
+   position: fixed;
+   top: 0;
+   z-index: 1;
    text-align: center;
    background-color: rgb(247 247 252);
    padding-bottom: 2px;
@@ -111,7 +112,7 @@
 
 .meetHubText {
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 68%;
     font-size: larger;
     font-weight: bold;
@@ -122,10 +123,21 @@
 #myWorkPage {
     background-color: #2d3135;
     height: 65vh;
-    clip-path: polygon(-25% 2%, 101% -8%, 100% 87%, 50% 100%, -9% 87%);
-    
+    clip-path: polygon(-25% 2%, 101% -8%, 100% 87%, 50% 100%, -9% 87%);    
+}
 
-    
+.seeMoreWorkText {
+    position: absolute;
+    left: 45%;
+    top: 240px;
+    font-size: larger;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+.seeMoreWorkText:hover {
+    color: blue;
 }
 
 
