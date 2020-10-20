@@ -70,6 +70,7 @@
 
 #aboutMe {
     background-color: #ebebec;
+    padding-bottom: 70px;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 46% 99%, 0 90%);
 }
 
@@ -93,7 +94,37 @@
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-.meetHubPic {
-    height: 370px;
-    padding-left: 40px;
+.titleMyWork {
+    color: white;
 }
+
+
+.meetHubPic {
+    position: absolute;
+    top: 41px;
+    left: 68%;
+    height: 535px;
+    padding-bottom: 20px;
+    
+}
+
+.meetHubText {
+    position: absolute;
+    top: 50px;
+    left: 68%;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#myWorkPage {
+    background-color: #2d3135;
+    height: 65vh;
+    clip-path: polygon(-25% 2%, 101% -8%, 100% 87%, 50% 100%, -9% 87%);
+    
+
+    
+}
+
+
