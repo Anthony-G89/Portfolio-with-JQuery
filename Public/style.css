@@ -71,6 +71,7 @@
 
 #aboutMe {
     background-color: #ebebec;
+    padding-top:70px;
     padding-bottom: 70px;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 46% 99%, 0 90%);
 }
