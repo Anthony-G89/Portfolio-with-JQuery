@@ -102,9 +102,10 @@
 .meetHubPic {
     position: absolute;
     top: 41px;
-    left: 68%;
+    left: 71%;
     height: 535px;
     padding-bottom: 20px;
+    cursor: pointer;
     
 }
 
