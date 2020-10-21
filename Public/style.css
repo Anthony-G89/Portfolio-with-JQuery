@@ -128,7 +128,7 @@
 }
 
 .repoText:hover {
-    color: blue;
+    color: #007bff;
 }
 
 .gitHubIcon {
@@ -157,7 +157,40 @@
 }
 
 .seeMoreWorkText:hover {
-    color: blue;
+    color: #007bff;
+}
+
+.connectHeader {
+    color: #2d3135;
+    text-decoration: underline;
+}
+
+#connectMePage {
+    background-color: #ebebec;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    padding: 40px;
+}
+
+.myLinks {
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.myFooter {
+    bottom: 0;
+    width: 100%;
+    margin: 14px 0 0 0;
+    padding: 18px 0px;
+    text-align: center;
+    background-color: rgb(247 247 252);
+}
+
+.footerText {
+    font-size: large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
 }
 
 
