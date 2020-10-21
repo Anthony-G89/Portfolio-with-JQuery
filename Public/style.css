@@ -100,10 +100,12 @@
     color: white;
 }
 
-
+.workColumn {
+    position: relative;
+}
 .meetHubPic {
     position: absolute;
-    top: 41px;
+    top: 0px;
     left: 71%;
     height: 535px;
     padding-bottom: 20px;
@@ -113,12 +115,29 @@
 
 .meetHubText {
     position: absolute;
-    top: 60px;
+    top: 0px;
     left: 68%;
     font-size: larger;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+}
+
+.repoText {
+    color: white;
+}
+
+.repoText:hover {
+    color: blue;
+}
+
+.gitHubIcon {
+ position: absolute;
+ left: 215px;
+ background-color: white;
+ border-radius: 16px;
+ text-decoration: underline;
+ 
 }
 
 #myWorkPage {
