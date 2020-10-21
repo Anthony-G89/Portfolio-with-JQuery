@@ -195,17 +195,7 @@
 }
 
 
-@media only screen and (max-width: 1536px) {
-    #myWorkPage {
-        height: 106vh;
-    }
-}
 
-@media only screen and (max-width: 1536px) {
-    .gitHubIcon {
-        left: 66px;
-    }
-}
 
 /* @media only screen and (max-width: 375px) {
     .headerPicture {
