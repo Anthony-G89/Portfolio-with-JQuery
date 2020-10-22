@@ -113,6 +113,10 @@
     
 }
 
+.meetHubPic:hover {
+    outline: 3px solid #007bff;
+}
+
 .meetHubText {
     position: absolute;
     top: 0px;
