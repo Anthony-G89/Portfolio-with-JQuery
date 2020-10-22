@@ -12,12 +12,19 @@
 
 @media only screen and (max-width: 1536px) {
     #myWorkPage {
-        height: 106vh;
+        height: 85vh;
     }
 }
 
 @media only screen and (max-width: 1536px) {
     .gitHubIcon {
-        left: 66px;
+        left: 219px;
     }
 }
+
+@media only screen and (max-width: 1536px) {
+    .meetHubPic {
+        padding-bottom: 0px;
+    }
+}
+

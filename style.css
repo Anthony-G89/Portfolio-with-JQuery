@@ -121,6 +121,7 @@
     position: absolute;
     top: 0px;
     left: 68%;
+    width: 40%;
     font-size: larger;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -196,6 +197,13 @@
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
+}
+
+.under {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
