@@ -23,7 +23,7 @@
     }
 }
 
-@media only screen and (max-width: 376px) 
+@media only screen and (max-width: 400px) 
 {
     .myName {
         display: block;
@@ -32,7 +32,7 @@
     }
 }
 
-@media only screen and (max-width: 376px) 
+@media only screen and (max-width: 400px) 
 {
     .introPar {
         display: block;
@@ -41,7 +41,7 @@
     }
 }
 
-@media only screen and (max-width: 376px) 
+@media only screen and (max-width: 400px) 
 {
     .work {
         display: block;
