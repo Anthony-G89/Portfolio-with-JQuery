@@ -1,11 +1,11 @@
-@media only screen and (max-width: 376px) 
+@media only screen and (max-width: 500px) 
 {
     .myHeader {
         width: 126%;
     }
 }
 
-@media only screen and (max-width: 376px) 
+@media only screen and (max-width: 500px) 
 {
     .homeSection {
         display: block;
@@ -14,34 +14,38 @@
     }
 }
 
-@media only screen and (max-width: 376px) 
+@media only screen and (max-width: 500px) 
 {
     .picOfMe {
         display: block;
-        left: 97px;
+        left: 151px;
         top: 46px;
     }
 }
 
-@media only screen and (max-width: 400px) 
+@media only screen and (max-width: 500px) 
 {
     .myName {
         display: block;
-        top: 63%;
-        left: 30%;
-    }
-}
-
-@media only screen and (max-width: 400px) 
-{
-    .introPar {
-        display: block;
-        top: 100%;
+        top: 67%;
         left: 14%;
     }
 }
 
-@media only screen and (max-width: 400px) 
+@media only screen and (max-width: 500px) 
+{
+    .introPar {
+        display: block;
+        text-align: center;
+        top: 96%;
+        left: 0%;
+        font-size: x-large;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) 
 {
     .work {
         display: block;
