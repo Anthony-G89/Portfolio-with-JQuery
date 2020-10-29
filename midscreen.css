@@ -29,15 +29,27 @@
 }
 
 @media only screen and (max-width: 1536px) {
+    .picOfMe {
+        left: 153px;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .myName {
+        left: 42%;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
     .introPar {
         top: 37%;
-        left: 50%;
+        left: 46%;
     }
 }
 
 @media only screen and (max-width: 1536px) {
     .work {
-        left: 62%;
+        left: 56%;
         top: 45%;
     }
 }

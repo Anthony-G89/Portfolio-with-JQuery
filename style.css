@@ -44,6 +44,7 @@
     border-radius: 65px;
     box-shadow: 5px 5px 6px rgb(100 97 97) ;
     height: 420px;
+    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 30% 100%, 0 90%); */
 }
 
 .myName {
