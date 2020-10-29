@@ -1,5 +1,14 @@
 @media only screen and (max-width: 500px) 
 {
+    * {
+        overflow-x: hidden;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) 
+{
     .myHeader {
         width: 126%;
     }
@@ -18,7 +27,7 @@
 {
     .picOfMe {
         display: block;
-        left: 151px;
+        left: 46px;
         top: 46px;
     }
 }
@@ -28,7 +37,7 @@
     .myName {
         display: block;
         top: 67%;
-        left: 14%;
+        left: 19%;
     }
 }
 
@@ -37,8 +46,9 @@
     .introPar {
         display: block;
         text-align: center;
-        top: 96%;
-        left: 0%;
+        top: 99%;
+        left: 12%;
+        right: 35%;
         font-size: x-large;
     }
 
@@ -49,7 +59,7 @@
 {
     .work {
         display: block;
-        top: 111%;
-        left: 26%;
+        top: 120%;
+        left: 19%;
     }
 }
