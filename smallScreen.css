@@ -10,7 +10,15 @@
 @media only screen and (max-width: 500px) 
 {
     .myHeader {
-        width: 126%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) 
+{
+    #myNavBar {
+        display: block;
+        padding-right: 2px;
     }
 }
 
