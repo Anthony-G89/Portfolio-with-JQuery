@@ -23,7 +23,7 @@
 
 
 
-    <span id="topPage">
+    <span id="homePage">
 
         <header class="myHeader" id="top">
 
@@ -31,7 +31,7 @@
                 <a href="#topPage">
                     <li class="links">Home</li>
                 </a>
-                <a href="#aboutMePage">
+                <a href="#myWorkPage">
                     <li class="links">Work</li>
                 </a>
                 <a href="#myWorkSection">
@@ -55,15 +55,47 @@
             My name is Anthony Guerrero</h1>
 
         <p class="introPar">I'm a Full-Stack Developer who loves to code with JavaScript 💪 💻</p>
-        
-        <button class="work"> 
-            See some of my work
-        </button>
+
+        <a href="#myWorkPage"><button class="work">
+                See some of my work
+            </button></a>
 
     </section>
 
+    <span id="myWorkPage">
+        <section class="myWork">
+            <h1 class="myWorkHeader">My Work</h1>
+
+            <div class="imgOfWork">
+                <img class="weatherPic" src="./images/showingFiveDayForeCast(2).png" alt="picture of my work ">
+            </div>
+
+            <div class="weatherDescription">
+                <h1 class="weatherTitle">Weather Dashbored</h1>
+                <p class="weatherInfo">This app will let users see the current and next five day forecast in their state
+                </p>
+            </div>
+            <button class="weatherBtn">Learn More</button>
+        </section>
+
+        <div class="modalForWeather--hidden">
+            <div class="modalContent">
+                <div class="modalWeatherCloseBtn">
+                    <span>X</span>
+                </div>
+                <h2 class="modalWeatherHeader">Weather Dashbored</h2>
+                <p>You will be able to check the weather in any state. You'll get temperature, humidity, wind speed, and UV index for the current day & the next five day forecast.</p>
+            </div>
+        </div>
+    </span>
+
+  
 
 
+
+
+
+    <script src="./js/modalsToggling.js"></script>
 </body>
 
 </html>
