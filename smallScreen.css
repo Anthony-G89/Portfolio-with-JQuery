@@ -1,6 +1,6 @@
 @media only screen and (max-width: 500px) 
 {
-    * {
+    .body {
         overflow-x: hidden;
     }
 }
@@ -34,30 +34,29 @@
 @media only screen and (max-width: 500px) 
 {
     .picOfMe {
-        display: block;
-        left: 46px;
-        top: 46px;
+        position: absolute;
+        left: 100px;
     }
 }
 
 @media only screen and (max-width: 500px) 
 {
     .myName {
-        display: block;
-        top: 67%;
-        left: 19%;
+        position: absolute;
+        left: 20%;
+        top: 34rem;
+        max-width: 400px;
     }
 }
 
 @media only screen and (max-width: 500px) 
 {
     .introPar {
-        display: block;
-        text-align: center;
-        top: 99%;
-        left: 12%;
-        right: 35%;
-        font-size: x-large;
+        position: absolute;
+        left: 13%;
+        top: 50rem;
+        max-width: 400px;
+        font-size: large;
     }
 
 }
@@ -66,8 +65,55 @@
 @media only screen and (max-width: 500px) 
 {
     .work {
-        display: block;
-        top: 120%;
-        left: 19%;
+        position: absolute;
+        left: 20%;
+        top: 55rem;
     }
+    
+}
+
+
+@media only screen and (max-width: 500px) 
+{
+    .weatherTitle {
+        position: absolute;
+        left: 20%;
+        top: 67rem;
+        font-size: 35px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .weatherPic {
+        position: absolute;
+        left: 15%;
+        top: 71rem;
+        height: 220px;
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .weatherDescription {
+        position: absolute;
+        left: 12%;
+        top: 86rem;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .weatherBtn {
+        position: absolute;
+        left: 32%;
+        top: 91rem;
+        
+    }
+    
 }
