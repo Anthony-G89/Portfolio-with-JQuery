@@ -1,0 +1,109 @@
+@media only screen and (max-width: 375px) 
+{
+    #myNavBar {
+        display: flex;
+        width: 30rem;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .picOfMe {
+        position: absolute;
+        left: 73px;
+    }
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .myName {
+        position: absolute;
+        max-width: 230px;
+        left: 136px;
+        padding-top: 15px;
+}
+        
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .introPar {
+        position: absolute;
+        font-size: 29px;
+        padding-top: 25px;
+        
+}
+        
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .work {
+       display: none;
+}
+        
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .weatherTitle {
+        position: absolute;
+        font-size: 29px;
+        left: 90px;
+        padding-top: 25px 0 20px 0;
+        
+}
+        
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .weatherPic {
+        position: absolute;
+        left: 37px;
+        width: 350px;
+        height: 335px;
+             
+}
+        
+}
+
+
+@media only screen and (max-width: 375px) 
+{
+    .weatherDescription {
+        position: absolute;
+        left: 101px;
+        top: 93rem;
+
+             
+}
+        
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .weatherBtn {
+        position: absolute;
+        left: 146px;
+        top: 101rem;
+        
+
+             
+}
+        
+}
+
+@media only screen and (max-width: 375px) 
+{
+    .modalForWeather {
+        display: flex;
+        width: 30rem;
+        height: 300%;
+        
+
+             
+}
+        
+}
