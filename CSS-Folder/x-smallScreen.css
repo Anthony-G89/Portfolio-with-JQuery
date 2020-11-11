@@ -1,18 +1,25 @@
-@media only screen and (max-width: 375px) 
+@media only screen and (max-width: 700px) and (min-width: 375px)
 {
     #myNavBar {
-        display: flex;
-        width: 30rem;
+        display: grid;
+        width: 130%;
         justify-content: center;
     }
 }
 
-@media only screen and (max-width: 375px) and (min-width: 405px)
+@media only screen and (max-width: 700px) and (min-width: 375px)
+{
+    .links {
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 1236px) and (min-width: 501px)
 {
     .picOfMe {
         position: absolute;
-        left: 73px;
-        top: 50rem;
+        /* left: 73px;
+        top: 50rem; */
     }
 }
 

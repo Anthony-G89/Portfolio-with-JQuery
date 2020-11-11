@@ -17,6 +17,7 @@
     background-color: darkblue;
     padding: 20px 0 10px 0;
     text-align: center;
+    width: 100%;
     /* margin: 0 20px; */
     
 }
@@ -173,7 +174,8 @@
 
 .modalWeatherInfo {
     max-width: 450px;
-    padding-top: 20px;
+    padding: 20px 0 0 39px;
+    text-align: center;
     color: black;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
