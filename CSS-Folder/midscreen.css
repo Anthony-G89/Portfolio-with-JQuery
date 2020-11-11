@@ -28,11 +28,11 @@
     }
 }
 
-@media only screen and (max-width: 1536px) {
+/* @media only screen and (max-width: 1536px) {
     .picOfMe {
         left: 153px;
     }
-}
+} */
 
 @media only screen and (max-width: 1536px) {
     .myName {
@@ -42,7 +42,6 @@
 
 @media only screen and (max-width: 1536px) {
     .introPar {
-        top: 37%;
         left: 46%;
     }
 }
@@ -50,7 +49,50 @@
 @media only screen and (max-width: 1536px) {
     .work {
         left: 56%;
-        top: 45%;
+       
     }
 }
+
+@media  screen and (max-width:1536px)  {
+    .weatherTitle {
+        /* position: absolute;
+        left: 36%; */
+        color: green;
+        
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .weatherPic {
+        position: absolute;
+        left: 28%;
+        
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .weatherDescription {
+        position: absolute;
+        left: 344px;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .weatherBtn {
+        position: absolute;
+        left: 42%;
+       
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .modalForWeather {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+       
+    }
+}
+
+
 

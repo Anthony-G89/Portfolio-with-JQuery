@@ -7,11 +7,12 @@
     }
 }
 
-@media only screen and (max-width: 375px) 
+@media only screen and (max-width: 375px) and (min-width: 405px)
 {
     .picOfMe {
         position: absolute;
         left: 73px;
+        top: 50rem;
     }
 }
 
@@ -95,7 +96,7 @@
         
 }
 
-@media only screen and (max-width: 375px) 
+/* @media only screen and (max-width: 375px) 
 {
     .modalForWeather {
         display: flex;
@@ -106,4 +107,4 @@
              
 }
         
-}
+} */
