@@ -39,6 +39,7 @@
 
 .homeSection {
     position: relative;
+    z-index: 1;
     /* height: 92vh; */
 }
 
