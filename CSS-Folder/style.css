@@ -208,6 +208,21 @@
     color:#074596;
 }
 
+.codeTitle {
+    position: absolute;
+    left: 40%;
+    top: 87rem;
+}
+
+
+.picOfCodeQuiz {
+    position: absolute;
+    left: 30%;
+    top: 90rem;
+    height: 250px;
+    width: 550px;
+}
+
 
 
 
