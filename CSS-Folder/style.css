@@ -221,6 +221,11 @@
     top: 90rem;
     height: 250px;
     width: 550px;
+    background-color: red;
+}
+
+.imgForCodeQuiz {
+    background-color: green;
 }
 
 

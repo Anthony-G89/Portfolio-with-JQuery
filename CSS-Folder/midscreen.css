@@ -73,6 +73,7 @@
 @media only screen and (max-width:1921px) and (min-width:1536px)  {
     .weatherDescription {
         position: absolute;
+        left: 24rem
         /* left: 344px; */
     }
 }
@@ -80,7 +81,7 @@
 @media only screen and (max-width:1921px) and (min-width:1536px)  {
     .weatherBtn {
         position: absolute;
-        left: 42%;
+        left: 43rem;
        
     }
 }
