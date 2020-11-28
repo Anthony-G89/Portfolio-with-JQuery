@@ -39,7 +39,7 @@
 
 .homeSection {
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
     /* height: 92vh; */
 }
 
@@ -104,6 +104,7 @@
     border-radius: 6px;
     /* clip-path: circle(65%); */
     margin-left: 20px; 
+    box-shadow: 7px 11px 15px;
 }
 
 
@@ -147,7 +148,7 @@
     background-color: rgb(0,0,0,0.9);
     position: absolute;
     top: 0;
-    height: 200%;
+    height: 217%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -210,24 +211,44 @@
 
 .codeTitle {
     position: absolute;
-    left: 40%;
+    left: 45%;
     top: 87rem;
+    color: #17a2b8;
+    text-decoration: underline;
+    
 }
 
 
 .picOfCodeQuiz {
     position: absolute;
-    left: 30%;
-    top: 90rem;
+    left: 34%;
+    top: 91rem;
     height: 250px;
     width: 550px;
-    background-color: red;
+    box-shadow: 7px 11px 15px;
 }
 
-.imgForCodeQuiz {
-    background-color: green;
+.codeDescription {
+    position: absolute;
+    left: 24%;
+    top: 108rem;
 }
 
+.codeInfo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.codeBtn {
+    position: absolute;
+    left: 45%;
+    top: 112rem;
+    padding: 4px 32px;
+    border-radius: 4px;
+    font-size: large;
+    background-color: darkblue;
+    color: white;
+}
 
 
 

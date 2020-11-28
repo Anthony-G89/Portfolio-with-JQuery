@@ -90,7 +90,8 @@
     .modalForWeather {
         position: absolute;
         width: 100%;
-        top: 50%;
+        top: 7.6%;
+        height: 151rem;
        
     }
 }
