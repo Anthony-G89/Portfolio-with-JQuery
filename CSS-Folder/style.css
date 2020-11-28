@@ -161,7 +161,7 @@
 }
 
 .modalContent {
-    overflow: scroll;
+    /* overflow: scroll; */
     overflow-x: hidden;
     background-color: lightgray;
     padding: 3rem;
@@ -248,6 +248,38 @@
     font-size: large;
     background-color: darkblue;
     color: white;
+}
+
+.modalForCodeQuiz {
+    background-color: rgb(0,0,0,0.9);
+    position: absolute;
+    top: 0;
+    height: 217%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hideCodeQuizModal {
+    display: none;
+}
+
+.modalCodeQuizCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -2rem;
+    margin-top: -2rem;
+    cursor: pointer;
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.modalContentForCode {
+    overflow-x: hidden;
+    background-color: lightgray;
+    padding: 3rem;
 }
 
 
