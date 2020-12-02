@@ -282,6 +282,21 @@
     padding: 3rem;
 }
 
+.modalCodeHeader {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: #17a2b8;
+}
+.modalCodeInfo {
+    max-width: 450px;
+    padding: 20px 0 0 39px;
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 
 

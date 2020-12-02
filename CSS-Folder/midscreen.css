@@ -53,7 +53,7 @@
     }
 }
 
-@media only  screen and (max-width:1921px) and (min-width:1536px)  {
+@media only  screen and (max-width:1920px) and (min-width:1536px)  {
     .weatherTitle {
         position: absolute;
         left: 39%;
@@ -62,7 +62,7 @@
     }
 }
 
-@media only screen and (max-width:1921px) and (min-width:1536px)  {
+@media only screen and (max-width:1920px) and (min-width:1536px)  {
     .weatherPic {
         position: absolute;
         left: 33%;
@@ -70,21 +70,20 @@
     }
 }
 
-@media only screen and (max-width:1921px) and (min-width:1536px)  {
+/* @media only screen and (max-width:1921px)   {
     .weatherDescription {
         position: absolute;
-        left: 24rem
-        /* left: 344px; */
+        left: 32rem
     }
-}
+} */
 
-@media only screen and (max-width:1921px) and (min-width:1536px)  {
+/* @media only screen and (max-width:1921px) and (min-width:1536px)  {
     .weatherBtn {
         position: absolute;
         left: 43rem;
        
     }
-}
+} */
 
 @media only screen and (max-width: 1536px) {
     .modalForWeather {
@@ -93,6 +92,16 @@
         top: 7.6%;
         height: 151rem;
        
+    }
+}
+
+
+@media only screen and (max-width: 1536px) {
+    .modalForCodeQuiz {
+        position: absolute;
+        width: 100%;
+        top: 7.6%;
+        height: 151rem;
     }
 }
 
