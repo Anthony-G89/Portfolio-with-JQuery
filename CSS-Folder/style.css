@@ -135,13 +135,13 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
-    /* line-height: 10px; */
+    max-width: 300px;
 }
 
 .weatherBtn {
     position: absolute;
     left: 45%;
-    top: 81rem;
+    top: 85rem;
     padding: 4px 32px;
     border-radius: 4px;
     font-size: large;
@@ -234,7 +234,7 @@
 
 .codeDescription {
     position: absolute;
-    left: 26%;
+    left: 43%;
     top: 108rem;
 }
 
@@ -242,11 +242,12 @@
     font-size: 24px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    max-width: 300px;
 }
 .codeBtn {
     position: absolute;
     left: 45%;
-    top: 112rem;
+    top: 118rem;
     padding: 4px 32px;
     border-radius: 4px;
     font-size: large;
