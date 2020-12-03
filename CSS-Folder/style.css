@@ -161,7 +161,6 @@
 }
 
 .modalContent {
-    /* overflow: scroll; */
     overflow-x: hidden;
     background-color: lightgray;
     padding: 3rem;
@@ -335,6 +334,38 @@
     font-size: large;
     background-color: darkblue;
     color: white;
+}
+
+.modalForLocalWire {
+    background-color: rgb(0,0,0,0.9);
+    position: absolute;
+    top: 0;
+    height: 293%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hideLocalWire {
+    display: none;
+}
+
+.modalLocalWireCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -2rem;
+    margin-top: -2rem;
+    cursor: pointer;
+    color: red;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.modalContentForLocalWire {
+    overflow-x: hidden;
+    background-color: lightgray;
+    padding: 3rem;
 }
 
 

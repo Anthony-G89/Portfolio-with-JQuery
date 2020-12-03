@@ -111,5 +111,14 @@
     }
 }
 
+@media only screen and (max-width: 1536px) {
+    .modalForLocalWire {
+        position: absolute;
+        width: 100%;
+        top: 7.6%;
+        height: 316%;
+    }
+}
+
 
 
