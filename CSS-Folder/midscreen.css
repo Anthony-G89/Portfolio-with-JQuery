@@ -56,7 +56,7 @@
 @media only  screen and (max-width:1920px) and (min-width:1536px)  {
     .weatherTitle {
         position: absolute;
-        left: 39%;
+        left: 41%;
        
         
     }
@@ -70,20 +70,18 @@
     }
 }
 
-/* @media only screen and (max-width:1921px)   {
+@media only screen and (max-width:1920px) and (min-width: 1536px)  {
     .weatherDescription {
-        position: absolute;
-        left: 32rem
+        left: 28%
     }
-} */
+}
 
-/* @media only screen and (max-width:1921px) and (min-width:1536px)  {
+@media only screen and (max-width:1921px) and (min-width:1536px)  {
     .weatherBtn {
-        position: absolute;
-        left: 43rem;
+        left: 46%;
        
     }
-} */
+}
 
 @media only screen and (max-width: 1536px) {
     .modalForWeather {
