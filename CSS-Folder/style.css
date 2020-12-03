@@ -96,8 +96,8 @@
 }
 
 .weatherPic {
-    position: absolute;
-    left: 34%;
+    /* position: absolute;
+    left: 34%; */
     top: 60rem;
     height: 250px;
     width: 550px;
@@ -296,6 +296,47 @@
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.LocalWireTitle {
+    position: absolute;
+    left: 45%;
+    top: 118rem;
+    color: #17a2b8;
+    text-decoration: underline;
+}
+
+.LocalWirePic {
+    position: absolute;
+    left: 34%;
+    top: 123rem;
+    height: 250px;
+    width: 550px;
+    box-shadow: 7px 11px 15px;
+}
+
+.LocalWireDescription {
+    position: absolute;
+    left: 26%;
+    top: 140rem;   
+}
+
+.LocalWireInfo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.LocalWireBtn {
+    position: absolute;
+    left: 45%;
+    top: 144rem;
+    padding: 4px 32px;
+    border-radius: 4px;
+    font-size: large;
+    background-color: darkblue;
+    color: white;
+}
+
 
 
 
