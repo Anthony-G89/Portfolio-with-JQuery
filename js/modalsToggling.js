@@ -1,13 +1,13 @@
 const toggleModal = () => {
-    document.querySelector(".modalForWeather").classList.toggle("hideWeatherModal")
+    document.querySelector(".modalBackGroundForWeatherApp").classList.toggle("hideWeatherModal")
 };
 
 const toggleCodeModal = () => {
-    document.querySelector(".modalForCodeQuiz").classList.toggle("hideCodeQuizModal")
+    document.querySelector(".modalBackGroundCodeQuiz").classList.toggle("hideCodeQuizModal")
 };
 
 const toggleLocalWireModal = () => {
-    document.querySelector(".modalForLocalWire").classList.toggle("hideLocalWire")
+    document.querySelector(".modalBackGroundLocalWire").classList.toggle("hideLocalWire")
 };
 
 

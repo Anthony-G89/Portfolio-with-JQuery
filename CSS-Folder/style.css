@@ -152,16 +152,18 @@
 .CodeQuizContainer {
     top: 80rem;
 }
+.modalBackGroundForWeatherApp {
+    background-color: rgb(0,0,0,0.9);
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+}
 
 .modalForWeather {
-    background-color: rgb(0,0,0,0.9);
-    position: absolute;
-    top: 0;
-    height: 235%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 10em 0 0 41em;
+  display: inline-block;
+
     
 }
 
@@ -259,15 +261,17 @@
     color: white;
 }
 
-.modalForCodeQuiz {
+.modalBackGroundCodeQuiz {
     background-color: rgb(0,0,0,0.9);
-    position: absolute;
-    top: 0;
-    height: 368vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modalForCodeQuiz {
+    padding: 10em 0 0 41em;
+    display: inline-block;
 }
 
 .hideCodeQuizModal {
@@ -347,27 +351,18 @@
     color: white;
 }
 
-.modalBackGround {
+.modalBackGroundLocalWire{
     background-color: rgb(0,0,0,0.9);
-    position: absolute;
-    top: 0;
-    height: 438vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
 }
 
-/* .modalForLocalWire {
-    background-color: rgb(0,0,0,0.9);
-    position: absolute;
-    top: 0;
-    height: 438vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.modalForLocalWire {
+    padding: 10em 0 0 41em;
+    display: inline-block;
+}
 
 .hideLocalWire {
     display: none;

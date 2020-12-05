@@ -85,38 +85,44 @@
 
 @media only screen and (max-width: 1536px) {
     .modalForWeather {
-        position: absolute;
-        width: 100%;
-        top: 7.6%;
-        height: 295%;
-       
+        padding: 1em 0 0 28em;
     }
 }
 
+@media only screen and (max-width: 1536px) {
+    .modalContent {
+        height: 46em;
+    }
+}
 
 @media only screen and (max-width: 1536px) {
     .modalForCodeQuiz {
-        position: absolute;
-        width: 100%;
-        top: 7.6%;
-        height: 400%;
+        padding: 1em 0 0 28em;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .modalContentForCode {
+        height: 46em;
     }
 }
 
 @media only screen and (max-width: 1536px) {
     .LocalWireDescription {
-        left: 294px;
+        /* left: 294px; */
     }
 }
 
 @media only screen and (max-width: 1536px) {
     .modalForLocalWire {
-        position: absolute;
-        width: 100%;
-        top: 7.6%;
-        height: 316%;
+        padding: 1em 0 0 28em;
     }
 }
 
+@media only screen and (max-width: 1536px) {
+    .modalContentForLocalWire {
+        height: 46em;
+    }
+}
 
 
