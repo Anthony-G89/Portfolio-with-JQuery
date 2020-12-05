@@ -347,16 +347,27 @@
     color: white;
 }
 
-.modalForLocalWire {
+.modalBackGround {
     background-color: rgb(0,0,0,0.9);
     position: absolute;
     top: 0;
-    height: 400%;
+    height: 438vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* .modalForLocalWire {
+    background-color: rgb(0,0,0,0.9);
+    position: absolute;
+    top: 0;
+    height: 438vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 .hideLocalWire {
     display: none;
