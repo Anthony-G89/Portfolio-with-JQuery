@@ -220,7 +220,7 @@
 .codeTitle {
     position: absolute;
     left: 45%;
-    top: 88rem;
+    top: 89rem;
     color: #17a2b8;
     text-decoration: underline;
     
@@ -263,7 +263,7 @@
     background-color: rgb(0,0,0,0.9);
     position: absolute;
     top: 0;
-    height: 293%;
+    height: 368vh;
     width: 100%;
     display: flex;
     justify-content: center;
