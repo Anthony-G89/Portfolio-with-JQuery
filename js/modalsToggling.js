@@ -27,13 +27,19 @@ const closeLocalWireModalBackground = () => {
 
 //  Functions to close modal with the X button
 $(".weatherBtn").on("click", toggleModal);
-$(".modalWeatherCloseBtn").on("click", toggleModal);
+$(".modalWeatherCloseBtn").on("click", () => {
+    toggle();
+});
 
 $(".codeBtn").on("click", toggleCodeModal);
-$(".modalCodeQuizCloseBtn").on("click" , toggleCodeModal);
+$(".modalCodeQuizCloseBtn").on("click" , () => {
+    toggle();
+});
 
 $(".LocalWireBtn").on("click", toggleLocalWireModal);
-$(".modalLocalWireCloseBtn").on("click", toggleLocalWireModal);
+$(".modalLocalWireCloseBtn").on("click", () => {
+    toggle();
+});
 
 // Closing the modal when clicking on the background
 $(".modalBackGroundForWeatherApp").on("click", closeWeatherModalBackground);

@@ -101,13 +101,12 @@
     margin-right: auto;
 }
 .weatherPic {
-    /* position: absolute;
-    left: 34%; */
+    position: absolute;
+    left: 34%;
     top: 60rem;
     height: 250px;
     width: 550px;
     border-radius: 6px;
-    /* clip-path: circle(65%); */
     margin-left: 20px; 
     box-shadow: 7px 11px 12px;
 }
@@ -115,7 +114,7 @@
 
 .weatherDescription {
     position: absolute;
-    left: 30%;
+    left: 45%;
     top: 77rem;
 
 }
