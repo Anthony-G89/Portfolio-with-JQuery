@@ -5,21 +5,13 @@
 
 .body {
     background-image: url(../images/concrete-texture.png);
-    padding-bottom: 40px;
-    
 }
 
 #myNavBar {
-    /* position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 0.5; */
     background-color: darkblue;
     padding: 20px 0 10px 0;
     text-align: center;
     width: 100%;
-    /* margin: 0 20px; */
-    
 }
 
 .links {
@@ -34,13 +26,10 @@
 
 .links:hover {
     text-decoration: underline;
-    
 }
 
 .homeSection {
     position: relative;
-    /* z-index: 1; */
-    /* height: 92vh; */
 }
 
 .picOfMe {
@@ -134,7 +123,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
-    max-width: 300px;
+    max-width: 366px;
 }
 
 .weatherBtn {
@@ -251,12 +240,12 @@
     font-size: 24px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    max-width: 300px;
+    max-width: 315px;
 }
 .codeBtn {
     position: absolute;
-    left: 45%;
-    top: 120rem;
+    left: 46%;
+    top: 119rem;
     padding: 4px 32px;
     border-radius: 4px;
     font-size: large;
@@ -345,7 +334,7 @@
 
 .LocalWireBtn {
     position: absolute;
-    left: 45%;
+    left: 46%;
     top: 156rem;
     padding: 4px 32px;
     border-radius: 4px;
