@@ -35,7 +35,7 @@ $(".modalCodeQuizCloseBtn").on("click" , toggleCodeModal);
 $(".LocalWireBtn").on("click", toggleLocalWireModal);
 $(".modalLocalWireCloseBtn").on("click", toggleLocalWireModal);
 
-// toggling modal background
+// Closing the modal when clicking on the background
 $(".modalBackGroundForWeatherApp").on("click", closeWeatherModalBackground);
 $(".modalBackGroundCodeQuiz").on("click", closeCodeQuizModalBackground);
 $(".modalBackGroundLocalWire").on("click", closeLocalWireModalBackground);
