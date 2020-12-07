@@ -392,6 +392,13 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.otherProjects {
+    position: absolute;
+    display: inline-flex;
+    left: 15em;
+    top: 166em;
+}
+
 
 
 
