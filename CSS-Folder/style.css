@@ -149,7 +149,7 @@
 }
 
 .modalForWeather {
-  padding: 10em 0 0 41em;
+  padding: 6em 0 0 41em;
   display: inline-block;
 
     
@@ -262,7 +262,7 @@
 }
 
 .modalForCodeQuiz {
-    padding: 10em 0 0 41em;
+    padding: 6em 0 0 41em;
     display: inline-block;
 }
 
@@ -352,7 +352,7 @@
 }
 
 .modalForLocalWire {
-    padding: 10em 0 0 41em;
+    padding: 6em 0 0 41em;
     display: inline-block;
 }
 
@@ -392,16 +392,68 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.modalsBackGround {
+    background-color: rgb(0,0,0,0.9);
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hideModals {
+    display: none;
+}
+.modalForPasswordGenerator {
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 520px;
+    margin-right: 520px;
+    padding-bottom: 22px;
+    border-radius: 6px;
+    height: 702px;
+}
+
+.closeBtnForPasswordGenerator {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.passwordTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.passwordText {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0 0 30px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.passwordVideo {
+    position: relative;
+    left: 182px;
+
+}
+
 .otherProjects {
     position: absolute;
     display: inline-flex;
-    left: 15em;
+    left: 13em;
     top: 166em;
 }
 
 .myCards {
     width: 18rem;
-    margin: 3px;
+    margin: 4px;
 }
 
 .card-img-top {
@@ -414,9 +466,20 @@
     text-decoration: underline;
 }
 
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 
 .card-body {
-    background-color: #f3f3f3;
+    background-color: #ebeaea;
+}
+
+.learnMoreBtn {
+    background-color: darkblue;
+    color: white;
 }
 
 
