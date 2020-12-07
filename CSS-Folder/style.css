@@ -399,6 +399,25 @@
     top: 166em;
 }
 
+.myCards {
+    width: 18rem;
+    margin: 3px;
+}
+
+.card-img-top {
+    height: 200px;
+    border-radius: 3px;
+}
+
+.card-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.card-body {
+    background-color: #f3f3f3;
+}
 
 
 
