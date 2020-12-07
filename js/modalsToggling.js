@@ -1,3 +1,4 @@
+var modal = document.querySelector(".modalsBackGround");
 // Functions to show Modal
 const toggleModal = () => {
     document.querySelector(".modalBackGroundForWeatherApp").classList.toggle("hideWeatherModal")
@@ -28,6 +29,10 @@ const closeLocalWireModalBackground = () => {
     document.querySelector(".modalBackGroundLocalWire").classList.toggle("hideLocalWire")
 };
 
+const closePasswordGenerator = () => {
+    document.querySelector(".modalsBackGround").classList.toggle("hideModals")
+}
+
 
 //  Functions to close modal with the X button
 $(".weatherBtn").on("click", toggleModal);
@@ -36,7 +41,7 @@ $(".modalWeatherCloseBtn").on("click", () => {
 });
 
 $(".codeBtn").on("click", toggleCodeModal);
-$(".modalCodeQuizCloseBtn").on("click" , () => {
+$(".modalCodeQuizCloseBtn").on("click", () => {
     toggle();
 });
 
@@ -45,30 +50,14 @@ $(".modalLocalWireCloseBtn").on("click", () => {
     toggle();
 });
 
-$(".learnMoreBtn").on("click", togglePasswordGeneratorModal);
-// $(".closeBtnForPasswordGenerator").on("click", () => {
-//     toggle();
-// })
+$(".btnforPasswordG").on("click", togglePasswordGeneratorModal);
+$(".closeBtnForPasswordGenerator").on("click", () => {
+    toggle();
+});
 
-var closingmodal = () => {
-    var closeModal = document.getElementsByClassName(".closeBtnForPasswordGenerator")
-
-    if (closeModal.style.display === "none") {
-        closeModal.style.display = "block"
-    } else  {
-        close.style.display = "none"
-    }
-}
-
-// $( "closeBtnForPasswordGenerator" ).toggle(
-//     function() {
-//       $( this ).addClass( "selected" );
-//     }, function() {
-//       $( this ).removeClass( "selected" );
-//     }
-//   );
 
 // Closing the modal when clicking on the background
 $(".modalBackGroundForWeatherApp").on("click", closeWeatherModalBackground);
 $(".modalBackGroundCodeQuiz").on("click", closeCodeQuizModalBackground);
 $(".modalBackGroundLocalWire").on("click", closeLocalWireModalBackground);
+$(".modalsBackGround").on("click", closePasswordGenerator);

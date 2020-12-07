@@ -403,6 +403,10 @@
 .hideModals {
     display: none;
 }
+
+.holdingModal {
+    padding-top: 60px;
+}
 .modalForPasswordGenerator {
     background-color: aquamarine;
     padding: 10px;
@@ -414,6 +418,9 @@
     padding-bottom: 22px;
     border-radius: 6px;
     height: 702px;
+}
+.contentForPasswordGenrator {
+    text-align: center;
 }
 
 .closeBtnForPasswordGenerator {
@@ -439,8 +446,8 @@
 }
 
 .passwordVideo {
-    position: relative;
-    left: 182px;
+    /* position: relative;
+    left: 182px; */
 
 }
 
