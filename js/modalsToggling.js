@@ -2,7 +2,7 @@ var modal = document.querySelector(".modalsBackGround");
 
 const modalNoteTaker = document.querySelector("#modalforNoteTaker");
 const btnToOpenNoteTaker = document.querySelector(".btnforNoteTaker");
-const closeNoteTaker = document.querySelector(".closeBtnforNoteTaker");
+const closeModalBtn = document.querySelector(".closeBtnforNoteTaker");
 
 
 // open
@@ -23,7 +23,7 @@ function oustSideClick(e) {
 
 // Events
 btnToOpenNoteTaker.addEventListener("click",openModal);
-closeNoteTaker.addEventListener("click", closeModal);
+closeModalBtn.addEventListener("click", closeModal);
 window.addEventListener("click", oustSideClick);
 
 
