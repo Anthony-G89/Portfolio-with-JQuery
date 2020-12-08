@@ -1,4 +1,37 @@
 var modal = document.querySelector(".modalsBackGround");
+
+const modalNoteTaker = document.querySelector("#modalforNoteTaker");
+const btnToOpenNoteTaker = document.querySelector(".btnforNoteTaker");
+const closeNoteTaker = document.querySelector(".closeBtnforNoteTaker");
+
+
+// open
+function openModal() {
+    modalNoteTaker.style.display = "block";
+};
+
+// close
+function closeModal() {
+    modalNoteTaker.style.display = "none";
+};
+
+function oustSideClick(e) {
+    if(e.target == modalNoteTaker) {
+        modalNoteTaker.style.display = "none";
+    }
+}
+
+// Events
+btnToOpenNoteTaker.addEventListener("click",openModal);
+closeNoteTaker.addEventListener("click", closeModal);
+window.addEventListener("click", oustSideClick);
+
+
+
+
+
+
+
 // Functions to show Modal
 const toggleModal = () => {
     document.querySelector(".modalBackGroundForWeatherApp").classList.toggle("hideWeatherModal")

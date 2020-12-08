@@ -405,7 +405,9 @@
 }
 
 .holdingModal {
-    padding-top: 60px;
+    position: relative;
+    left: 40em;
+    padding-top: 7em;
 }
 .modalForPasswordGenerator {
     background-color: aquamarine;
@@ -413,12 +415,48 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    margin-left: 520px;
-    margin-right: 520px;
+    width: 32%;
     padding-bottom: 22px;
     border-radius: 6px;
-    height: 702px;
+    
 }
+
+.modalNoteTaker {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content-for-NoteTaker {
+    margin: 10% auto;
+    width: 32%;
+    background-color: lightblue;
+}
+
+.closeBtnforNoteTaker {
+    float: right;
+    font-size: 30px;
+    margin-top: -11px;
+    color: black;
+    cursor: pointer;
+}
+
+.closeBtnforNoteTaker:hover,
+.closeBtnforNoteTaker:focus {
+    color: white;
+
+}
+
+.noteTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
 .contentForPasswordGenrator {
     text-align: center;
 }
