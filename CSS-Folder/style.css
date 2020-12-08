@@ -391,104 +391,6 @@
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
 }
-
-.modalsBackGround {
-    background-color: rgb(0,0,0,0.9);
-    position: fixed;
-    top: 0px;
-    height: 100vh;
-    width: 100vw;
-}
-
-.hideModals {
-    display: none;
-}
-
-.holdingModal {
-    position: relative;
-    left: 40em;
-    padding-top: 7em;
-}
-.modalForPasswordGenerator {
-    background-color: aquamarine;
-    padding: 10px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    width: 32%;
-    padding-bottom: 22px;
-    border-radius: 6px;
-    
-}
-
-.modalNoteTaker {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-.modal-content-for-NoteTaker {
-    margin: 10% auto;
-    width: 32%;
-    background-color: lightblue;
-}
-
-.closeBtnforNoteTaker {
-    float: right;
-    font-size: 30px;
-    margin-top: -11px;
-    color: black;
-    cursor: pointer;
-}
-
-.closeBtnforNoteTaker:hover,
-.closeBtnforNoteTaker:focus {
-    color: white;
-
-}
-
-.noteTitle {
-    text-align: center;
-    text-decoration: underline;
-}
-
-
-.contentForPasswordGenrator {
-    text-align: center;
-}
-
-.closeBtnForPasswordGenerator {
-    display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
-    color: black;
-    font-size: large;
-    font-weight: bolder;
-}
-
-.passwordTitle {
-    text-align: center;
-    text-decoration: underline;
-}
-
-.passwordText {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 20px 0 0 30px;
-    font-weight: bold;
-    font-size: 19px;
-}
-
-.passwordVideo {
-    /* position: relative;
-    left: 182px; */
-
-}
-
 .otherProjects {
     position: absolute;
     display: inline-flex;
@@ -526,6 +428,108 @@
     background-color: darkblue;
     color: white;
 }
+
+
+.passwordVideo {
+    /* position: relative;
+    left: 182px; */
+
+}
+
+.modalPassword-Generator {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.passwordGenerator-content {
+    margin: 10% auto;
+    width: 32%;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.closeBtnForPasswordGenerator {
+    float: right;
+    font-size: 30px;
+    margin-top: -11px;
+    color: black;
+    cursor: pointer;
+}
+
+.closeBtnForPasswordGenerator:hover,
+.closeBtnForPasswordGenerator:focus {
+    color: rgb(21, 118, 212);
+}
+
+.passwordTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.passwordText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.modalNoteTaker {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content-for-NoteTaker {
+    margin: 10% auto;
+    width: 32%;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.noteTaker-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.closeBtnforNoteTaker {
+    float: right;
+    font-size: 30px;
+    margin-top: -11px;
+    color: black;
+    cursor: pointer;
+}
+
+.closeBtnforNoteTaker:hover,
+.closeBtnforNoteTaker:focus {
+    color: rgb(21, 118, 212);
+
+}
+
+.noteTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.noteTaker-video {
+    position: relative;
+    left: 20px;
+}
+
+
+
+
+
 
 
 
