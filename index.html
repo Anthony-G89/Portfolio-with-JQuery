@@ -48,7 +48,8 @@
 
         <img src="./images/Profile Pic 2020 (3).jpg" class="picOfMe">
 
-        <h1 class="myName">Hello!<br>
+        <h1 class="myName" data-aos="fade-left" data-aos-offset="200" data-aos-delay="400" data-aos-duration="1700">
+            Hello!<br>
             My name is Anthony Guerrero</h1>
 
         <p class="introPar">I'm a Full-Stack Developer who loves to code with JavaScript 💪 💻</p>
@@ -63,24 +64,26 @@
 
         <section class="myWork">
 
-            
+
             <i class="fas fa-arrow-circle-up topBtn" title="Click on me to go back up to the top of the page"></i>
 
             <!-- Weather Application -->
-            <container class="WeatherContainer">
-                <h1 class="weatherTitle">Weather Dashbored</h1>
-                <div class="imgOfWork">
-                    <img class="weatherPic" src="./images/showingFiveDayForeCast(2).png" alt="picture of my work ">
+            <container class="LocalWireContainer">
+                <h1 class="LocalWireTitle"> Local Wire</h1>
+                <div class="imgOfLocalWire">
+                    <img class="LocalWirePic" src="./images/Local-wire-HomePage.png"
+                        alt="Image of my app called Local Wire">
                 </div>
-                <div class="weatherDescription">
-                    <p class="weatherInfo">This app will let you see the current & the next five days forecast in your
-                        state or desired location
-                    </p>
+                <div class="LocalWireDescription">
+                    <p class="LocalWireInfo">Local Wire is an application the will show you the brewery, restaurants,
+                        and events going on
+                        around you</p>
                 </div>
-                <div class="btnForWeatherApp">
-                    <button class="weatherBtn">Learn More</button>
+                <div class="btnForLocalWire">
+                    <button class="LocalWireBtn">Learn More</button>
                 </div>
             </container>
+
             <!-- Code Quiz Application -->
             <container class="CodeQuizContainer">
                 <h1 class="codeTitle">Code Quiz</h1>
@@ -96,19 +99,18 @@
                 </div>
             </container>
             <!-- Local Wire Application -->
-            <container class="LocalWireContainer">
-                <h1 class="LocalWireTitle"> Local Wire</h1>
-                <div class="imgOfLocalWire">
-                    <img class="LocalWirePic" src="./images/Local-wire-HomePage.png"
-                        alt="Image of my app called Local Wire">
+            <container class="WeatherContainer">
+                <h1 class="weatherTitle">Weather Dashbored</h1>
+                <div class="imgOfWork">
+                    <img class="weatherPic" src="./images/showingFiveDayForeCast(2).png" alt="picture of my work ">
                 </div>
-                <div class="LocalWireDescription">
-                    <p class="LocalWireInfo">Local Wire is an application the will show you the brewery, restaurants,
-                        and events going on
-                        around you</p>
+                <div class="weatherDescription">
+                    <p class="weatherInfo">This app will let you see the current & the next five days forecast in your
+                        state or desired location
+                    </p>
                 </div>
-                <div class="btnForLocalWire">
-                    <button class="LocalWireBtn">Learn More</button>
+                <div class="btnForWeatherApp">
+                    <button class="weatherBtn">Learn More</button>
                 </div>
             </container>
             <!-- The rest of my Projects -->
@@ -168,34 +170,35 @@
 
         </section>
 
-        <!-- Modal For Weather App -->
-        <div class="modalBackGroundForWeatherApp hideWeatherModal">
-            <div class="modalForWeather">
-                <div class="modalContent">
-                    <div class="modalWeatherCloseBtn">
+        <!-- Modal For Local Wire -->
+        <div class="modalBackGroundLocalWire hideLocalWire">
+            <div class="modalForLocalWire ">
+                <div class="modalContentForLocalWire">
+                    <div class="modalLocalWireCloseBtn">
                         <span class="closeIcon">X</span>
                     </div>
-                    <h2 class="modalWeatherHeader">Weather Dashbored</h2>
-                    <p class="modalWeatherInfo">I built this application to let users check the weather in the state
-                        that
-                        they are in.
-                        They will be able to check the temperature, humidity, wind speed, and
-                        UV index for the current day & the next five day forecast.</p>
-                    <iframe class="weatherVideo"
-                        src="https://drive.google.com/file/d/1TnvhyqDdzKji8AQ_jdlUcnD0pLVPLyUE/preview" width="510"
+                    <h2 class="modalLocalWireHeader">Local Wire</h2>
+                    <p class="modalLocalWireInfo">Local Wire is an application for you to see the nearest local
+                        breweries,
+                        restaurants, and events. All you have to do is enter your city and you'll get your results.
+                        However,
+                        just keep in mind if you want to see the events going on, you have to enter a start date and end
+                        date.</p>
+                    <iframe src="https://drive.google.com/file/d/169NK_vQ4Uayt8afHqYUI1NtNolovuNa-/preview" width="510"
                         height="380"></iframe>
 
-                    <a href="https://github.com/Anthony-G89/weather-dashboard" target="blank">
+                    <a href="https://github.com/Anthony-G89/Local_Wire" target="blank">
                         <h3 class="repoLink">Link to my Repository <span><img
                                     src="./images/GitHub-Mark-32px.png"></span>
                         </h3>
                     </a>
-                    <a href="https://anthony-g89.github.io/weather-dashboard/" target="blank">
+                    <a href="https://anthony-g89.github.io/Local_Wire/" target="blank">
                         <h3 class="appLink">Click here to see the application 😉</h3>
                     </a>
                 </div>
             </div>
         </div>
+
         <!-- Modal for Code Quiz App -->
         <div class="modalBackGroundCodeQuiz hideCodeQuizModal">
             <div class="modalForCodeQuiz ">
@@ -224,29 +227,30 @@
             </div>
         </div>
 
-        <!-- Modal for Local-Wire -->
-        <div class="modalBackGroundLocalWire hideLocalWire">
-            <div class="modalForLocalWire ">
-                <div class="modalContentForLocalWire">
-                    <div class="modalLocalWireCloseBtn">
-                        <span class="closeIcon">X</span>
-                    </div>
-                    <h2 class="modalLocalWireHeader">Local Wire</h2>
-                    <p class="modalLocalWireInfo">Local Wire is an application for you to see the nearest local
-                        breweries,
-                        restaurants, and events. All you have to do is enter your city and you'll get your results.
-                        However,
-                        just keep in mind if you want to see the events going on, you have to enter a start date and end
-                        date.</p>
-                    <iframe src="https://drive.google.com/file/d/169NK_vQ4Uayt8afHqYUI1NtNolovuNa-/preview" width="510"
+        <!-- Modal for Weather App -->
+
+        <div id="modalForWeatherDashbored" class="modalForWeatherD">
+            <div class="weatherDashbored-content">
+                <div class="weatherDashbored-header">
+                    <span class="closeBtnforWeatherDashBored">&times;</span>
+                    <h2 class="modalWeatherHeader">Weather Dashbored</h2>
+                </div>
+                <div class="weatherDashbored-text">
+                    <p class="modalWeatherInfo">I built this application to let users check the weather in the state
+                        that
+                        they are in.
+                        They will be able to check the temperature, humidity, wind speed, and
+                        UV index for the current day & the next five day forecast.</p>
+                    <iframe class="weatherVideo"
+                        src="https://drive.google.com/file/d/1TnvhyqDdzKji8AQ_jdlUcnD0pLVPLyUE/preview" width="510"
                         height="380"></iframe>
 
-                    <a href="https://github.com/Anthony-G89/Local_Wire" target="blank">
+                    <a href="https://github.com/Anthony-G89/weather-dashboard" target="blank">
                         <h3 class="repoLink">Link to my Repository <span><img
                                     src="./images/GitHub-Mark-32px.png"></span>
                         </h3>
                     </a>
-                    <a href="https://anthony-g89.github.io/Local_Wire/" target="blank">
+                    <a href="https://anthony-g89.github.io/weather-dashboard/" target="blank">
                         <h3 class="appLink">Click here to see the application 😉</h3>
                     </a>
                 </div>
@@ -285,8 +289,11 @@
                     <h2 class="noteTitle">Note Taker</h2>
                 </div>
                 <div class="modal-for-notetaker-content">
-                    <p class="noteTaker-text">Note Taker is an application that will let you add notes and also delete them. Don't worry about losing your notes for this application has data persistence</p>
-                        <iframe class="noteTaker-video" src="https://drive.google.com/file/d/16ItWMxYTMvLa7_Z4vizP9kp47-qre69B/preview" width="510" height="380"></iframe>
+                    <p class="noteTaker-text">Note Taker is an application that will let you add notes and also delete
+                        them. Don't worry about losing your notes for this application has data persistence</p>
+                    <iframe class="noteTaker-video"
+                        src="https://drive.google.com/file/d/16ItWMxYTMvLa7_Z4vizP9kp47-qre69B/preview" width="510"
+                        height="380"></iframe>
                     <a href="https://github.com/Anthony-G89/week-11-note-taker" target="blank">
                         <h3 class="repoLink">Link to my Repository <span><img
                                     src="./images/GitHub-Mark-32px.png"></span>
@@ -307,8 +314,11 @@
                     <h2 class="EmployeeDTitle">Employee Directory</h2>
                 </div>
                 <div class="modal-for-EmployeeD-content">
-                    <p class="EmployeeD-text">Employee Directory was build using React. User can enter employees name in the search bar to shorten the list of employees.</p>
-                    <iframe class="employeeDVideo" src="https://drive.google.com/file/d/1uDEExlZv0aE6fbVy4VvKgc5Wt44I9wMf/preview" width="510" height="380"></iframe>
+                    <p class="EmployeeD-text">Employee Directory was build using React. User can enter employees name in
+                        the search bar to shorten the list of employees.</p>
+                    <iframe class="employeeDVideo"
+                        src="https://drive.google.com/file/d/1uDEExlZv0aE6fbVy4VvKgc5Wt44I9wMf/preview" width="510"
+                        height="380"></iframe>
                     <a href="https://github.com/Anthony-G89/week-19-react-employee-directory" target="blank">
                         <h3 class="repoLink">Link to my Repository <span><img
                                     src="./images/GitHub-Mark-32px.png"></span>
@@ -329,8 +339,11 @@
                     <h2 class="EatDaBurgerTitle">Eat-Da-Burger</h2>
                 </div>
                 <div class="modal-for-EatDaBurger-content">
-                    <p class="EatDaBurger-text">Eat-Da-Burger is an application were you will get to enter a burger and the burger then will be added to a list called "Burgers just ordered".</p>
-                    <iframe class="EatDaBurgerVideo" src="https://drive.google.com/file/d/1SxmcKfdWrxY1AyvNbfgwx4dTq1dfohl-/preview" width="510" height="380"></iframe>
+                    <p class="EatDaBurger-text">Eat-Da-Burger is an application were you will get to enter a burger and
+                        the burger then will be added to a list called "Burgers just ordered".</p>
+                    <iframe class="EatDaBurgerVideo"
+                        src="https://drive.google.com/file/d/1SxmcKfdWrxY1AyvNbfgwx4dTq1dfohl-/preview" width="510"
+                        height="380"></iframe>
                     <a href="https://github.com/Anthony-G89/burger" target="blank">
                         <h3 class="repoLink">Link to my Repository <span><img
                                     src="./images/GitHub-Mark-32px.png"></span>
@@ -353,7 +366,9 @@
                 <div class="modal-for-FitnessTracker-content">
                     <p class="FitnessTracker-text">About
                         User will be able to add a exercise, also add exercise to a previous workout plan</p>
-                    <iframe class="FitnessTrackerVideo" src="https://drive.google.com/file/d/1SxmcKfdWrxY1AyvNbfgwx4dTq1dfohl-/preview" width="510" height="380"></iframe>
+                    <iframe class="FitnessTrackerVideo"
+                        src="https://drive.google.com/file/d/1SxmcKfdWrxY1AyvNbfgwx4dTq1dfohl-/preview" width="510"
+                        height="380"></iframe>
                     <a href="https://github.com/Anthony-G89/week_17workout-tracker" target="blank">
                         <h3 class="repoLink">Link to my Repository <span><img
                                     src="./images/GitHub-Mark-32px.png"></span>
@@ -374,10 +389,11 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./js/modalsToggling.js"></script>
     <script src="js/topBtnFunction.js"></script>
+    <script src="js/index.animate.js"></script>
 </body>
 
 </html>
