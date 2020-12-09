@@ -204,11 +204,19 @@
     color: #074596;
 }
 
+.repoLink:hover {
+    color: black;
+}
+
 .appLink {
     text-align: center;
     text-decoration: underline;
     cursor: pointer;
     color:#074596;
+}
+
+.appLink:hover {
+    color: black;
 }
 
 .codeTitle {
@@ -429,13 +437,6 @@
     color: white;
 }
 
-
-.passwordVideo {
-    /* position: relative;
-    left: 182px; */
-
-}
-
 .modalPassword-Generator {
     display: none;
     position: fixed;
@@ -443,6 +444,7 @@
     top: 0;
     height: 100%;
     width: 100%;
+    overflow: auto;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -485,6 +487,7 @@
     top: 0;
     height: 100%;
     width: 100%;
+    overflow: auto;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -525,6 +528,152 @@
     position: relative;
     left: 20px;
 }
+
+.modalEmployeeD {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+}
+
+.modal-content-for-EmployeeD {
+    margin: 10% auto;
+    width: 32%;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.closeBtnforEmployeeD {
+    float: right;
+    font-size: 30px;
+    margin-top: -11px;
+    color: black;
+    cursor: pointer;
+}
+
+.closeBtnforEmployeeD:hover,
+.closeBtnforEmployeeD:focus {
+    color: rgb(21, 118, 212);
+}
+
+.EmployeeDTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.EmployeeD-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.employeeDVideo {
+    position: relative;
+    left: 20px;
+}
+
+.modalEatDaBurger {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+}
+
+.modal-content-for-EatDaBurger {
+    margin: 10% auto;
+    width: 32%;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.closeBtnforEatDaBurger {
+    float: right;
+    font-size: 30px;
+    margin-top: -11px;
+    color: black;
+    cursor: pointer;
+}
+
+.closeBtnforEatDaBurger:hover,
+.closeBtnforEatDaBurger:focus {
+    color: rgb(21, 118, 212);
+}
+
+.EatDaBurgerTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.EatDaBurger-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.EatDaBurgerVideo {
+    position: relative;
+    left: 20px;
+}
+
+.modalFitnessTracker {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+}
+
+.modal-content-for-FitnessTracker {
+    margin: 10% auto;
+    width: 32%;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.closeBtnforFitnessTracker {
+    float: right;
+    font-size: 30px;
+    margin-top: -11px;
+    color: black;
+    cursor: pointer;
+}
+
+.closeBtnforFitnessTracker:hover,
+.closeBtnforFitnessTracker:focus {
+    color: rgb(21, 118, 212);
+}
+
+.FitnessTrackerTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.FitnessTracker-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.FitnessTrackerVideo {
+    position: relative;
+    left: 20px;
+}
+
+
+
 
 
 

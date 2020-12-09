@@ -6,21 +6,54 @@ const modalNoteTaker = document.querySelector("#modalforNoteTaker");
 const btnToOpenNoteTaker = document.querySelector(".btnforNoteTaker");
 const closeModalBtn = document.querySelector(".closeBtnforNoteTaker");
 
+const modalEmployeeD = document.querySelector("#modalforEmployeeD");
+const btnToOpenEmployeeD = document.querySelector(".btnForEmployeeD");
+const btnToCloseEmplyoeeD = document.querySelector(".closeBtnforEmployeeD");
 
-// open
+const modalEatDaBurger = document.querySelector("#modalforEatDaBurger");
+const btnToOpenEatDaBurger = document.querySelector(".btnForEatDaBurger");
+const btnToCloseEatDaBurger = document.querySelector(".closeBtnforEatDaBurger");
+
+const modalFitnessTracker = document.querySelector("#modalforFitnessTracker");
+const btnToOpenFitnessTracker = document.querySelector(".btnForFitnessTracker");
+const btnToCloseFitnessTracker = document.querySelector(".closeBtnforFitnessTracker");
+
+
+
+
+
+// open modal
 function openModal() {
     modalNoteTaker.style.display = "block";
 };
 function openModaltoPasswordG() {
     modalPasswordGenerator.style.display = "block";
 };
+function openModalToEmplyoeeD() {
+    modalEmployeeD.style.display = "block";
+};
+function openModalToEatDaBurger() {
+    modalEatDaBurger.style.display = "block";
+};
+function openModalToFitnessTracker() {
+    modalFitnessTracker.style.display = "block";
+};
 
-// close
+// close modal
 function closeModal() {
     modalNoteTaker.style.display = "none";
 };
 function closeModaltoPasswordG() {
     modalPasswordGenerator.style.display = "none";
+};
+function closeModalToEmployeeD() {
+    modalEmployeeD.style.display = "none";
+};
+function closeModalToEatDaBurger() {
+    modalEatDaBurger.style.display = "none";
+};
+function closeModalToFitnessTracker() {
+    modalFitnessTracker.style.display = "none";
 };
 
 // Clicking outside the modal to close it
@@ -34,6 +67,21 @@ function oustSideClickForPasswordG(e) {
         modalPasswordGenerator.style.display = "none";
     }
 };
+function oustSideClickForEmplyoeeD(e) {
+    if(e.target == modalEmployeeD) {
+        modalEmployeeD.style.display = "none";
+    }
+};
+function oustSideClickForEatDaBurger(e) {
+    if(e.target == modalEatDaBurger) {
+        modalEatDaBurger.style.display = "none";
+    }
+};
+function oustSideClickForFitnessTracker(e) {
+    if(e.target == modalFitnessTracker) {
+        modalFitnessTracker.style.display = "none";
+    }
+};
 
 // Events
 btnToOpenNoteTaker.addEventListener("click",openModal);
@@ -43,6 +91,18 @@ window.addEventListener("click", oustSideClick);
 btnToOpenPasswordGenerator.addEventListener("click", openModaltoPasswordG);
 btnToClosePasswordGenerator.addEventListener("click", closeModaltoPasswordG);
 window.addEventListener("click", oustSideClickForPasswordG);
+
+btnToOpenEmployeeD.addEventListener("click", openModalToEmplyoeeD);
+btnToCloseEmplyoeeD.addEventListener("click", closeModalToEmployeeD);
+window.addEventListener("click", oustSideClickForEmplyoeeD);
+
+btnToOpenEatDaBurger.addEventListener("click", openModalToEatDaBurger);
+btnToCloseEatDaBurger.addEventListener("click", closeModalToEatDaBurger);
+window.addEventListener("click", oustSideClickForEatDaBurger);
+
+btnToOpenFitnessTracker.addEventListener("click", openModalToFitnessTracker);
+btnToCloseFitnessTracker.addEventListener("click", closeModalToFitnessTracker);
+window.addEventListener("click", oustSideClickForFitnessTracker);
 
 
 
