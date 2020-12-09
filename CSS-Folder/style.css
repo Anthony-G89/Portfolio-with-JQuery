@@ -702,6 +702,10 @@
     left: 20px;
 }
 
+.title {
+    background-color: red;
+}
+
 
 /* Animation for Modals */
 @keyframes passwordGeneratorModal {
