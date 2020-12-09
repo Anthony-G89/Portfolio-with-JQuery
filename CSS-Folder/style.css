@@ -54,7 +54,7 @@
     border-radius: 4px;
     visibility: hidden;
     opacity: 0;
-    /* transition: 0.5s; */
+    transition: 0.7s;
 }
 
 .topBtn.active {
@@ -161,7 +161,7 @@
     top: 80rem;
 }
 .modalBackGroundForWeatherApp {
-    background-color: rgb(0,0,0,0.9);
+    background-color: rgb(0,0,0,0.8);
     position: fixed;
     top: 0px;
     height: 100vh;
@@ -282,7 +282,7 @@
 }
 
 .modalBackGroundCodeQuiz {
-    background-color: rgb(0,0,0,0.9);
+    background-color: rgb(0,0,0,0.8);
     position: fixed;
     top: 0px;
     height: 100vh;
@@ -372,7 +372,7 @@
 }
 
 .modalBackGroundLocalWire{
-    background-color: rgb(0,0,0,0.9);
+    background-color: rgb(0,0,0,0.8);
     position: fixed;
     top: 0px;
     height: 100vh;
@@ -465,14 +465,16 @@
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .passwordGenerator-content {
     margin: 10% auto;
     width: 32%;
     padding: 20px;
-    background-color: lightblue;
+    background-color: #eceeef;
+    animation: passwordGeneratorModal;
+    animation-duration: 0.7s ;
 }
 
 .closeBtnForPasswordGenerator {
@@ -508,14 +510,16 @@
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .modal-content-for-NoteTaker {
     margin: 10% auto;
     width: 32%;
     padding: 20px;
-    background-color: lightblue;
+    background-color: #eceeef;
+    animation: noteTakerModal;
+    animation-duration: 0.7s;
 }
 
 .noteTaker-text {
@@ -556,7 +560,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     overflow: auto;
 }
 
@@ -564,7 +568,9 @@
     margin: 10% auto;
     width: 32%;
     padding: 20px;
-    background-color: lightblue;
+    background-color: #eceeef;
+    animation: employeeDModal;
+    animation-duration: 0.7s;
 }
 
 .closeBtnforEmployeeD {
@@ -604,7 +610,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     overflow: auto;
 }
 
@@ -612,7 +618,9 @@
     margin: 10% auto;
     width: 32%;
     padding: 20px;
-    background-color: lightblue;
+    background-color: #eceeef;
+    animation: eatDaBurgerModal;
+    animation-duration: 0.7s;
 }
 
 .closeBtnforEatDaBurger {
@@ -652,7 +660,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     overflow: auto;
 }
 
@@ -660,7 +668,9 @@
     margin: 10% auto;
     width: 32%;
     padding: 20px;
-    background-color: lightblue;
+    background-color: #eceeef;
+    animation: fitnessTrackerModal;
+    animation-duration: 0.7s ;
 }
 
 .closeBtnforFitnessTracker {
@@ -690,6 +700,33 @@
 .FitnessTrackerVideo {
     position: relative;
     left: 20px;
+}
+
+
+/* Animation for Modals */
+@keyframes passwordGeneratorModal {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes noteTakerModal {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes employeeDModal {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes eatDaBurgerModal {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes fitnessTrackerModal {
+    from{opacity: 0;}
+    to{opacity: 1;}
 }
 
 
