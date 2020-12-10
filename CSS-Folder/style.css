@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+html, body {
+    height: 100%;
+    padding-bottom: 500%;
+}
+
 .body {
     background-image: url(../images/concrete-texture.png);
 }
@@ -47,7 +52,7 @@
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    background-color: darkblue;
+    background-color: #555558;
     color: white;
     font-size: 36px;
     cursor: pointer;
@@ -107,11 +112,6 @@
     position: relative;
 }
 
-
-.containerForApplication {
-    margin-left: auto;
-    margin-right: auto;
-}
 .weatherPic {
     position: absolute;
     left: 34%;
@@ -161,10 +161,6 @@
     color: white;
 }
 
-.CodeQuizContainer {
-    top: 80rem;
-}
-
 .modalForWeatherD {
     display: none;
     position: fixed;
@@ -181,6 +177,8 @@
     width: 32%;
     padding: 20px;
     background-color: #eceeef;
+    animation: weatherDashboredModal;
+    animation-duration: 0.7s ;
 }
 
 .closeBtnforWeatherDashBored {
@@ -224,11 +222,17 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.CodeQuizContainer {
+    top: 80rem;
+}
+
 .codeQuiz-content {
     margin: 10% auto;
     width: 32%;
     padding: 20px;
     background-color: #eceeef;
+    animation: codeQuizModal;
+    animation-duration: 0.7s ;
 }
 
 .modalCodeQuizCloseBtn {
@@ -260,10 +264,6 @@
     position: relative;
     left: 20px;
 }
-
-/* .closeIcon:hover {
-    color: rgb(21, 118, 212);
-} */
 
 .repoLink {
     padding-top: 14px;
@@ -390,6 +390,8 @@
     width: 32%;
     padding: 20px;
     background-color: #eceeef;
+    animation: localWireModal;
+    animation-duration: 0.7s ;
 }
 
 .modalLocalWireCloseBtn {
@@ -711,24 +713,72 @@
 
 #aboutme {
     position: relative;
-    top: 194em;
-    background-color: #dfe2e3;
-    width: 30%;
+    top: 200em;
+    background-color: #ebeaea;
+    width: 48%;
     margin: 10% auto;
+    text-align: center;
+    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 30% 100%, 0 90%); */
 }
 
-.aboutMeTitle {
-    padding: 4px;
-    text-decoration: underline;
+.aboutme-header {
+    position: relative;
+    bottom: 6.6em;
     text-align: center;
+    text-decoration: underline;  
     color: #17a2b8;
 }
 
+.aboutme-content {
+    position: relative;
+    left: 192px;
+    height: 308px;
+    width: 500px;
+    
+}
+
 .aboutme-Text {
-    padding: 25px;
+    padding: 0 15px 0 15px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 22px;
+    margin-top: -31px;
 }
 
 
+.linkToMyResume {
+    color: white;
+}
+
+.linkToMyResume:hover {
+    color: white;
+}
+
+.aboutLink  {
+    position: relative;
+    background-color:#538c9f;
+    bottom: 84px;
+    width: 32%;
+    left: 32%;
+    
+}
+.myResumeIcon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 12px 0;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
 /* Animation for Modals */
 @keyframes passwordGeneratorModal {
     from{opacity: 0;}
@@ -751,6 +801,21 @@
 }
 
 @keyframes fitnessTrackerModal {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes weatherDashboredModal {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes codeQuizModal {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes localWireModal {
     from{opacity: 0;}
     to{opacity: 1;}
 }
