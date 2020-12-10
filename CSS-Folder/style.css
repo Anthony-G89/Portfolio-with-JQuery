@@ -28,7 +28,7 @@
     text-decoration: underline;
 }
 
-.homeSection {
+#homeSection {
     position: relative;
 }
 
@@ -98,8 +98,8 @@
 .work:hover {
     background-color: darkblue;
     color: white;
-    border-radius: 8px;
     border: none;
+    border-radius: 8px;
     
 }
 
@@ -147,6 +147,7 @@
     font-size: 24px;
     font-weight: bold;
     max-width: 366px;
+    color: black;
 }
 
 .weatherBtn {
@@ -317,6 +318,7 @@
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     max-width: 315px;
+    color: black;
 }
 .codeBtn {
     position: absolute;
@@ -358,6 +360,7 @@
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     max-width: 300px;
+    color: black;
 }
 
 .LocalWireBtn {
@@ -419,54 +422,6 @@
     left: 20px;
 }
 
-/* .modalBackGroundLocalWire{
-    background-color: rgb(0,0,0,0.8);
-    position: fixed;
-    top: 0px;
-    height: 100vh;
-    width: 100vw;
-}
-
-.modalForLocalWire {
-    padding: 6em 0 0 41em;
-    display: inline-block;
-}
-
-.hideLocalWire {
-    display: none;
-}
-
-.modalLocalWireCloseBtn {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: -2rem;
-    margin-top: -2rem;
-    cursor: pointer;
-    color: black;
-    font-size: large;
-    font-weight: bolder;
-}
-
-.modalContentForLocalWire {
-    overflow-x: hidden;
-    background-color: lightgray;
-    padding: 3rem;
-}
-
-.modalLocalWireHeader {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    color: #17a2b8;
-}
-.modalLocalWireInfo {
-    max-width: 450px;
-    padding: 20px 0 0 39px;
-    text-align: center;
-    color: black;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-} */
 .otherProjects {
     position: absolute;
     display: inline-flex;
@@ -752,6 +707,25 @@
 
 .title {
     background-color: red;
+}
+
+#aboutme {
+    position: relative;
+    top: 194em;
+    background-color: #dfe2e3;
+    width: 30%;
+    margin: 10% auto;
+}
+
+.aboutMeTitle {
+    padding: 4px;
+    background-color: #a7adda;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.aboutme-Text {
+    padding: 25px;
 }
 
 

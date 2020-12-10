@@ -107,11 +107,6 @@
     }
 }
 
-@media only screen and (max-width: 1536px) {
-    .LocalWireDescription {
-        /* left: 294px; */
-    }
-}
 
 @media only screen and (max-width: 1536px) {
     .modalForLocalWire {
@@ -131,4 +126,18 @@
     }
 }
 
+@media only screen and (max-width: 1536px) {
+    #aboutme {
+        position: relative;
+        top: 226em;
+        background-color: lightblue;
+    }
+}
 
+/* @media only screen and (max-width: 1536px) and (min-width:499px)  {
+    .myName {
+    left: 14%;
+    top: 34rem;
+    max-width: 400px;
+    }
+} */
