@@ -143,6 +143,14 @@
         top: 237em;
     }
 }
+/* Large screens */
+@media only screen and (max-width: 1536px) {
+    html,body {
+        padding-bottom: 320%;
+    }
+}
+
+
 
 /* @media only screen and (max-width: 1536px) and (min-width:499px)  {
     .myName {
