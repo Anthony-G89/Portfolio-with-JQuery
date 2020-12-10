@@ -85,18 +85,21 @@
     left: 56%;
     top: 24rem;
     padding: 6px 20px;
+    box-shadow: 3px 3px 7px;
+    border-radius: 3px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     background-color: white;
     color: black;
-    box-shadow: 2px 2px ;
+    border: none;
 }
 
 .work:hover {
-    background-color: rgb(12, 12, 184);
+    background-color: darkblue;
     color: white;
     border-radius: 8px;
+    border: none;
     
 }
 
