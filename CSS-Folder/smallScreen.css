@@ -14,13 +14,13 @@
     }
 }
 
-@media only screen and (max-width: 500px) 
+/* @media only screen and (max-width: 500px) 
 {
     #myNavBar {
         display: block;
         padding-right: 2px;
     }
-}
+} */
 
 @media only screen and (max-width: 500px) 
 {

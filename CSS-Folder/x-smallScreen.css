@@ -1,9 +1,10 @@
 @media only screen and (max-width: 700px) and (min-width: 375px)
 {
     #myNavBar {
-        display: grid;
-        width: 130%;
-        justify-content: center;
+        display: block;
+        box-sizing: border-box;
+        width: 194%;
+        padding: 33px;
     }
 }
 
@@ -14,38 +15,39 @@
     }
 }
 
-@media only screen and (max-width: 1236px) and (min-width: 501px)
+@media only screen and (max-width: 700px) and (min-width: 375px)
 {
     .picOfMe {
         position: absolute;
-        /* left: 73px;
-        top: 50rem; */
-    }
+        left: 100px;
+    height: 806px;
+    text-align: center;
 }
 
-@media only screen and (max-width: 375px) 
+}
+
+@media only screen and (max-width: 700px) and (min-width: 375px)
 {
     .myName {
         position: absolute;
-        max-width: 230px;
-        left: 136px;
-        padding-top: 15px;
+        left: 40%;
+        top: 60rem;
+        font-size: 130px;
 }
         
 }
 
-@media only screen and (max-width: 375px) 
+@media only screen and  (max-width: 700px) and (min-width: 375px)
 {
     .introPar {
-        position: absolute;
-        font-size: 29px;
-        padding-top: 25px;
-        
+        left: 40%;
+        top: 128rem;
+        font-size: 78px; 
 }
         
 }
 
-@media only screen and (max-width: 375px) 
+@media only screen and  (max-width: 700px) and (min-width: 375px)
 {
     .work {
        display: none;
