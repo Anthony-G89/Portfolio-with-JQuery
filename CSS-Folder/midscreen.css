@@ -130,7 +130,17 @@
     #aboutme {
         position: relative;
         top: 226em;
-        background-color: lightblue;
+    }
+}
+@media only screen and (max-width: 1536px) {
+    .aboutme-content {
+        left: 115px;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    #connect {
+        top: 237em;
     }
 }
 
