@@ -18,11 +18,23 @@ const modalFitnessTracker = document.querySelector("#modalforFitnessTracker");
 const btnToOpenFitnessTracker = document.querySelector(".btnForFitnessTracker");
 const btnToCloseFitnessTracker = document.querySelector(".closeBtnforFitnessTracker");
 
+const modalWeatherDashbored = document.querySelector("#modalForWeatherDashbored");
+const btnToOpenWeatherDashBored = document.querySelector(".weatherBtn");
+const btnToCloseWeatherDashBored = document.querySelector(".closeBtnforWeatherDashBored");
+
+const modalCodeQuiz = document.querySelector("#modalForCodeQuiz");
+const btnToOpenCodeQuiz = document.querySelector(".codeBtn");
+const btnToCloseCodeQuiz = document.querySelector(".modalCodeQuizCloseBtn");
+
+const modalLocalWire = document.querySelector("#modalForLocalWire");
+const btnToOpenLocalWire = document.querySelector(".LocalWireBtn");
+const btnToCloseLocalWire = document.querySelector(".modalLocalWireCloseBtn");
 
 
 
 
-// open modal
+
+// opening modals
 function openModal() {
     modalNoteTaker.style.display = "block";
 };
@@ -38,8 +50,17 @@ function openModalToEatDaBurger() {
 function openModalToFitnessTracker() {
     modalFitnessTracker.style.display = "block";
 };
+function openModalToWeatherDashBored() {
+    modalWeatherDashbored.style.display = "block";
+}
+function openModalToCodeQuiz() {
+    modalCodeQuiz.style.display = "block";
+}
+function openModalToLocalWire() {
+    modalLocalWire.style.display = "block";
+}
 
-// close modal
+// closing modals
 function closeModal() {
     modalNoteTaker.style.display = "none";
 };
@@ -55,54 +76,91 @@ function closeModalToEatDaBurger() {
 function closeModalToFitnessTracker() {
     modalFitnessTracker.style.display = "none";
 };
+function closeModalToWeatherDashBored() {
+    modalWeatherDashbored.style.display = "none";
+}
+function closeModalToCodeQuiz() {
+    modalCodeQuiz.style.display = "none";
+}
+function closeModalToLocalWire() {
+    modalLocalWire.style.display = "none";
+}
 
-// Clicking outside the modal to close it
-function oustSideClick(e) {
+// Clicking outside the modal to close app's
+function outSideClick(e) {
     if(e.target == modalNoteTaker) {
         modalNoteTaker.style.display = "none";
+        console.log("you clicked on me!");
     }
 };
-function oustSideClickForPasswordG(e) {
+function outSideClickForPasswordG(e) {
     if(e.target == modalPasswordGenerator) {
         modalPasswordGenerator.style.display = "none";
     }
 };
-function oustSideClickForEmplyoeeD(e) {
+function outSideClickForEmplyoeeD(e) {
     if(e.target == modalEmployeeD) {
         modalEmployeeD.style.display = "none";
     }
 };
-function oustSideClickForEatDaBurger(e) {
+function outSideClickForEatDaBurger(e) {
     if(e.target == modalEatDaBurger) {
         modalEatDaBurger.style.display = "none";
     }
 };
-function oustSideClickForFitnessTracker(e) {
+function outSideClickForFitnessTracker(e) {
     if(e.target == modalFitnessTracker) {
         modalFitnessTracker.style.display = "none";
+    }
+};
+function outSideClickForWeatherDashBored(e){
+    if(e.target == modalWeatherDashbored) {
+        modalWeatherDashbored.style.display = "none";
+    }
+};
+function outSideClickForCodeQuiz(e){
+    if(e.target == modalCodeQuiz) {
+        modalCodeQuiz.style.display = "none";
+    }
+};
+function outSideClickForLocalWire(e){
+    if(e.target == modalLocalWire) {
+        modalLocalWire.style.display = "none";
     }
 };
 
 // Events
 btnToOpenNoteTaker.addEventListener("click",openModal);
 closeModalBtn.addEventListener("click", closeModal);
-window.addEventListener("click", oustSideClick);
+window.addEventListener("click", outSideClick);
 
 btnToOpenPasswordGenerator.addEventListener("click", openModaltoPasswordG);
 btnToClosePasswordGenerator.addEventListener("click", closeModaltoPasswordG);
-window.addEventListener("click", oustSideClickForPasswordG);
+window.addEventListener("click", outSideClickForPasswordG);
 
 btnToOpenEmployeeD.addEventListener("click", openModalToEmplyoeeD);
 btnToCloseEmplyoeeD.addEventListener("click", closeModalToEmployeeD);
-window.addEventListener("click", oustSideClickForEmplyoeeD);
+window.addEventListener("click", outSideClickForEmplyoeeD);
 
 btnToOpenEatDaBurger.addEventListener("click", openModalToEatDaBurger);
 btnToCloseEatDaBurger.addEventListener("click", closeModalToEatDaBurger);
-window.addEventListener("click", oustSideClickForEatDaBurger);
+window.addEventListener("click", outSideClickForEatDaBurger);
 
 btnToOpenFitnessTracker.addEventListener("click", openModalToFitnessTracker);
 btnToCloseFitnessTracker.addEventListener("click", closeModalToFitnessTracker);
-window.addEventListener("click", oustSideClickForFitnessTracker);
+window.addEventListener("click", outSideClickForFitnessTracker);
+
+btnToOpenWeatherDashBored.addEventListener("click", openModalToWeatherDashBored);
+btnToCloseWeatherDashBored.addEventListener("click", closeModalToWeatherDashBored);
+window.addEventListener("click", outSideClickForWeatherDashBored);
+
+btnToOpenCodeQuiz.addEventListener("click", openModalToCodeQuiz);
+btnToCloseCodeQuiz.addEventListener("click",closeModalToCodeQuiz);
+window.addEventListener("click", outSideClickForCodeQuiz);
+
+btnToOpenLocalWire.addEventListener("click", openModalToLocalWire);
+btnToCloseLocalWire.addEventListener("click", closeModalToLocalWire);
+window.addEventListener("click", outSideClickForLocalWire);
 
 
 
@@ -112,53 +170,5 @@ window.addEventListener("click", oustSideClickForFitnessTracker);
 
 
 
-// Functions to show Modal
-const toggleModal = () => {
-    document.querySelector(".modalBackGroundForWeatherApp").classList.toggle("hideWeatherModal")
-};
 
-const toggleCodeModal = () => {
-    document.querySelector(".modalBackGroundCodeQuiz").classList.toggle("hideCodeQuizModal")
-};
-
-const toggleLocalWireModal = () => {
-    document.querySelector(".modalBackGroundLocalWire").classList.toggle("hideLocalWire")
-};
-
-// Functions to close modal background
-const closeWeatherModalBackground = () => {
-    document.querySelector(".modalBackGroundForWeatherApp").classList.toggle("hideWeatherModal")
-};
-
-const closeCodeQuizModalBackground = () => {
-    document.querySelector(".modalBackGroundCodeQuiz").classList.toggle("hideCodeQuizModal")
-};
-
-const closeLocalWireModalBackground = () => {
-    document.querySelector(".modalBackGroundLocalWire").classList.toggle("hideLocalWire")
-};
-
-
-//  Functions to close modal with the X button
-$(".weatherBtn").on("click", toggleModal);
-$(".modalWeatherCloseBtn").on("click", () => {
-    toggle();
-});
-
-$(".codeBtn").on("click", toggleCodeModal);
-$(".modalCodeQuizCloseBtn").on("click", () => {
-    toggle();
-});
-
-$(".LocalWireBtn").on("click", toggleLocalWireModal);
-$(".modalLocalWireCloseBtn").on("click", () => {
-    toggle();
-});
-
-
-
-// Closing the modal when clicking on the background
-$(".modalBackGroundForWeatherApp").on("click", closeWeatherModalBackground);
-$(".modalBackGroundCodeQuiz").on("click", closeCodeQuizModalBackground);
-$(".modalBackGroundLocalWire").on("click", closeLocalWireModalBackground);
 

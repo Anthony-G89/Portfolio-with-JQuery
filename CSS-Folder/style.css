@@ -162,7 +162,7 @@
 }
 
 .modalForWeatherD {
-    /* display: none; */
+    display: none;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -208,63 +208,58 @@
     position: relative;
     left: 20px;
 }
-/* .modalBackGroundForWeatherApp {
-    background-color: rgb(0,0,0,0.8);
-    position: fixed;
-    top: 0px;
-    height: 100vh;
-    width: 100vw;
-}
 
-.
-
-.modalForWeather {
-  padding: 6em 0 0 41em;
-  display: inline-block;
-
-    
-}
-
-.hideWeatherModal {
+.modalCodeQuiz {
     display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.modalContent {
-    overflow-x: hidden;
-    background-color: lightgray;
-    padding: 3rem;
+.codeQuiz-content {
+    margin: 10% auto;
+    width: 32%;
+    padding: 20px;
+    background-color: #eceeef;
 }
 
-.modalWeatherHeader {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    color: #17a2b8;
-}
-
-.modalWeatherInfo {
-    max-width: 450px;
-    padding: 20px 0 0 39px;
-    text-align: center;
+.modalCodeQuizCloseBtn {
+    float: right;
+    font-size: 30px;
+    margin-top: -11px;
     color: black;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.modalWeatherCloseBtn {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: -2rem;
-    margin-top: -2rem;
     cursor: pointer;
-    color: black;
-    font-size: large;
-    font-weight: bolder;
-} */
+}
 
-.closeIcon:hover {
+.modalCodeQuizCloseBtn:hover,
+.modalCodeQuizCloseBtn:focus {
     color: rgb(21, 118, 212);
 }
+
+.modalCodeTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.modalCodeInfo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.CodeQuizVideo {
+    position: relative;
+    left: 20px;
+}
+
+/* .closeIcon:hover {
+    color: rgb(21, 118, 212);
+} */
 
 .repoLink {
     padding-top: 14px;
@@ -331,54 +326,6 @@
     color: white;
 }
 
-.modalBackGroundCodeQuiz {
-    background-color: rgb(0,0,0,0.8);
-    position: fixed;
-    top: 0px;
-    height: 100vh;
-    width: 100vw;
-}
-
-.modalForCodeQuiz {
-    padding: 6em 0 0 41em;
-    display: inline-block;
-}
-
-.hideCodeQuizModal {
-    display: none;
-}
-
-.modalCodeQuizCloseBtn {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: -2rem;
-    margin-top: -2rem;
-    cursor: pointer;
-    color: black;
-    font-size: large;
-    font-weight: bolder;
-}
-
-.modalContentForCode {
-    overflow-x: hidden;
-    background-color: lightgray;
-    padding: 3rem;
-}
-
-.modalCodeHeader {
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    color: #17a2b8;
-}
-.modalCodeInfo {
-    max-width: 450px;
-    padding: 20px 0 0 39px;
-    text-align: center;
-    color: black;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-}
 
 .LocalWireTitle {
     position: absolute;
@@ -421,7 +368,55 @@
     color: white;
 }
 
-.modalBackGroundLocalWire{
+.modalLocalWire {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.LocalWire-Content {
+    margin: 10% auto;
+    width: 32%;
+    padding: 20px;
+    background-color: #eceeef;
+}
+
+.modalLocalWireCloseBtn {
+    float: right;
+    font-size: 30px;
+    margin-top: -11px;
+    color: black;
+    cursor: pointer;
+}
+
+.modalLocalWireCloseBtn:hover,
+.modalLocalWireCloseBtn:focus {
+    color: rgb(21, 118, 212);
+}
+
+.modalLocalWireTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.modalLocalWireInfo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.localWireVideo {
+    position: relative;
+    left: 20px;
+}
+
+/* .modalBackGroundLocalWire{
     background-color: rgb(0,0,0,0.8);
     position: fixed;
     top: 0px;
@@ -468,7 +463,7 @@
     color: black;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 .otherProjects {
     position: absolute;
     display: inline-flex;
