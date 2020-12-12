@@ -801,6 +801,10 @@ html, body {
     line-height: 27px;
     margin-top: -31px;
 }
+
+.connectSection {
+    padding-bottom: 10px;
+}
 .connectLinks {
     list-style: none;
     display: inline-block;
