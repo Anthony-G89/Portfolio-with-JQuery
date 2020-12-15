@@ -18,8 +18,8 @@
 @media only screen and (max-width: 700px) and (min-width: 375px)
 {
     .picOfMe {
-        position: absolute;
-        left: 100px;
+    position: absolute;
+    left: 100px;
     height: 806px;
     text-align: center;
 }
@@ -43,6 +43,16 @@
         left: 40%;
         top: 128rem;
         font-size: 78px; 
+}
+        
+}
+
+@media only screen and (min-width: 375px)
+{
+    .contentsWidth {
+        width: 99%;
+        height: 44%;
+        margin: 50% auto;
 }
         
 }
