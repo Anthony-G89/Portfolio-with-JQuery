@@ -158,6 +158,14 @@
     }
 }
 
+@media only screen and (max-width:1536px) {
+    .contentsWidth {
+        width: 42%;
+        height: 87%;
+        margin: 5% auto;
+    }
+}
+
 
 /* @media only screen and (max-width: 1536px) and (min-width:499px)  {
     .myName {
