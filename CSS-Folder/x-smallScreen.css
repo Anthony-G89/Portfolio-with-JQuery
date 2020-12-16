@@ -47,11 +47,16 @@
         
 }
 
-@media only screen and (min-width: 375px)
+@media  screen and
+(device-width: 360px) 
+and 
+(device-height: 640px) 
+and 
+(-webkit-device-pixel-ratio: 4) 
 {
     .contentsWidth {
         width: 99%;
-        height: 44%;
+        height: 50%;
         margin: 50% auto;
 }
         

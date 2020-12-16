@@ -166,6 +166,21 @@
     }
 }
 
+/* @media  screen and
+(device-width: 360px) 
+and 
+(device-height: 640px) 
+and 
+(-webkit-device-pixel-ratio: 4) 
+{
+    .contentsWidth {
+        width: 99%;
+        height: 50%;
+        margin: 50% auto;
+}
+        
+} */
+
 
 /* @media only screen and (max-width: 1536px) and (min-width:499px)  {
     .myName {

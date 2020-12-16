@@ -1,5 +1,35 @@
 topBtn = $(".topBtn");
 
+const message = document.querySelector("#message");
+const testingBtn = document.querySelector(".testingBtn");
+
+let shouldNavigateAway = false;
+
+
+// testingBtn.on("click", () => {
+//     console.log("u clicked on me buddy");
+// })
+
+function handleClickedOn() {
+    // e.prevent.default();
+    message.classList.add("success");
+}
+
+function endAnimation() {
+    message.removeAttribute("class")
+    if(shouldNavigateAway) {
+        location.href = "/index.html";
+    }
+}
+
+
+// function handleAnimation() {
+//     testingBtn.removeAttribute("class")
+// };
+
+testingBtn.addEventListener("click", handleClickedOn);
+message.addEventListener("animationend", endAnimation);
+
 // Testing to see how many pixles am I scrolling
 window.addEventListener("scroll", () => {
     const scrolled = window.scrollY;
