@@ -114,7 +114,7 @@ html, body {
     position: absolute;
     left: 56%;
     top: 24rem;
-    padding: 6px 20px;
+    padding: 6px 30px;
     box-shadow: 3px 3px 7px;
     border-radius: 3px;
     font-weight: bold;
@@ -130,7 +130,6 @@ html, body {
     color: white;
     border: none;
     border-radius: 8px;
-    
 }
 
 .myWork {
