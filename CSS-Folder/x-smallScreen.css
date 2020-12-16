@@ -112,10 +112,15 @@ and
     .weatherBtn {
         position: absolute;
         left: 146px;
-        top: 101rem;
+        top: 101rem;             
+}
         
+}
 
-             
+@media only screen and (min-width: 375px) and (max-width: 625px) 
+{
+    .myCards {
+        margin: 45px;          
 }
         
 }
