@@ -833,7 +833,7 @@ html, body {
 .connectLinks {
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 0px 15px;
 }
 
 .connectIcons {
@@ -842,6 +842,7 @@ html, body {
     transition: .4s;
     height: 50px ;
     width: 50px;
+    transition: width 3s, height 3s, transform 3s;
 }
 
 .connectIcons:hover {
@@ -849,6 +850,7 @@ html, body {
     opacity: 1;
     margin-top: -5px;
     box-shadow: 4px 6px 7px rgb(0,0,0,0.9);
+    transform: rotate(360deg);
 }
 
 .githubIcon {
