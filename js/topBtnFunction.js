@@ -1,9 +1,8 @@
 topBtn = $(".topBtn");
-
-const message = document.querySelector("#message");
 const testingBtn = document.querySelector(".testingBtn");
+// const message = document.querySelector("#message");
 
-let shouldNavigateAway = false;
+
 
 
 // testingBtn.on("click", () => {
@@ -11,24 +10,13 @@ let shouldNavigateAway = false;
 // })
 
 function handleClickedOn() {
-    // e.prevent.default();
     message.classList.add("success");
+    setTimeout(function(){
+        $("#message").fadeOut("slow");
+    },2000)
 }
-
-function endAnimation() {
-    message.removeAttribute("class")
-    if(shouldNavigateAway) {
-        location.href = "/index.html";
-    }
-}
-
-
-// function handleAnimation() {
-//     testingBtn.removeAttribute("class")
-// };
 
 testingBtn.addEventListener("click", handleClickedOn);
-message.addEventListener("animationend", endAnimation);
 
 // Testing to see how many pixles am I scrolling
 window.addEventListener("scroll", () => {
