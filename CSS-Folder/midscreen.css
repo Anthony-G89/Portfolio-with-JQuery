@@ -127,6 +127,67 @@
     }
 }
 
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .otherProjects {
+        top: 178em;
+    }
+}
+
+@media only screen and (min-width:1113px) and (max-width: 1296px) {
+    #aboutme {
+        top: 230em;
+    }
+}
+
+@media only screen and (min-width:1113px) and (max-width: 1536px) {
+    #aboutme {
+        position: relative;
+        top: 226em;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width: 1112px) {
+    #aboutme {
+        top: 258em;
+    }
+}
+@media only screen and (min-width:1113px) and (max-width: 1536px) {
+    .aboutme-content {
+        left: 115px;
+    }
+}
+
+@media only screen and (min-width:1135px) and (max-width: 1296px) {
+    .aboutme-content {
+        left: 59px;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width: 1134px) {
+    .aboutme-content {
+       max-width: 404px;
+       left: 48px;
+    }
+}
+
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    #connect {
+        top: 250em;
+    }
+}
+
+@media only screen and  (min-width:1113px) and (max-width: 1536px) {
+    #connect {
+        top: 237em;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width: 1112px) {
+    #connect {
+        top: 273em;
+    }
+}
+
 
 /* Screen size starting at 1297px till max 1536px */
 
@@ -224,25 +285,12 @@
     }
 }
 
-@media only screen and (max-width: 1536px) {
-    #aboutme {
-        position: relative;
-        top: 226em;
-    }
-}
-@media only screen and (max-width: 1536px) {
-    .aboutme-content {
-        left: 115px;
-    }
-}
 
-@media only screen and (max-width: 1536px) {
-    #connect {
-        top: 237em;
-    }
-}
 
-@media only screen and (max-width: 1536px) {
+
+
+
+@media only screen and  (max-width: 1536px) {
     .headerText {
         left: 30%;
     }
