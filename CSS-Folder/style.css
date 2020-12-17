@@ -766,9 +766,8 @@ html, body {
 
 .aboutme-content {
     position: relative;
-    left: 192px;
     height: 308px;
-    width: 500px;
+    
     
 }
 
@@ -791,13 +790,12 @@ html, body {
 
 .aboutLink  {
     position: relative;
-    background-color:#538c9f;
-    bottom: 84px;
     padding: 5px;
     width: 32%;
+    top:45px;
     left: 32%;
+    background-color:#538c9f;
     box-shadow: 4px 6px 8px;
-    
 }
 
 .myResumeIcon {

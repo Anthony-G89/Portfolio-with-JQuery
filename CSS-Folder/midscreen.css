@@ -1,6 +1,12 @@
 
 /* Screen size from 600px till 756px */
 
+@media only screen and (min-width:600px) and (max-width: 658px) {
+    .aboutLink {
+        top: 8px;
+    }
+}
+
 @media only screen and (min-width:600px) and (max-width: 756px) {
     .picOfMe {
         top: 10px;
@@ -28,6 +34,115 @@
         display: none
     }
 }
+
+/* Weather Dashbored App */
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .weatherTitle {
+       left: 200px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .weatherPic {
+       left: 81px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .weatherDescription {
+       left: 209px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .weatherBtn {
+       left: 294px;
+    }
+}
+
+/* Code Quiz App */
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .codeTitle {
+       left: 273px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .picOfCodeQuiz {
+       left: 103px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .codeDescription {
+       left: 227px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .codeBtn {
+       left: 294px;
+    }
+}
+/* LocalWire App */
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .LocalWireTitle {
+       left: 273px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .LocalWirePic {
+       left: 103px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .LocalWireDescription {
+       left: 227px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .LocalWireBtn {
+       left: 294px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    .card {
+       margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 799px) {
+    #aboutme {
+       top: 259em;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    #aboutme {
+       top: 309em;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 756px) {
+    #connect {
+       top: 320em;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 810px) {
+    .aboutme-Text {
+       padding-left: 0;
+       max-width: 360px;
+    }
+}
+
 
 
 
@@ -59,8 +174,89 @@
        display: none;
     }
 }
+/* Weather Dashbored App */
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .weatherTitle {
+       left: 6em;
+    }
+}
 
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .weatherPic {
+       left: 8em;
+    }
+}
 
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .weatherDescription {
+       left: 16em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .weatherBtn {
+       left: 18em;
+    }
+}
+
+/* Code Quiz App */
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .codeTitle {
+       left: 8em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .picOfCodeQuiz {
+       left: 8em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .codeDescription {
+       left: 16em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .codeBtn {
+       left: 18em;
+    }
+}
+
+/* LocalWire App  */
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .LocalWireTitle {
+       left: 8em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .LocalWirePic {
+       left: 8em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .LocalWireDescription {
+       left: 16em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .LocalWireBtn {
+       left: 18em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .otherProjects {
+        top: 173em;
+       left: 124px;
+    }
+}
 
 /* Screen size 901px till 1045px */
 
@@ -137,26 +333,48 @@
     }
 }
 
+/* LocalWire App */
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .LocalWireTitle {
+       left: 11em;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .LocalWirePic {
+       left: 15em;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .LocalWireDescription {
+       left: 25em;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .LocalWireBtn {
+       left: 25em;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .otherProjects {
+       top: 172em;
+    }
+}
+
 
 
 
 /* size from 999px and going down till 900px */
 
-@media only screen and (min-width:700px) and (max-width: 999px) {
+@media only screen and (min-width:757px) and (max-width: 999px) {
     #connect {
         top: 270em;
     }
 }
-
-@media only screen and (min-width:700px) and (max-width: 917px) {
-    .aboutme-content {
-        left: 16px;
-        max-width: 381px;
-    }
-}
-
-
-
 
 /* Screen Size 1046px and till 1296px */
 
@@ -187,6 +405,7 @@
     }
 }
 
+/* Weather Dashbored */
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .weatherTitle {
        left: 13em;
@@ -207,7 +426,7 @@
 
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .weatherBtn {
-       left: 33em;
+       left: 34em;
     }
 }
 
@@ -235,6 +454,33 @@
        left: 33em;
     }
 }
+
+/* LocalWire App */
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .LocalWireTitle {
+       left: 15em;
+    }
+}
+
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .LocalWirePic {
+       left: 25em;
+    }
+}
+
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .LocalWireDescription {
+       left: 33em;
+    }
+}
+
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .LocalWireBtn {
+       left: 33em;
+    }
+}
+
+
 
 
 
@@ -274,24 +520,6 @@
         top: 258em;
     }
 }
-@media only screen and (min-width:1113px) and (max-width: 1536px) {
-    .aboutme-content {
-        left: 115px;
-    }
-}
-
-@media only screen and (min-width:1135px) and (max-width: 1296px) {
-    .aboutme-content {
-        left: 59px;
-    }
-}
-
-@media only screen and (min-width:900px) and (max-width: 1134px) {
-    .aboutme-content {
-       max-width: 404px;
-       left: 48px;
-    }
-}
 
 @media only screen and  (min-width:1113px) and (max-width: 1536px) {
     #connect {
@@ -304,65 +532,6 @@
         top: 273em;
     }
 }
-
-
-
-
-
-
-
-/* Screen size starting at 1297px till max 1536px */
-
-/* @media only screen and (min-width:1297px) and (max-width: 1536px) {
-    .myName {
-        left: 42%;
-    }
-}
-
-@media only screen and (min-width:1297px) and (max-width: 1536px) {
-    .introPar {
-        left: 46%;
-    }
-}
-
-@media only screen and (max-width: 1536px) {
-    .work {
-        left: 56%;
-       
-    }
-} */
-
-/* Screen size starting at 1290px till max 1536px */
-
-/* @media only  screen and (max-width:1920px) and (min-width:1536px)  {
-    .weatherTitle {
-        position: absolute;
-        left: 41%;
-       
-        
-    }
-}
-
-@media only screen and (max-width:1920px) and (min-width:1536px)  {
-    .weatherPic {
-        position: absolute;
-        left: 33%;
-        
-    }
-}
-
-@media only screen and (max-width:1920px) and (min-width: 1536px)  {
-    .weatherDescription {
-        left: 43%
-    }
-}
-
-@media only screen and (max-width:1921px) and (min-width:1536px)  {
-    .weatherBtn {
-        left: 46%;
-       
-    }
-} */
 
 @media only screen and (max-width: 1536px) {
     .modalForWeather {
