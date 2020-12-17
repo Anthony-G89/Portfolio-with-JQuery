@@ -34,13 +34,112 @@
     }
 } */
 
-@media only screen and (max-width: 1536px) {
+/* Screen size from 900px till 700px  */
+
+@media only screen and (min-width:700px) and (max-width: 900px) {
+    .picOfMe {
+        top: 10px;
+       left: 14em;
+    }
+}
+
+@media only screen and (min-width:700px) and (max-width: 900px) {
+    .myName {
+        top: 10em;
+       left: 2em;
+    }
+}
+
+@media only screen and (min-width:700px) and (max-width: 900px) {
+    .introPar {
+        top: 34em;
+        left: 111px;
+    }
+}
+
+@media only screen and (min-width:700px) and (max-width: 900px) {
+    .work {
+       display: none;
+    }
+}
+
+
+
+/* Screen size 1045px till 700px */
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .picOfMe {
+        top: 10px;
+        left: 23em;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .myName {
+        top: 10em;
+        left: 5em;
+    }
+}
+
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .introPar {
+        top: 34em;
+        left: 15em;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .work {
+        display: none;
+    }
+}
+
+/* Screen Size 1296px and till 1046px */
+
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .picOfMe {
+        left: 40%;
+    }
+}
+
+@media only screen  and (min-width:1046px) and (max-width: 1296px) {
+    .myName {
+        position: relative;
+        top: 12em;
+        left: 8em;
+    }
+}
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .introPar {
+        position: relative;
+        top: 33em;
+        left: 23em;
+    }
+}
+
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .work {
+       display: none;
+    }
+}
+
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .body {
+       overflow-x: hidden;
+    }
+}
+
+
+/* Screen size starting at 1297px till max 1536px */
+
+@media only screen and (min-width:1297px) and (max-width: 1536px) {
     .myName {
         left: 42%;
     }
 }
 
-@media only screen and (max-width: 1536px) {
+@media only screen and (min-width:1297px) and (max-width: 1536px) {
     .introPar {
         left: 46%;
     }

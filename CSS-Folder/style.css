@@ -33,8 +33,9 @@ html, body {
     text-decoration: underline;
 }
 
-#homeSection {
+.homeSection {
     position: relative;
+    top: 17px;
 }
 
 .picOfMe {
@@ -135,6 +136,10 @@ html, body {
 .myWork {
     position: relative;
 }
+
+.WeatherContainer {
+    position: relative;
+} 
 
 .weatherPic {
     position: absolute;
@@ -247,7 +252,8 @@ html, body {
 }
 
 .CodeQuizContainer {
-    top: 80rem;
+    position: relative;
+    /* top: 80rem; */
 }
 
 .codeQuiz-content {
@@ -355,6 +361,10 @@ html, body {
     color: white;
 }
 
+
+.LocalWireContainer {
+    position: relative;
+}
 
 .LocalWireTitle {
     position: absolute;

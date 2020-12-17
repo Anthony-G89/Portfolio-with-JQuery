@@ -1,22 +1,19 @@
 topBtn = $(".topBtn");
 const testingBtn = document.querySelector(".testingBtn");
-// const message = document.querySelector("#message");
 
 
+// Function for Message box appearing
+
+// function handleClickedOn() {
+//     message.classList.add("success");
+//     setTimeout(function(){
+//         $("#message").fadeOut("slow");
+//     },2000)
+// };
+
+// testingBtn.addEventListener("click", handleClickedOn);
 
 
-// testingBtn.on("click", () => {
-//     console.log("u clicked on me buddy");
-// })
-
-function handleClickedOn() {
-    message.classList.add("success");
-    setTimeout(function(){
-        $("#message").fadeOut("slow");
-    },2000)
-}
-
-testingBtn.addEventListener("click", handleClickedOn);
 
 // Testing to see how many pixles am I scrolling
 window.addEventListener("scroll", () => {
@@ -25,13 +22,13 @@ window.addEventListener("scroll", () => {
 });
 
 
-// triggering button to appear when reaching a certain amount of pixels
+// Triggering button to appear when reaching a certain amount of pixels
 window.addEventListener("scroll", ()=> {
     const scrolled = document.querySelector(".topBtn");
     scrolled.classList.toggle("active", window.scrollY > 1899)
 });
 
-// when clicked on button will automatically scroll to the top of the page
+// When clicked on button will automatically scroll to the top of the page
 topBtn.on("click", () => {
     $("html, body").animate({scrollTop: 0}, "slow")
 });
