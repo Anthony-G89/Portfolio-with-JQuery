@@ -1,0 +1,29 @@
+@media only screen and (min-width:1537px) and (max-width:1688px) {
+    #VideoForModals {
+        left: 0;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width:1536px)  {
+    #videoForModals {
+        width: 100%;
+        left: 0px;
+    }
+}
+
+@media only screen and  (min-width:984px) and (max-width:1536px) {
+    .contentsWidth {
+        width: 42%;
+        height: 71%;
+        margin: 5% auto;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:983px) {
+    .weatherDashbored-content {
+        width: 55%;
+        margin: 15% auto;
+    }
+}

@@ -612,9 +612,6 @@
 }
 
 
-
-
-
 /* Large screens */
 @media only screen and (max-width: 1536px) {
     html,body {
@@ -622,18 +619,3 @@
     }
 }
 
-
-@media only screen and (max-width:1536px)  {
-    #videoForModals {
-        width: 100%;
-        left: 0px;
-    }
-}
-
-@media only screen and (max-width:1536px) {
-    .contentsWidth {
-        width: 42%;
-        height: 87%;
-        margin: 5% auto;
-    }
-}
