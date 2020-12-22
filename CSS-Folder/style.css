@@ -172,8 +172,8 @@ html, body {
 
 
 .weatherInfo {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: bold;
     max-width: 366px;
     color: black;
@@ -198,7 +198,7 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0,0.6);
 }
 
 .weatherDashbored-content {
@@ -248,7 +248,7 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0,0.6);
 }
 
 .CodeQuizContainer {
@@ -300,23 +300,26 @@ html, body {
     text-align: center;
     text-decoration: underline;
     cursor: pointer;
-    color: #074596;
-}
-
-.repoLink:hover {
-    color: black;
+    color: #d23b3b;
 }
 
 .appLink {
     text-align: center;
     text-decoration: underline;
     cursor: pointer;
-    color:#074596;
+    color:#d23b3b;
 }
 
-.appLink:hover {
-    color: black;
+.appLink:hover,
+.repoLink:hover {
+    color: blue;
 }
+
+/* 
+.repoLink:hover {
+    color: black;
+} */
+
 
 .codeTitle {
     position: absolute;
@@ -339,21 +342,21 @@ html, body {
 
 .codeDescription {
     position: absolute;
-    left: 43%;
+    left: 42%;
     top: 110rem;
 }
 
 .codeInfo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    max-width: 315px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 366px;
     color: black;
 }
 .codeBtn {
     position: absolute;
     left: 46%;
-    top: 119rem;
+    top: 118rem;
     padding: 4px 32px;
     border-radius: 4px;
     font-size: large;
@@ -385,22 +388,22 @@ html, body {
 
 .LocalWireDescription {
     position: absolute;
-    left: 43%;
+    left: 42%;
     top: 146rem;   
 }
 
 .LocalWireInfo {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    max-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 366px;
     color: black;
 }
 
 .LocalWireBtn {
     position: absolute;
     left: 46%;
-    top: 156rem;
+    top: 154rem;
     padding: 4px 32px;
     border-radius: 4px;
     font-size: large;
@@ -416,7 +419,7 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0,0.6);
 }
 
 .LocalWire-Content {
@@ -505,7 +508,7 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0,0.6);
 }
 
 .passwordGenerator-content {
@@ -550,7 +553,7 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0,0.6);
 }
 
 .modal-content-for-NoteTaker {
@@ -600,7 +603,7 @@ html, body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0,0.6);
     overflow: auto;
 }
 
@@ -650,7 +653,7 @@ html, body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0,0.6);
     overflow: auto;
 }
 
@@ -700,7 +703,7 @@ html, body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0,0.6);
     overflow: auto;
 }
 
@@ -930,7 +933,7 @@ html, body {
 
 
 
-    
+        
 
 
 
