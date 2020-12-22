@@ -1,50 +1,99 @@
-@media only screen and (max-width: 700px) and (min-width: 375px)
+@media only screen and (max-width: 700px) and (min-width: 500px)
 {
-    #myNavBar {
-        display: block;
-        box-sizing: border-box;
-        width: 194%;
-        padding: 33px;
+    .body {
+        overflow-x: hidden;
     }
 }
+
+ /* Size Screen from 756px and going down till 700px */
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    .picOfMe {
+        top: 10px;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    .myName {
+        top: 10em;
+        left: 6em;
+        max-width: 240px;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    .introPar {
+        top: 42em;
+        left: 16em;
+        max-width: 240px;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    .work {
+        display: none
+    }
+}
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 700px)
+{
+    #myNavBar {
+     
+    }
+}
+
+/* Screen size from 700 and going down till 500px */
+@media only screen and (min-width: 500px) and (max-width: 700px)
+{
+    .picOfMe {
+    position: relative;
+    top: 10px;
+    left: 185px;
+}
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px)
+{
+    .myName {
+        position: relative;
+        top: 92px;
+        font-size: 56px;
+        left: 236px;
+        max-width: 200px;
+}
+        
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px)
+{
+    .introPar {
+    position: relative;
+    top: 211px;
+    left: 243px;
+    font-size: 36px;
+    max-width: 200px; 
+}
+        
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px)
+{
+    .WeatherContainer {
+    position: relative;
+    bottom: 483px;
+    right: 42px;
+}
+        
+}
+
 
 @media only screen and (max-width: 700px) and (min-width: 375px)
 {
     .links {
         padding-top: 5px;
     }
-}
-
-@media only screen and (max-width: 700px) and (min-width: 375px)
-{
-    .picOfMe {
-    position: absolute;
-    left: 100px;
-    height: 806px;
-    text-align: center;
-}
-
-}
-
-@media only screen and (max-width: 700px) and (min-width: 375px)
-{
-    .myName {
-        position: absolute;
-        left: 40%;
-        top: 60rem;
-        font-size: 130px;
-}
-        
-}
-
-@media only screen and  (max-width: 700px) and (min-width: 375px)
-{
-    .introPar {
-        left: 40%;
-        top: 128rem;
-        font-size: 78px; 
-}
-        
 }
 
 @media  screen and

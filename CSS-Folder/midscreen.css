@@ -7,33 +7,7 @@
     }
 }
 
-@media only screen and (min-width:600px) and (max-width: 756px) {
-    .picOfMe {
-        top: 10px;
-    }
-}
 
-@media only screen and (min-width:600px) and (max-width: 756px) {
-    .myName {
-        top: 10em;
-        left: 6em;
-        max-width: 240px;
-    }
-}
-
-@media only screen and (min-width:600px) and (max-width: 756px) {
-    .introPar {
-        top: 42em;
-        left: 16em;
-        max-width: 240px;
-    }
-}
-
-@media only screen and (min-width:600px) and (max-width: 756px) {
-    .work {
-        display: none
-    }
-}
 
 /* Weather Dashbored App */
 
