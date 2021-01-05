@@ -72,7 +72,7 @@
     position: relative;
     top: 211px;
     left: 243px;
-    font-size: 36px;
+    font-size: 29px;
     max-width: 200px; 
 }
         
@@ -139,6 +139,12 @@
     #connect {
       top: 176em;
       left: 42px;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width: 629px) {
+    .contentsWidth {
+      width: 67%;
     }
 }
 
@@ -433,6 +439,15 @@
         bottom: 3px;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .contentsWidth {
+        width: 67%;
+    }
+}
+
+
+
 
 /*  */
 
