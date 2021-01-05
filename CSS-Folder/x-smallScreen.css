@@ -333,6 +333,86 @@
 
 
 /* screen 500px and smaller */
+@media only screen and (max-width: 500px) 
+{
+    .body {
+        overflow-x: hidden;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) 
+{
+    .myHeader {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) 
+{
+    .homeSection {
+        display: block;
+        width: 126%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .picOfMe {
+        position: absolute;
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .myName {
+        position: absolute;
+        left: 68px;
+        top: 34rem;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .introPar {
+        position: absolute;
+        left: 13%;
+        top: 50rem;
+        max-width: 400px;
+        font-size: large;
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) 
+{
+    .work {
+        position: absolute;
+        left: 20%;
+        top: 55rem;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .WeatherContainer {
+        right: 47px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .CodeQuizContainer {
+        right: 47px;
+    }
+}
 
 @media only screen and (max-width: 500px) {
     .LocalWireContainer {
@@ -354,7 +434,7 @@
     }
 }
 
-
+/*  */
 
 @media only screen and (max-width: 700px) and (min-width: 375px)
 {
