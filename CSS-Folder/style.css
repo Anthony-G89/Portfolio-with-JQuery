@@ -809,10 +809,11 @@ html, body {
 }
 
 .aboutLink  {
-    position: relative;
+    position: absolute;
     padding: 5px;
     width: 32%;
-    top:45px;
+    /* top: 135px; */
+    bottom: 110px;
     left: 32%;
     background-color:#538c9f;
     box-shadow: 4px 6px 8px;

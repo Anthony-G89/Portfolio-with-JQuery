@@ -1,12 +1,17 @@
 
 /* Screen size from 600px till 756px */
 
-@media only screen and (min-width:600px) and (max-width: 658px) {
+/* @media only screen and (min-width:600px) and (max-width: 658px) {
     .aboutLink {
         top: 8px;
     }
-}
+} */
 
+@media only screen and (max-width: 845px) {
+    .aboutLink {
+        bottom: 24px;
+    }
+}
 
 
 /* Weather Dashbored App */

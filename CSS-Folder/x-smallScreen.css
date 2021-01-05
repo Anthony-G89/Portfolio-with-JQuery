@@ -207,6 +207,154 @@
 }
 }
 
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .codeTitle {
+    top: 41em;
+    left: 5em;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .picOfCodeQuiz {
+        width: 384px;
+        left: 102px;
+        top: 108em;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .codeDescription {
+    top: 126em;
+    left: 124px;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .codeBtn {
+    top: 119em;
+    left: 220px;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .LocalWireTitle {
+    top: 57em;
+    left: 5em;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .LocalWirePic {
+    width: 384px;
+    left: 107px;
+    top: 148em;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .LocalWireDescription {
+    top: 166em;
+    left: 124px;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .LocalWireBtn {
+    top: 155em;
+    left: 220px;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .otherProjects {
+    top: 187em;
+    left: 113px;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    #aboutme {
+        top: 351em;
+        left: 10px;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .aboutme-content {
+        height: 351px;
+}
+}
+
+@media only screen and (min-width: 559px) and (max-width: 599px)
+{
+    .aboutLink {
+   top: 17em;
+}
+}
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    #connect {
+        top: 366em;
+        left: 10px;
+}
+}
+
+
+
+/* screen size smaller than 558px */
+
+@media only screen and (min-width: 500px) and (max-width: 558px)
+{
+    .aboutme-content {
+        height: 370px;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 543px)
+{
+    .connect-content {
+        height: 183px;
+}
+}
+
+
+/* screen 500px and smaller */
+
+@media only screen and (max-width: 500px) {
+    .LocalWireContainer {
+        right: 47px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .otherProjects {
+        left: 54px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .aboutLink {
+        bottom: 3px;
+    }
+}
+
+
 
 @media only screen and (max-width: 700px) and (min-width: 375px)
 {
