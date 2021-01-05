@@ -348,10 +348,10 @@
 
 
 
-@media only screen and (max-width: 500px) 
+@media only screen and (max-width: 501px) 
 {
     .myHeader {
-        width: 100%;
+        width: 161%;
     }
 }
 
@@ -369,32 +369,69 @@
 @media only screen and (max-width: 500px) 
 {
     .picOfMe {
-        position: absolute;
-        left: 100px;
+        top: 35px;
+        left: 183px;
     }
 }
 
 @media only screen and (max-width: 500px) 
 {
     .myName {
-        position: absolute;
-        left: 68px;
-        top: 34rem;
-        max-width: 400px;
+        left: 208px;
+        top: 33rem;
+        font-size: 61px;
     }
 }
 
 @media only screen and (max-width: 500px) 
 {
     .introPar {
-        position: absolute;
-        left: 13%;
-        top: 50rem;
-        max-width: 400px;
-        font-size: large;
+        top: 30em;
+        left: 149px;
+        font-size: 30px;
     }
 
 }
+
+@media only screen and (max-width: 500px) 
+{
+    .weatherTitle {
+        top: 30em;
+        left: 267px;
+
+    }
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .weatherPic {
+        top: 83em;
+        left: 78px;
+
+    }
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .weatherDescription {
+        position: relative;
+        top: 102em;
+        left: 13em;
+
+    }
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .btnForWeatherApp {
+        position: relative;
+        top: 19em;
+        left: 99em;
+
+    }
+}
+
+/* Keeping working from here.. Code Quiz is next */
 
 
 @media only screen and (max-width: 500px) 

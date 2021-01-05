@@ -13,6 +13,7 @@ html, body {
 }
 
 #myNavBar {
+    position: relative;
     background-color: darkblue;
     padding: 20px 0 10px 0;
     text-align: center;
