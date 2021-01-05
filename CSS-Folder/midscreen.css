@@ -98,13 +98,13 @@
     }
 }
 
-@media only screen and (min-width:600px) and (max-width: 756px) {
+@media only screen and (min-width:701px) and (max-width: 756px) {
     #aboutme {
        top: 309em;
     }
 }
 
-@media only screen and (min-width:600px) and (max-width: 756px) {
+@media only screen and (min-width:701px) and (max-width: 756px) {
     #connect {
        top: 320em;
     }

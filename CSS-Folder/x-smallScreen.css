@@ -44,7 +44,7 @@
 }
 
 /* Screen size from 700 and going down till 500px */
-@media only screen and (min-width: 500px) and (max-width: 700px)
+@media only screen and (min-width: 600px) and (max-width: 700px)
 {
     .picOfMe {
     position: relative;
@@ -54,7 +54,7 @@
 
 }
 
-@media only screen and (min-width: 500px) and (max-width: 700px)
+@media only screen and (min-width: 600px) and (max-width: 700px)
 {
     .myName {
         position: relative;
@@ -66,7 +66,7 @@
         
 }
 
-@media only screen and (min-width: 500px) and (max-width: 700px)
+@media only screen and (min-width: 600px) and (max-width: 700px)
 {
     .introPar {
     position: relative;
@@ -78,7 +78,7 @@
         
 }
 
-@media only screen and (min-width: 500px) and (max-width: 700px)
+@media only screen and (min-width: 600px) and (max-width: 700px)
 {
     .WeatherContainer {
     position: relative;
@@ -86,6 +86,58 @@
     right: 42px;
 }
         
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px)
+{
+    .CodeQuizContainer {
+    position: relative;
+    bottom: 401px;
+    right: 42px;
+}
+        
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px)
+{
+    .LocalWireContainer {
+    position: relative;
+    bottom: 319px;
+    right: 42px;
+}
+        
+}
+
+@media only screen and (min-width: 660px) and (max-width: 700px)
+{
+    .otherProjects {
+    position: relative;
+    left: 54px;
+    top: 149em;
+}
+        
+}
+@media only screen and (min-width: 600px) and (max-width: 659px)
+{
+    .otherProjects {
+        position: relative;
+        display: block;
+        top: 144em;
+        left: 189px;
+}
+        
+}
+
+@media only screen and (min-width:600px) and (max-width: 700px) {
+    #aboutme {
+      top: 164em;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 700px) {
+    #connect {
+      top: 176em;
+    }
 }
 
 
