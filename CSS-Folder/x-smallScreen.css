@@ -123,7 +123,7 @@
         position: relative;
         display: block;
         top: 144em;
-        left: 189px;
+        left: 140px;
 }
         
 }
@@ -131,13 +131,80 @@
 @media only screen and (min-width:600px) and (max-width: 700px) {
     #aboutme {
       top: 164em;
+      left: 42px;
     }
 }
 
 @media only screen and (min-width:600px) and (max-width: 700px) {
     #connect {
       top: 176em;
+      left: 42px;
     }
+}
+
+
+/* screen size from 599px and smaller */
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .picOfMe {
+    left: 155px;
+    top: 65px;
+}
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .myName {
+    left: 208px;
+    top: 559px;
+    max-width: 388px;
+}
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .introPar {
+    top: 828px;
+    left: 132px;
+    max-width: 388px;
+}
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .weatherTitle {
+    top: 25em;
+    left: 3em;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .weatherPic {
+    width: 384px;
+    left: 85px;
+    top: 68em;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .weatherDescription {
+    left: 124px;
+    top: 86em;
+}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px)
+{
+    .weatherBtn {
+    top: 83em;
+    left: 220px;
+}
 }
 
 
