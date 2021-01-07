@@ -249,6 +249,7 @@
     .otherProjects {
         position: relative;
         top: 156em;
+        left: 117px;
     }
 }
 
@@ -380,11 +381,11 @@
 
 /* size from 999px and going down till 900px */
 
-@media only screen and (min-width:757px) and (max-width: 999px) {
+/* @media only screen and (min-width:757px) and (max-width: 999px) {
     #connect {
         top: 270em;
     }
-}
+} */
 
 /* Screen Size 1046px and till 1296px */
 
