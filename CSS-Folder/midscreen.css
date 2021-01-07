@@ -1,12 +1,4 @@
 
-/* Screen size from 600px till 756px */
-
-/* @media only screen and (min-width:600px) and (max-width: 658px) {
-    .aboutLink {
-        top: 8px;
-    }
-} */
-
 @media only screen and (max-width: 845px) {
     .aboutLink {
         bottom: 24px;
@@ -359,6 +351,8 @@
 
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .picOfMe {
+        position: relative;
+        top:54px;
         left: 40%;
     }
 }
@@ -366,15 +360,15 @@
 @media only screen  and (min-width:1046px) and (max-width: 1296px) {
     .myName {
         position: relative;
-        top: 12em;
-        left: 8em;
+        top: 3em;
+        left: 22px;
     }
 }
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .introPar {
         position: relative;
-        top: 33em;
-        left: 23em;
+        top: 9em;
+        left: 370px;
     }
 }
 
@@ -385,6 +379,14 @@
 }
 
 /* Weather Dashbored */
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .WeatherContainer {
+        position: relative;
+        bottom: 25em;
+        right: 44px;
+    }
+}
+
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .weatherTitle {
        left: 13em;
@@ -410,6 +412,14 @@
 }
 
 /* code quiz app */
+
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .CodeQuizContainer {
+        position: relative;
+        bottom: 19em;
+        right: 44px;
+    }
+}
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .codeTitle {
        left: 15em;
@@ -435,6 +445,15 @@
 }
 
 /* LocalWire App */
+
+@media only screen and (min-width:1046px) and (max-width: 1296px) {
+    .LocalWireContainer {
+        position: relative;
+        bottom: 13em;
+        right: 44px;
+    }
+}
+
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .LocalWireTitle {
        left: 15em;
@@ -471,7 +490,9 @@
 
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .otherProjects {
-        top: 178em;
+        position: relative;
+        top: 156em;
+        left: 42px;
     }
 }
 
