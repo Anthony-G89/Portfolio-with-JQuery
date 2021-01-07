@@ -121,6 +121,7 @@
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .picOfMe {
+        position: relative;
         top: 10px;
        left: 14em;
     }
@@ -128,6 +129,7 @@
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .myName {
+        position: relative;
         top: 10em;
        left: 2em;
     }
@@ -135,6 +137,7 @@
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .introPar {
+        position: relative;
         top: 34em;
         left: 111px;
     }
