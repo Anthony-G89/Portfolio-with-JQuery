@@ -122,24 +122,24 @@
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .picOfMe {
         position: relative;
-        top: 10px;
-       left: 14em;
+        top: 14px;
+       left: 18em;
     }
 }
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .myName {
         position: relative;
-        top: 10em;
-       left: 2em;
+        top: 2em;
+       left: 1em;
     }
 }
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .introPar {
         position: relative;
-        top: 34em;
-        left: 111px;
+        top: 9em;
+        left: 135px;
     }
 }
 
@@ -149,6 +149,13 @@
     }
 }
 /* Weather Dashbored App */
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .WeatherContainer {
+        position: relative;
+        bottom: 32em;
+    }
+}
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .weatherTitle {
        left: 6em;
@@ -174,6 +181,12 @@
 }
 
 /* Code Quiz App */
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .CodeQuizContainer {
+        position: relative;
+        bottom: 26em;
+    }
+}
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .codeTitle {
@@ -202,6 +215,13 @@
 /* LocalWire App  */
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
+    .LocalWireContainer {
+        position: relative;
+        bottom: 20em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
     .LocalWireTitle {
        left: 8em;
     }
@@ -227,8 +247,24 @@
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .otherProjects {
+        position: relative;
+        top: 156em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    #aboutme {
+        position: relative;
         top: 173em;
-       left: 124px;
+        left: 61px;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    #connect {
+        position: relative;
+        top: 187em;
+        left: 61px;
     }
 }
 
