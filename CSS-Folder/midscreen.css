@@ -496,42 +496,48 @@
     }
 }
 
-@media only screen and (min-width:1046px) and (max-width: 1296px) {
-    #connect {
-        top: 250em;
-    }
-}
-
-@media only screen and (min-width:1113px) and (max-width: 1296px) {
+ @media only screen and (min-width:1297px) and (max-width: 1536px) {
     #aboutme {
+        position: relative;
         top: 230em;
     }
 }
 
-@media only screen and (min-width:1113px) and (max-width: 1536px) {
+@media only screen and (min-width:1047px) and (max-width: 1296px) {
     #aboutme {
         position: relative;
-        top: 226em;
+        top: 178em;
     }
 }
 
-@media only screen and (min-width:800px) and (max-width: 1112px) {
+@media only screen and (min-width:800px) and (max-width: 1046px) {
     #aboutme {
-        top: 258em;
+        position: relative;
+        top: 264em;
     }
 }
 
-@media only screen and  (min-width:1113px) and (max-width: 1536px) {
+
+@media only screen and  (min-width:1297px) and (max-width: 1536px) {
     #connect {
-        top: 237em;
+        position: relative;
+        top: 242em;
+    }
+}
+@media only screen and (min-width:1047px) and (max-width: 1296px) {
+    #connect {
+        position: relative;
+        top: 189em;
     }
 }
 
-@media only screen and (min-width:1000px) and (max-width: 1112px) {
+@media only screen and (min-width:800px) and (max-width: 1046px) {
     #connect {
-        top: 273em;
+        position: relative;
+        top: 275em;
     }
 }
+
 
 @media only screen and (max-width: 1536px) {
     .modalForWeather {
