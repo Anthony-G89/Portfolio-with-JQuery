@@ -310,24 +310,34 @@
 /* Screen size 901px till 1045px */
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
+    .PortfolioContainer {
+        overflow-x: hidden;
+    }
+}
+
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
     .picOfMe {
-        top: 10px;
+        position: relative;
+        top: 45px;
         left: 23em;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .myName {
-        top: 10em;
-        left: 5em;
+        position: relative;
+        top: 116px;
+        left: 10px;
     }
 }
 
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .introPar {
-        top: 34em;
-        left: 15em;
+        position: relative;
+        top: 149px;
+        left: 264px;
     }
 }
 
@@ -337,84 +347,151 @@
     }
 }
 
+/* Weather Dashbored */
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .WeatherContainer {
+        position: relative;
+        bottom: 415px;
+    }
+}
+
+
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .weatherTitle {
-        left: 9em;
+        position: relative;
+        left: 1px;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .weatherPic {
-        left: 15em;
+        position: relative;
+        top: 56em;
+        left: 14em;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .weatherDescription {
-        left: 24em;
+        position: relative;
+        top: 57em;
+        left: 336px;
     }
 }
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .weatherBtn {
+        position: relative;
+        top: 52em;
+        left: 405px;
+    }
+}
+
 
 /* codeQuiz app */
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
+    .CodeQuizContainer {
+        position: relative;
+        bottom: 47em;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
     .codeTitle {
-        left: 11em;
+        position: relative;
+        left: 396px;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .picOfCodeQuiz {
-        left: 15em;
+        position: relative;
+        top: 90em;
+        left: 14em;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .codeDescription {
-        left: 24em;
+        position: relative;
+        top:92em;
+        left: 336px;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .codeBtn {
-        top: 105em;
-        left: 25em;
+        position: relative;
+        top: 83em;
+        left: 405px;
     }
 }
 
 /* LocalWire App */
 
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    .LocalWireContainer {
+        position: relative;
+        bottom: 68em;
+    }
+}
+
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .LocalWireTitle {
-       left: 11em;
+        position: relative;
+       left: 396px;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .LocalWirePic {
-       left: 15em;
+        position: relative;
+        top: 125em;
+       left: 14em;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .LocalWireDescription {
-       left: 25em;
+        position: relative;
+        top: 127em;
+       left: 336px;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .LocalWireBtn {
-       left: 25em;
+        position: relative;
+        top: 114em;
+       left:405px;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .otherProjects {
-       top: 172em;
+        position: relative;
+        top: 73em;
+        left: 73px;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    #aboutme {
+        position: relative;
+        top: 96em;
     }
 }
 
 
+@media only screen and (min-width:901px) and (max-width: 1045px) {
+    #connect {
+        position: relative;
+        top: 108em;
+    }
+}
 
 
 /* size from 999px and going down till 900px */
@@ -588,12 +665,12 @@
     }
 }
 
-@media only screen and (min-width:800px) and (max-width: 1046px) {
+/* @media only screen and (min-width:800px) and (max-width: 1046px) {
     #aboutme {
         position: relative;
         top: 264em;
     }
-}
+} */
 
 
 @media only screen and  (min-width:1297px) and (max-width: 1536px) {
@@ -609,12 +686,12 @@
     }
 }
 
-@media only screen and (min-width:800px) and (max-width: 1046px) {
+/* @media only screen and (min-width:800px) and (max-width: 1046px) {
     #connect {
         position: relative;
         top: 275em;
     }
-}
+} */
 
 
 @media only screen and (max-width: 1536px) {
