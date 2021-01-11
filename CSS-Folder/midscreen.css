@@ -120,6 +120,13 @@
 /* Screen size from 757px till 900px  */
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
+    .PortfolioContainer {
+        overflow-x: hidden;
+    }
+}
+
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
     .html {
         overflow-x: hidden;
     }
