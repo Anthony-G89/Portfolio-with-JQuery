@@ -117,7 +117,7 @@
 
 
 
-/*  IPad Screen size from 757px till 900px  */
+/*  IPad Screen size from 757px till 900px... For when IPad is vertical  */
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .PortfolioContainer {
@@ -307,7 +307,7 @@
     }
 }
 
-/* Screen size 901px till 1045px */
+/* Ipad Screen size 901px till 1045px.. When IPad is horizontal */
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .PortfolioContainer {
@@ -769,14 +769,6 @@
 @media only screen and (max-width: 1536px) {
     .meetHubPic {
         padding-bottom: 0px;
-    }
-}
-
-
-/* Large screens */
-@media only screen and (max-width: 1536px) {
-    html,body {
-        padding-bottom: 320%;
     }
 }
 
