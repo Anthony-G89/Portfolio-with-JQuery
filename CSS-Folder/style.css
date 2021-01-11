@@ -152,8 +152,7 @@ html, body {
     top: 60rem;
     height: 250px;
     width: 550px;
-    border-radius: 6px;
-    margin-left: 20px; 
+    border-radius: 6px; 
     box-shadow: 7px 11px 12px;
 }
 
@@ -352,6 +351,7 @@ html, body {
     height: 250px;
     width: 550px;
     box-shadow: 7px 11px 12px;
+    border-radius: 6px;
 }
 
 .codeDescription {
@@ -398,6 +398,7 @@ html, body {
     height: 250px;
     width: 550px;
     box-shadow: 7px 11px 12px;
+    border-radius: 6px;
 }
 
 .LocalWireDescription {
