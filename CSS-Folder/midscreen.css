@@ -131,7 +131,7 @@
     .picOfMe {
         position: relative;
         top: 14px;
-       left: 18em;
+       left: 20em;
     }
 }
 
@@ -139,15 +139,16 @@
     .myName {
         position: relative;
         top: 2em;
-       left: 1em;
+       left: 2em;
     }
 }
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .introPar {
         position: relative;
-        top: 9em;
-        left: 135px;
+        top: 7em;
+        left: 195px;
+        font-size: 18px;
     }
 }
 
