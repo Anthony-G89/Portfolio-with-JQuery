@@ -117,7 +117,7 @@
 
 
 
-/* Screen size from 757px till 900px  */
+/*  IPad Screen size from 757px till 900px  */
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .PortfolioContainer {
@@ -170,6 +170,13 @@
        display: none;
     }
 }
+
+/* @media only screen and (min-width:757px) and (max-width: 900px) {
+    .topBtn {
+        right: ;
+    }
+} */
+
 /* Weather Dashbored App */
 
 @media only screen and (min-width:757px) and (max-width: 900px) {

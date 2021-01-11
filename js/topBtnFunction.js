@@ -25,7 +25,7 @@ window.addEventListener("scroll", () => {
 // Triggering button to appear when reaching a certain amount of pixels
 window.addEventListener("scroll", ()=> {
     const scrolled = document.querySelector(".topBtn");
-    scrolled.classList.toggle("active", window.scrollY > 1899)
+    scrolled.classList.toggle("active", window.scrollY > 1000)
 });
 
 // When clicked on button will automatically scroll to the top of the page
