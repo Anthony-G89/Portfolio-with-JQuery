@@ -176,7 +176,7 @@
     .WeatherContainer {
         position: relative;
         bottom: 32em;
-        right: 32px;
+        right: 31px;
     }
 }
 @media only screen and (min-width:757px) and (max-width: 900px) {
@@ -208,7 +208,7 @@
     .CodeQuizContainer {
         position: relative;
         bottom: 26em;
-        right: 32px;
+        right: 31px;
     }
 }
 
@@ -242,7 +242,7 @@
     .LocalWireContainer {
         position: relative;
         bottom: 20em;
-        right: 32px;
+        right: 31px;
     }
 }
 
@@ -274,7 +274,7 @@
     .otherProjects {
         position: relative;
         top: 156em;
-        left: 117px;
+        left: 78px;
     }
 }
 
@@ -282,7 +282,7 @@
     #aboutme {
         position: relative;
         top: 173em;
-        left: 61px;
+        /* left: 61px; */
     }
 }
 
@@ -290,7 +290,7 @@
     #connect {
         position: relative;
         top: 187em;
-        left: 61px;
+        /* left: 61px; */
     }
 }
 
