@@ -749,6 +749,50 @@
 
 }
 
+/* Modals */
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .contentsWidth {
+        width: 67%;
+        height: 220vh;
+        margin: 58% auto;
+    }
+    .titleH {
+        font-size: 4em;
+        color: #17a2b8;
+    }
+    .infoP {
+        font-size: 46px;
+        line-height: 51px;
+        font-weight: 549;
+        padding: 36px 20px;
+    }
+    #videoForModals {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+    .repoLink {
+        position: relative;
+        font-size: 70px;
+    }
+    .appLink {
+        position: relative;
+        font-size: 61px;
+    }
+    .languagesTitle {
+        font-size: 46px;
+    }
+    .closeIcon {
+        position: relative;
+        font-size: 5em;
+        bottom: 31px;
+    }
+}
+
+
+
+
 /* Arrow btn */
 
 @media only screen and (min-width: 375px) and (max-width: 500px) 
