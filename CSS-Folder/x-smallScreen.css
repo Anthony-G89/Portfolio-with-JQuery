@@ -442,7 +442,7 @@
     .weatherTitle {
         position: relative;
         top: 30em;
-        left: 267px;
+        left: 205px;
 
     }
 }
@@ -451,33 +451,51 @@
 {
     .weatherPic {
         position: relative;
-        top: 83em;
-        left: 1px;
+        top: 77em;
+        left: -46px;
         height: 29em;
         width: 900px;
 
     }
 }
 
-@media only screen and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 500px) 
 {
     .weatherDescription {
         position: relative;
-        top: 102em;
-        left: 13em;
+        top: 83em;
+        left: 15em;
 
     }
 }
 
-@media only screen and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .weatherInfo {
+        position: relative;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
 {
     .btnForWeatherApp {
         position: relative;
-        top: 19em;
-        left: 99em;
+        left: 50px;
 
     }
 }
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .weatherBtn {
+        position: relative;
+        width: 73%;
+        padding: 6px 20px;
+        font-size: 41px;
+    }
+}
+
 
 
 @media only screen and (max-width: 500px) {
