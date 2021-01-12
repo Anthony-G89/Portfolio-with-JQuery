@@ -336,7 +336,7 @@
 /* screen 500px and smaller */
 @media only screen and (max-width: 500px) 
 {
-    .body {
+    .html {
         overflow-x: hidden;
     }
 }
@@ -483,17 +483,22 @@
 
 /* screen smaller than 499px */
 
-@media only screen and (max-width: 499px) {
+@media only screen  and (max-width: 499px) {
     .myHeader {
         width: 402%;
     }
 }
 
-@media only screen and (max-width: 499px) {
+@media only screen and (min-width: 375px) and (max-width: 499px) {
+    .html {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 499px) {
     #myNavBar {
-        padding: 40px;
-        font-size: 32px;
-        text-align: center;
+        position: relative;
+        width: 25%;
     }
 }
 
