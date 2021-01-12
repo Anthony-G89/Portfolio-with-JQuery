@@ -333,13 +333,8 @@
 }
 
 
-/* screen 500px and smaller */
-@media only screen and (max-width: 500px) 
-{
-    .html {
-        overflow-x: hidden;
-    }
-}
+/* Mobile screen 500px and smaller */
+
 
 @media only screen  and (max-width: 499px) {
     .myHeader {
@@ -372,16 +367,6 @@
     }
 }
 
-
-
-/* @media only screen and (max-width: 500px) 
-{
-    .homeSection {
-        position: relative;
-        width: 126%;
-        margin: 0;
-    }
-} */
 @media only screen and (min-width: 375px) and (max-width: 500px) 
 {
     .links {
@@ -497,10 +482,199 @@
 }
 
 
+/* Code Quiz App */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .CodeQuizContainer {
+        position: relative;
+        width: 100%;
+        left: 393px;
+        bottom: 12em;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .codeTitle {
+        position: relative;
+        font-size: 80px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .picOfCodeQuiz {
+        position: relative;
+        left: -46px;
+        height: 29em;
+        width: 900px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .codeDescription {
+        position: relative;
+        top: 99em;
+        left: 15em;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .codeInfo {
+        position: relative;
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .btnForCodeApp {
+        position: relative;
+        left: 50px;
+        bottom: 236px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .codeBtn {
+        position: relative;
+        width: 73%;
+        padding: 6px 20px;
+        font-size: 41px;
+    }
+
+}
+
+
+/* Local-Wire App */
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .LocalWireContainer {
+        position: relative;
+        width: 100%;
+        left: 393px;
+        bottom: 200px;
+
+        
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .LocalWireTitle {
+        position: relative;
+        left: 205px;
+        font-size: 80px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .LocalWirePic {
+        position: relative;
+        left: -46px;
+        height: 29em;
+        width: 900px;
+
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .LocalWireDescription {
+        position: relative;
+        top: 135em;
+        left: 15em;
+
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .LocalWireInfo {
+        position: relative;
+       font-size: 40px;
+
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .btnForLocalWire {
+        position: relative;
+        bottom: 244px;
+        left: 50px;
+
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .LocalWireBtn {
+        position: relative;
+        width: 73%;
+        padding: 6px 20px;
+        font-size: 41px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 500px) {
     .otherProjects {
-        display: none;
+        position: relative;
+        left: 25em;
+        width: 187%;
+
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) {
+    .myCards {
+        position: relative;
+        margin: 30px;
+        width: 100%;
+        
+
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 500px) {
+    .card-img-top {
+        position: relative;
+        width: 100%;
+        height: 25em;
+    
+    }
+    .card-title {
+        font-size: 42px;
+    }
+    .card-body {
+        width: 100%;
+    }
+    .card-text {
+        padding: 12px;
+        font-size: 41px;
+        line-height: 55px;
+    }
+    .btn  {
+        width: 100%;
+        padding: 6px 20px;
+        font-size: 34px;
     }
 }
 
@@ -641,13 +815,13 @@ and
         
 }
 
-@media only screen and (min-width: 375px) and (max-width: 625px) 
+/* @media only screen and (min-width: 375px) and (max-width: 625px) 
 {
     .myCards {
         margin: 45px;          
 }
         
-}
+} */
 
 /* @media only screen and (max-width: 375px) 
 {
