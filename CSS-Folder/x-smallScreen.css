@@ -385,8 +385,9 @@
 @media only screen and (min-width: 375px) and (max-width: 500px) 
 {
     .links {
-        font-size: 36px;
-        padding: 6px;
+        position: relative;
+        font-size: 4em;
+        padding-right: 43px;
     }
 }
 
@@ -396,44 +397,64 @@
     .picOfMe {
         position: relative;
         top: 35px;
-        left: 486px;
+        left: 438px;
         height: 60em;
     }
 }
 
-@media only screen and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 500px) 
 {
     .myName {
-        left: 208px;
-        top: 33rem;
-        font-size: 61px;
+        position: relative;
+        left: 570px;
+        top: 143px;
+        font-size: 112px;
     }
 }
 
-@media only screen and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 500px) 
 {
     .introPar {
-        top: 30em;
-        left: 149px;
-        font-size: 30px;
+        position: relative;
+        top: 5em;
+        left: 614px;
+        font-size: 47px;
     }
 
 }
 
-@media only screen and (max-width: 500px) 
+/* weather Dashbored */
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .WeatherContainer {
+        position: relative;
+        width: 100%;
+        left: 393px;
+        bottom: 33em;
+    }
+
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
 {
     .weatherTitle {
+        position: relative;
         top: 30em;
         left: 267px;
 
     }
 }
 
-@media only screen and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 500px) 
 {
     .weatherPic {
+        position: relative;
         top: 83em;
-        left: 78px;
+        left: 1px;
+        height: 29em;
+        width: 900px;
 
     }
 }
@@ -458,6 +479,14 @@
     }
 }
 
+
+@media only screen and (max-width: 500px) {
+    .otherProjects {
+        display: none;
+    }
+}
+
+
 /* Keeping working from here.. Code Quiz is next */
 
 
@@ -471,7 +500,7 @@
     
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     .WeatherContainer {
         right: 47px;
     }
@@ -508,7 +537,7 @@
     .contentsWidth {
         width: 67%;
     }
-}
+} */
 
 
 
