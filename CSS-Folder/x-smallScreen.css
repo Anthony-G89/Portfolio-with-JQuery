@@ -335,6 +335,14 @@
 
 /* Mobile screen 500px and smaller */
 
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    html, body {
+        padding-bottom: 200vh;
+    }
+}
+
+
 
 @media only screen  and (max-width: 499px) {
     .myHeader {
@@ -632,7 +640,7 @@
 }
 
 
-
+/* Rest of my projects */
 
 @media only screen and (min-width: 375px) and (max-width: 500px) {
     .otherProjects {
@@ -686,8 +694,8 @@
     #aboutme {
         position: relative;
         top: 204em;
-        left: 34em;
-        width: 100%;
+        left: 26em;
+        width: 187%;
         height: 100%;
     }
 }
@@ -697,11 +705,59 @@
     .aboutMeTitle {
         position: relative;
         font-size: 100px;
+        bottom: 91px;
+    }
+    .aboutme-content {
+        position: relative;
+        height: 100vh;
     }
     .aboutme-Text {
-        font-size: 40px;
+        font-size: 46px;
+        line-height: 62px;
+    }
+    .myResumeIcon {
+        font-size: 46px;
+        padding-bottom: 6px 30px;
     }
 }
+
+/* Connect Section */
+
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    #connect {
+        position: relative;
+        top: 236em;
+        left: 26em;
+        width: 187%;
+        height: 100%;
+    }
+    .connectTitle {
+        position: relative;
+        font-size: 100px;
+        bottom: 90px
+    }
+    .connect-content {
+        height: 33vh;
+    }
+    .connect-Text {
+        font-size: 53px;
+        padding: 0 32px;
+        line-height: 62px;
+    }
+
+}
+
+/* Arrow btn */
+
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .topBtn {
+        font-size: 113px;
+    }
+}
+
 
 
 /* Keeping working from here.. Code Quiz is next */
