@@ -118,7 +118,7 @@
 }
 
 
-@media only screen and (min-width:375px) and (max-width: 507px) {
+@media only screen and (min-width:415px) and (max-width: 507px) {
     .linkToMyResume {
         position: absolute;
         bottom: 92px;
