@@ -709,10 +709,10 @@
         font-size: 100px;
         bottom: 91px;
     }
-    .aboutme-content {
+    /* .aboutme-content {
         position: relative;
         height: 100vh;
-    }
+    } */
     .aboutme-Text {
         position: relative;
         font-size: 46px;
@@ -722,6 +722,14 @@
         position: absolute;
         font-size: 46px;
         padding-bottom: 6px 30px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 414px) 
+{
+    .aboutme-content {
+        position: relative;
+        height: 105vh;
     }
 }
 
