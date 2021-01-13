@@ -130,6 +130,16 @@
 }
 
 
+@media only screen and (min-width:375px) and (max-width: 414px) {
+    .linkToMyResume {
+        position: absolute;
+        font-size: 3em;
+        left: 334px;
+        
+        
+    }
+}
+
 
 
 /*  IPad Screen size from 757px till 900px... For when IPad is vertical  */
