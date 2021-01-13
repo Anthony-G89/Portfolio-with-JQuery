@@ -1,28 +1,6 @@
 /* Weather Dashbored App */
 
-@media only screen and (min-width:600px) and (max-width: 756px) {
-    .weatherTitle {
-       left: 200px;
-    }
-}
 
-@media only screen and (min-width:600px) and (max-width: 756px) {
-    .weatherPic {
-       left: 81px;
-    }
-}
-
-@media only screen and (min-width:600px) and (max-width: 756px) {
-    .weatherDescription {
-       left: 209px;
-    }
-}
-
-@media only screen and (min-width:600px) and (max-width: 756px) {
-    .weatherBtn {
-       left: 294px;
-    }
-}
 
 /* Code Quiz App */
 
