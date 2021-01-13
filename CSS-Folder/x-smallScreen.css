@@ -17,8 +17,8 @@
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .myName {
         position: relative;
-        top: 10em;
-        left: 6em;
+        top: 91px;
+        left: 273px;
         max-width: 240px;
     }
 }
@@ -26,24 +26,64 @@
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .introPar {
         position: relative;
-        top: 42em;
-        left: 16em;
-        max-width: 240px;
+        top: 156px;
+        left: 14em;
+        max-width: 300px;
+    }
+}
+
+
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    .WeatherContainer {
+        position: relative;
+        bottom: 569px;
+        
     }
 }
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
-    .work {
-        display: none
+    .CodeQuizContainer {
+        position: relative;
+        bottom: 515px;
+        
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    .LocalWireContainer {
+        position: relative;
+        bottom: 488px;
+        
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    .otherProjects {
+        position: relative;
+        left: 80px;
+        top: 138em;
+        
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    #aboutme {
+    position: relative;
+       top: 153em;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    #connect {
+        position: relative;
+       top: 164em;
     }
 }
 
 
-
-@media only screen and (min-width: 500px) and (max-width: 700px)
-{
-    #myNavBar {
-     
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    .work {
+        display: none
     }
 }
 

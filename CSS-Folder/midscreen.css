@@ -89,22 +89,6 @@
     }
 }
 
-
-
-@media only screen and (min-width:701px) and (max-width: 756px) {
-    #aboutme {
-    position: relative;
-       top: 320em;
-    }
-}
-
-@media only screen and (min-width:701px) and (max-width: 756px) {
-    #connect {
-        position: relative;
-       top: 330em;
-    }
-}
-
 @media only screen and (min-width:600px) and (max-width: 810px) {
     .aboutme-Text {
        padding-left: 0;
