@@ -9,12 +9,14 @@
  /* Size Screen from 756px and going down till 700px */
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .picOfMe {
+        position: relative;
         top: 10px;
     }
 }
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .myName {
+        position: relative;
         top: 10em;
         left: 6em;
         max-width: 240px;
@@ -23,6 +25,7 @@
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .introPar {
+        position: relative;
         top: 42em;
         left: 16em;
         max-width: 240px;
