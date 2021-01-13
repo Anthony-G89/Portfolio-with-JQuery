@@ -81,12 +81,15 @@
     }
 }
 
-/* @media only screen and (min-width:757px) and (max-width: 799px) {
-    #aboutme {
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    .myName {
         position: relative;
-       top: 259em;
+        top: 2em;
+        left: 10px;
     }
-} */
+}
+
+
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     #aboutme {
@@ -97,6 +100,7 @@
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     #connect {
+        position: relative;
        top: 330em;
     }
 }
