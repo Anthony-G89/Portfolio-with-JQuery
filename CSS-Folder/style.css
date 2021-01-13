@@ -803,10 +803,15 @@ html, body {
 
 
 .linkToMyResume {
-    position: relative;
+    position: absolute;
     color: white;
     bottom: 193px;
-    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #538c9f;
+    padding: 2px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 4px 9px black;
 }
 
 .linkToMyResume:hover {
@@ -816,7 +821,7 @@ html, body {
 .aboutLink  {
     position: relative;
     top: 84px;
-    right: 71px;
+    right: 101px;
     width: 100%;
     box-shadow: 4px 6px 8px;
 }

@@ -109,6 +109,26 @@
     }
 }
 
+@media only screen and (min-width:508px) and (max-width: 862px) {
+    .linkToMyResume {
+        position: absolute;
+        bottom: 101px;
+        
+    }
+}
+
+
+@media only screen and (min-width:375px) and (max-width: 507px) {
+    .linkToMyResume {
+        position: absolute;
+        bottom: 92px;
+        left: 165px;
+        padding: 1px 12px 0 14px;
+        
+        
+    }
+}
+
 
 
 

@@ -323,7 +323,8 @@
 @media only screen and (min-width: 500px) and (max-width: 558px)
 {
     .aboutme-content {
-        height: 370px;
+        position: relative;
+        height: 406px;
 }
 }
 
