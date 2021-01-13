@@ -801,6 +801,9 @@
         font-size: 5em;
         bottom: 31px;
     }
+    .content-padding {
+        padding: 20px;
+    }
 }
 
 
