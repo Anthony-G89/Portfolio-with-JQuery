@@ -910,24 +910,3 @@ and
 }
         
 }
-
-/* @media only screen and (min-width: 375px) and (max-width: 625px) 
-{
-    .myCards {
-        margin: 45px;          
-}
-        
-} */
-
-/* @media only screen and (max-width: 375px) 
-{
-    .modalForWeather {
-        display: flex;
-        width: 30rem;
-        height: 300%;
-        
-
-             
-}
-        
-} */

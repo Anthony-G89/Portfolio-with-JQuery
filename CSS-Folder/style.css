@@ -902,7 +902,7 @@ html, body {
 
 
 
-.footer {
+/* .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -910,7 +910,8 @@ html, body {
     background-color: darkblue;
     color: white;
     text-align: center;
-}
+} */
+
 /* Animation for Modals */
 @keyframes passwordGeneratorModal {
     from{opacity: 0;}
@@ -951,23 +952,3 @@ html, body {
     from{opacity: 0;}
     to{opacity: 1;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-

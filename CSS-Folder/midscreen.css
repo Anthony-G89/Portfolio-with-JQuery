@@ -1,6 +1,3 @@
-
-
-
 /* Weather Dashbored App */
 
 @media only screen and (min-width:600px) and (max-width: 756px) {
@@ -84,14 +81,16 @@
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 799px) {
+/* @media only screen and (min-width:757px) and (max-width: 799px) {
     #aboutme {
+        position: relative;
        top: 259em;
     }
-}
+} */
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     #aboutme {
+    position: relative;
        top: 309em;
     }
 }
@@ -196,12 +195,6 @@
        display: none;
     }
 }
-
-/* @media only screen and (min-width:757px) and (max-width: 900px) {
-    .topBtn {
-        right: ;
-    }
-} */
 
 /* Weather Dashbored App */
 
@@ -315,7 +308,6 @@
     #aboutme {
         position: relative;
         top: 173em;
-        /* left: 61px; */
     }
 }
 
@@ -323,7 +315,6 @@
     #connect {
         position: relative;
         top: 187em;
-        /* left: 61px; */
     }
 }
 
@@ -519,14 +510,6 @@
     }
 }
 
-
-/* size from 999px and going down till 900px */
-
-/* @media only screen and (min-width:757px) and (max-width: 999px) {
-    #connect {
-        top: 270em;
-    }
-} */
 
 /* Screen Size 1046px and till 1296px */
 
@@ -762,11 +745,6 @@
         flex-wrap: wrap;
     }
 }
-
-
-
-
-
 
 @media only screen and  (max-width: 1536px) {
     .headerText {
