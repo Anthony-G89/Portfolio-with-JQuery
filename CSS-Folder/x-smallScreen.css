@@ -1,3 +1,6 @@
+/*  to Keep myResumeIcon inside the content */
+
+
 @media only screen and (max-width: 700px) and (min-width: 500px)
 {
     .body {
@@ -132,6 +135,13 @@
     #aboutme {
       top: 164em;
       left: 42px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 658px) {
+    .myResumeIcon {
+     position: absolute;
+     top: 52px;
     }
 }
 
@@ -285,7 +295,8 @@
 @media only screen and (min-width: 500px) and (max-width: 599px)
 {
     #aboutme {
-        top: 351em;
+        position: relative;
+        top: 346em;
         left: 10px;
 }
 }
@@ -293,18 +304,11 @@
 @media only screen and (min-width: 500px) and (max-width: 599px)
 {
     .aboutme-content {
-        height: 351px;
+        position: relative;
+        height: 371px;
+        width: 100%;
 }
 }
-
-@media only screen and (min-width: 559px) and (max-width: 599px)
-{
-    .aboutLink {
-   top: 17em;
-}
-}
-
-
 
 @media only screen and (min-width: 500px) and (max-width: 599px)
 {

@@ -803,7 +803,10 @@ html, body {
 
 
 .linkToMyResume {
+    position: relative;
     color: white;
+    bottom: 193px;
+    width: 100%;
 }
 
 .linkToMyResume:hover {
@@ -811,20 +814,23 @@ html, body {
 }
 
 .aboutLink  {
-    position: absolute;
-    padding: 5px;
-    width: 32%;
-    /* top: 135px; */
-    bottom: 110px;
-    left: 32%;
-    background-color:#538c9f;
+    position: relative;
+    top: 84px;
+    right: 71px;
+    width: 100%;
     box-shadow: 4px 6px 8px;
 }
 
+
 .myResumeIcon {
+    position: absolute;
     font-size: 20px;
     cursor: pointer;
-}
+    background-color: #538c9f;
+    padding: 2px 40px;
+    border-radius: 5px;
+
+}    
 
 #connect {
     position: relative;
