@@ -67,7 +67,7 @@
     }
     .weatherDescription {
         position: relative;
-        top: 58em;
+        top: 57em;
         left: 17em;
         max-width: 343px;
     }
@@ -111,28 +111,47 @@
         bottom: 62em;
         
     }
-}
-
-@media only screen and (min-width:701px) and (max-width: 756px) {
+    .LocalWireTitle {
+        position: relative;
+    }
+    .LocalWirePic {
+        position: relative;
+        top: 125em;
+       left: 150px;
+    }
+    .LocalWireDescription {
+        position: relative;
+        top: 126em;
+        left: 17em;
+        max-width: 343px;
+    }
+    .LocalWireBtn {
+        position: relative;
+        top: 112em;
+        left: 340px;
+    }
     .otherProjects {
         position: relative;
-        left: 80px;
-        top: 138em;
+        left: 9em;
+        top: 77em;
         
-    }
+    } 
 }
+
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     #aboutme {
-    position: relative;
-       top: 153em;
+        position: relative;
+       top: 107em;
+       left: 4em;
     }
 }
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     #connect {
         position: relative;
-       top: 164em;
+       top: 123em;
+       left: 4em;
     }
 }
 
