@@ -18,7 +18,13 @@
  @media only screen and (min-width:701px) and (max-width: 756px) {
     .myHeader {
         position: relative;
-        width: 174%;
+        width: 175%;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width: 756px) {
+    #myNavBar {
+        padding: 20px 0 20px 0 ;
     }
 }
 
