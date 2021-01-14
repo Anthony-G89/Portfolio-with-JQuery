@@ -77,7 +77,7 @@
         left: 340px;
     }
 
-
+}
  /* Mobile horizontal Code Quiz App */
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .CodeQuizContainer {
@@ -1026,5 +1026,4 @@ and
         left: 146px;
         top: 101rem;             
 }
-        
 }
