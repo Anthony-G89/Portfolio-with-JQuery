@@ -6,7 +6,7 @@
     }
 }
 
- /* Size Screen from 756px and going down till 700px */
+ /* Size Screen from 756px and going down till 700px.. When mobile is horizontal */
 
  @media only screen and (min-width:701px) and (max-width: 756px) {
     body {
@@ -35,73 +35,80 @@
     .myName {
         position: relative;
         top: 91px;
-        left: 309px;
-        max-width: 240px;
+        left: 229px;
+        max-width: 412px;
     }
 }
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .introPar {
         position: relative;
-        top: 156px;
-        left: 17em;
-        max-width: 300px;
+        top: 121px;
+        left: 9em;
+        max-width: 562px;
     }
 }
 
-
+/* Mobile horizontal screen Weather Dashbored App */
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .WeatherContainer {
         position: relative;
         bottom: 569px;
         
     }
-}
-
-@media only screen and (min-width:600px) and (max-width: 756px) {
     .weatherTitle {
         position: relative;
        left: 61px;
     }
-}
-
-@media only screen and (min-width:600px) and (max-width: 756px) {
     .weatherPic {
         position: relative;
         top: 56em;
        left: 150px;
     }
-}
-
-@media only screen and (min-width:600px) and (max-width: 756px) {
     .weatherDescription {
         position: relative;
         top: 58em;
         left: 17em;
         max-width: 343px;
     }
-}
-
-@media only screen and (min-width:600px) and (max-width: 756px) {
     .weatherBtn {
         position: relative;
         top: 52em;
         left: 340px;
     }
-}
 
+
+ /* Mobile horizontal Code Quiz App */
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .CodeQuizContainer {
         position: relative;
-        bottom: 515px;
+        bottom: 57em;
         
     }
+    .picOfCodeQuiz {
+        position: relative;
+        left: 150px;
+        
+    }
+    .codeDescription {
+        position: relative;
+        left: 150px;
+        left: 17em;
+        max-width: 343px;
+    }
+    .codeBtn {
+        position: relative;
+        top: 98em;
+        left: 340px;
+    }
 }
+
+
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .LocalWireContainer {
         position: relative;
-        bottom: 488px;
+        bottom: 62em;
         
     }
 }
