@@ -27,7 +27,7 @@
     .picOfMe {
         position: relative;
         top: 10px;
-        left: 463px;
+        left: 509px;
     }
 }
 
@@ -35,7 +35,7 @@
     .myName {
         position: relative;
         top: 91px;
-        left: 415px;
+        left: 455px;
         max-width: 412px;
     }
 }
@@ -44,7 +44,7 @@
     .introPar {
         position: relative;
         top: 121px;
-        left: 20em;
+        left: 21em;
         max-width: 562px;
     }
 }
@@ -54,7 +54,7 @@
     .WeatherContainer {
         position: relative;
         bottom: 569px;
-        left: 12em;
+        left: 14em;
         
     }
     .weatherTitle {
@@ -84,7 +84,7 @@
     .CodeQuizContainer {
         position: relative;
         bottom: 57em;
-        left: 12em;
+        left: 14em;
         
     }
     .picOfCodeQuiz {
@@ -111,7 +111,7 @@
     .LocalWireContainer {
         position: relative;
         bottom: 75em;
-        left: 12em;
+        left: 14em;
         
     }
     .LocalWireTitle {
@@ -135,7 +135,7 @@
     }
     .otherProjects {
         position: relative;
-        left: 20em;
+        left: 22em;
         top: 74em;
         
     } 
