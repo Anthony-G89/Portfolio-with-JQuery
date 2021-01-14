@@ -219,25 +219,28 @@
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .picOfMe {
         position: relative;
-        top: 63px;
-       left: 17em;
+        top: 145px;
+        left: 44px;
+        width: 30%;
+        height: 30%;
     }
 }
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .myName {
         position: relative;
-        top: 2em;
-       left: 10px;
+        top: -216px;
+        left: 11em;
+        max-width: 286px;
     }
 }
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .introPar {
         position: relative;
-        top: 7em;
-        left: 118px;
-        font-size: 18px;
+        top: -180px;
+        left: 32em;
+        max-width: 224px;
     }
 }
 
