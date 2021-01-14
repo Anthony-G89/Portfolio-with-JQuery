@@ -673,7 +673,7 @@
     .picOfMe {
         top: 213px;
         position: relative;
-        left: 92px;
+        left: 127px;
         height: 900px;
         
     }
@@ -683,7 +683,7 @@
 {
     .myName {
         position: absolute;
-        left: 12em;
+        left: 15em;
         top: 154px;
         font-size: 83px;
     }
@@ -694,7 +694,7 @@
     .introPar {
         position: relative;
         top: -2em;
-        left: 20em;
+        left: 24em;
         font-size: 50px;
     }
 
@@ -702,19 +702,19 @@
 
 /* weather Dashbored */
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .WeatherContainer {
         position: relative;
         width: 100%;
-        left: 393px;
-        bottom: 33em;
+        left: 478px;
+        bottom: 46em;
     }
 
 }
 
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .weatherTitle {
         position: relative;
@@ -724,29 +724,29 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .weatherPic {
         position: relative;
         top: 77em;
-        left: -46px;
+        left: -13px;
         height: 29em;
         width: 900px;
 
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .weatherDescription {
         position: relative;
-        top: 83em;
-        left: 15em;
+        top: 81em;
+        left: 18em;
 
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .weatherInfo {
         position: relative;
@@ -754,7 +754,7 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .btnForWeatherApp {
         position: relative;
@@ -763,10 +763,11 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .weatherBtn {
         position: relative;
+        top: 33em;
         width: 73%;
         padding: 6px 20px;
         font-size: 41px;
@@ -776,7 +777,7 @@
 
 /* Code Quiz App */
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .CodeQuizContainer {
         position: relative;
@@ -787,7 +788,7 @@
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .codeTitle {
         position: relative;
@@ -796,7 +797,7 @@
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .picOfCodeQuiz {
         position: relative;
@@ -807,7 +808,7 @@
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .codeDescription {
         position: relative;
@@ -817,7 +818,7 @@
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .codeInfo {
         position: relative;
@@ -826,7 +827,7 @@
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .btnForCodeApp {
         position: relative;
@@ -836,7 +837,7 @@
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .codeBtn {
         position: relative;
@@ -850,7 +851,7 @@
 
 /* Local-Wire App */
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .LocalWireContainer {
         position: relative;
@@ -863,7 +864,7 @@
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .LocalWireTitle {
         position: relative;
@@ -873,7 +874,7 @@
 
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .LocalWirePic {
         position: relative;
@@ -884,7 +885,7 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .LocalWireDescription {
         position: relative;
@@ -894,7 +895,7 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .LocalWireInfo {
         position: relative;
@@ -903,7 +904,7 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .btnForLocalWire {
         position: relative;
@@ -913,7 +914,7 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .LocalWireBtn {
         position: relative;
@@ -926,16 +927,16 @@
 
 /* Rest of my projects */
 
-@media only screen and (min-width: 375px) and (max-width: 500px) {
+@media only screen and (min-width: 375px) and (max-width: 499px) {
     .otherProjects {
         position: relative;
-        left: 25em;
+        left: 29em;
         width: 187%;
 
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) {
+@media only screen and (min-width: 375px) and (max-width: 499px) {
     .myCards {
         position: relative;
         margin: 30px;
@@ -945,7 +946,7 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) {
+@media only screen and (min-width: 375px) and (max-width: 499px) {
     .card-img-top {
         position: relative;
         width: 100%;
@@ -973,18 +974,18 @@
 
 /* About Me Section */
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     #aboutme {
         position: relative;
         top: 204em;
         left: 26em;
         width: 187%;
-        height: 100%;
+        height: 120vh;
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .aboutMeTitle {
         position: relative;
@@ -997,13 +998,24 @@
     } */
     .aboutme-Text {
         position: relative;
-        font-size: 46px;
-        line-height: 62px;
+        font-size: 59px;
+        line-height: 63px;
     }
     .myResumeIcon {
         position: absolute;
         font-size: 46px;
         padding-bottom: 6px 30px;
+    }
+}
+
+
+@media only screen and (min-width:375px) and (max-width: 499px) {
+    .linkToMyResume {
+        position: absolute;
+        padding: 1px 12px 0 14px;
+        bottom: -429px;
+        font-size: 61px;
+        left: 400px;
     }
 }
 
@@ -1018,7 +1030,7 @@
 /* Connect Section */
 
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     #connect {
         position: relative;
@@ -1044,7 +1056,7 @@
 }
 
 /* Modals */
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .contentsWidth {
         width: 82%;
@@ -1092,7 +1104,7 @@
 
 /* Arrow btn */
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .topBtn {
         font-size: 113px;
