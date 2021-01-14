@@ -59,13 +59,13 @@
     }
 }
 
-@media only screen and (min-width:701px) and (max-width: 756px) {
+/* @media only screen and (min-width:701px) and (max-width: 756px) {
     .myName {
         position: relative;
         top: 2em;
         left: 10px;
     }
-}
+} */
 
 @media only screen and (min-width:600px) and (max-width: 810px) {
     .aboutme-Text {

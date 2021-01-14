@@ -32,16 +32,16 @@
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .picOfMe {
         position: relative;
-        top: 10px;
-        left: 509px;
+        top: 103px;
+        left: 105px;
     }
 }
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .myName {
         position: relative;
-        top: 91px;
-        left: 455px;
+        top: -236px;
+        left: 15em;
         max-width: 412px;
     }
 }
@@ -49,8 +49,8 @@
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .introPar {
         position: relative;
-        top: 121px;
-        left: 21em;
+        top: -206px;
+        left: 35em;
         max-width: 562px;
     }
 }
