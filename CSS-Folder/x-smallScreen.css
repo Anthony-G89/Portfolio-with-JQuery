@@ -782,8 +782,8 @@
     .CodeQuizContainer {
         position: relative;
         width: 100%;
-        left: 393px;
-        bottom: 12em;
+        left: 478px;
+        bottom: 29em;
     }
 
 }
@@ -792,6 +792,7 @@
 {
     .codeTitle {
         position: relative;
+        left: 237px;
         font-size: 80px;
     }
 
@@ -801,7 +802,7 @@
 {
     .picOfCodeQuiz {
         position: relative;
-        left: -46px;
+        left: -13px;
         height: 29em;
         width: 900px;
     }
@@ -813,7 +814,7 @@
     .codeDescription {
         position: relative;
         top: 99em;
-        left: 15em;
+        left: 18em;
     }
 
 }
@@ -856,8 +857,8 @@
     .LocalWireContainer {
         position: relative;
         width: 100%;
-        left: 393px;
-        bottom: 200px;
+        left: 478px;
+        bottom: 450px;
 
         
     }
@@ -868,7 +869,7 @@
 {
     .LocalWireTitle {
         position: relative;
-        left: 205px;
+        left: 273px;
         font-size: 80px;
     }
 
@@ -878,7 +879,7 @@
 {
     .LocalWirePic {
         position: relative;
-        left: -46px;
+        left: -13px;
         height: 29em;
         width: 900px;
 
@@ -900,6 +901,7 @@
     .LocalWireInfo {
         position: relative;
        font-size: 40px;
+       left: 77px;
 
     }
 }
@@ -1013,7 +1015,7 @@
     .linkToMyResume {
         position: absolute;
         padding: 1px 12px 0 14px;
-        bottom: -429px;
+        bottom: -561px;
         font-size: 61px;
         left: 400px;
     }

@@ -84,17 +84,6 @@
 }
 
 
-@media only screen and (min-width:375px) and (max-width: 499px) {
-    .linkToMyResume {
-        position: absolute;
-        padding: 1px 12px 0 14px;
-        bottom: -283px;
-        font-size: 61px;
-        left: 400px;
-        
-        
-    }
-}
 
 
 @media only screen and (min-width:375px) and (max-width: 414px) {
