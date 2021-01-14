@@ -494,15 +494,28 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 499px) {
+@media only screen and (min-width: 375px) and (max-width: 500px) {
     #myNavBar {
         position: relative;
         width: 249%;
-        padding: 35px;
+        padding: 80px;
         text-align: center;
     }
 }
 
+/* hiding navbar menu on mobile Vertical */
+@media only screen and (min-width: 375px) and (max-width: 500px) 
+{
+    .navbar {
+        right: -700px;
+    }
+    .change {
+        right: 0;
+    }
+    .nav-link {
+        font-size: 4em;
+    }
+}
 
 
 
