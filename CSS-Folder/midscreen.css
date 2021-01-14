@@ -78,6 +78,7 @@
     .linkToMyResume {
         position: absolute;
         bottom: 101px;
+        right: -27px;
         
     }
 }
@@ -217,6 +218,7 @@
 @media only screen and (min-width:375px) and (max-width: 900px) {
     #myNavBar {
         position: fixed;
+        top: 0;
         width: 100%;
         padding: 30px;
         z-index: 1;

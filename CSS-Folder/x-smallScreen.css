@@ -1,10 +1,10 @@
 
-@media only screen and (max-width: 700px) and (min-width: 500px)
+/* @media only screen and (max-width: 700px) and (min-width: 500px)
 {
     .body {
         overflow-x: hidden;
     }
-}
+} */
 
  /* Size Screen from 756px and going down till 700px.. When mobile is horizontal */
 
@@ -188,8 +188,8 @@
     }
 }
 
-/* Screen size from 700 and going down till 500px */
-@media only screen and (min-width: 600px) and (max-width: 700px)
+/* Screen size from 699px and going down till 500px */
+@media only screen and (min-width: 643px) and (max-width: 699px)
 {
     .picOfMe {
     position: relative;
@@ -199,19 +199,19 @@
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 700px)
+@media only screen and (min-width: 643px) and (max-width: 699px)
 {
     .myName {
         position: relative;
-        top: 92px;
+        top: 112px;
         font-size: 56px;
-        left: 236px;
-        max-width: 200px;
+        left: 197px;
+        max-width: 286px;
 }
         
 }
 
-@media only screen and (min-width: 600px) and (max-width: 700px)
+@media only screen and (min-width: 643px) and (max-width: 699px)
 {
     .introPar {
     position: relative;
@@ -222,38 +222,142 @@
 }
         
 }
-
-@media only screen and (min-width: 600px) and (max-width: 700px)
+ /* weather dashbored app.  */
+@media only screen and (min-width: 643px) and (max-width: 699px)
 {
     .WeatherContainer {
     position: relative;
     bottom: 483px;
-    right: 42px;
-}
-        
+    right: 162px;
+}      
 }
 
-@media only screen and (min-width: 600px) and (max-width: 700px)
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .weatherTitle {
+    position: absolute;
+    right: -63px;
+}      
+}
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .weatherPic {
+    position: absolute;
+    left: 230px;
+}    
+}
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .weatherDescription {
+    position: absolute;
+    left: 55%;
+    top: 77em;
+    max-width: 305px;
+}    
+}
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .weatherBtn {
+    position: absolute;
+    left: 414px;
+    top: 77em;
+}    
+}
+
+
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
 {
     .CodeQuizContainer {
     position: relative;
     bottom: 401px;
-    right: 42px;
-}
-        
+    /* right: 42px; */
+}       
 }
 
-@media only screen and (min-width: 600px) and (max-width: 700px)
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .CodeTitle {
+        position: absolute;
+        left: 228px;
+}
+       
+}
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .picOfCodeQuiz {
+        position: absolute;
+        left: 68px;
+}
+       
+}
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .codeDescription {
+        position: absolute;
+        left: 31%;
+        top: 110rem;
+        max-width: 305px;
+}
+       
+}
+
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
 {
     .LocalWireContainer {
-    position: relative;
-    bottom: 319px;
-    right: 42px;
+        position: relative;
+        bottom: 319px;
 }
         
 }
 
-@media only screen and (min-width: 660px) and (max-width: 700px)
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .LocalWireTitle {
+        position: absolute;
+        left: 228px;
+}
+        
+}
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .LocalWirePic {
+        position: absolute;
+        left: 68px;
+}
+        
+}
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .LocalWireDescription {
+        position: absolute;
+        left: 31%;
+        top: 145em;
+        max-width: 305px;
+}
+        
+}
+
+@media only screen and (min-width: 643px) and (max-width: 699px)
+{
+    .LocalWireBtn {
+        position: absolute;
+        left: 31%;
+        top: 145em;
+        max-width: 305px;
+}
+        
+}
+
+/* @media only screen and (min-width: 660px) and (max-width: 700px)
 {
     .otherProjects {
     position: relative;
@@ -261,22 +365,23 @@
     top: 149em;
 }
         
-}
-@media only screen and (min-width: 600px) and (max-width: 659px)
+} */
+
+@media only screen and (min-width: 643px) and (max-width: 659px)
 {
     .otherProjects {
         position: relative;
-        display: block;
-        top: 144em;
-        left: 140px;
+        top: 152em;
+        left: 35px;
 }
         
 }
 
-@media only screen and (min-width:600px) and (max-width: 700px) {
+@media only screen and (min-width:643px) and (max-width: 659px) {
     #aboutme {
+        position: relative;
       top: 164em;
-      left: 42px;
+      left: 13px;
     }
 }
 
@@ -287,10 +392,11 @@
     }
 }
 
-@media only screen and (min-width:600px) and (max-width: 700px) {
+@media only screen and (min-width:643px) and (max-width: 699px) {
     #connect {
+        position: relative;
       top: 176em;
-      left: 42px;
+      left: 13px;
     }
 }
 
@@ -298,14 +404,14 @@
 
 /* screen size from 599px and smaller */
 
-@media only screen and (min-width: 500px) and (max-width: 599px)
+/* @media only screen and (min-width: 500px) and (max-width: 599px)
 {
     .picOfMe {
     left: 155px;
     top: 65px;
 }
 
-}
+} 
 
 @media only screen and (min-width: 500px) and (max-width: 599px)
 {
@@ -458,7 +564,7 @@
         top: 366em;
         left: 10px;
 }
-}
+} */
 
 
 
@@ -513,7 +619,7 @@
 }
 
 /* hiding navbar menu on mobile Vertical */
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .navbar {
         right: -700px;
@@ -562,13 +668,13 @@
 }
 
 
-@media only screen and (min-width: 375px) and (max-width: 500px) 
+@media only screen and (min-width: 415px) and (max-width: 500px) 
 {
     .picOfMe {
         position: relative;
-        top: 35px;
-        left: 438px;
-        height: 60em;
+        top: 27px;
+        left: 101px;
+        
     }
 }
 
