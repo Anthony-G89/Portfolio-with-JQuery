@@ -255,8 +255,8 @@
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .WeatherContainer {
         position: relative;
-        bottom: 32em;
-        right: 31px;
+        left: 38px;
+        bottom: 47em;
     }
 }
 @media only screen and (min-width:757px) and (max-width: 900px) {
@@ -287,8 +287,8 @@
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .CodeQuizContainer {
         position: relative;
-        bottom: 26em;
-        right: 31px;
+        bottom: 38em;
+        left: 38px;
     }
 }
 
@@ -321,8 +321,8 @@
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .LocalWireContainer {
         position: relative;
-        bottom: 20em;
-        right: 31px;
+        bottom: 30em;
+        left: 38px;
     }
 }
 
@@ -353,22 +353,29 @@
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .otherProjects {
         position: relative;
-        top: 156em;
-        left: 78px;
+        top: 138em;
+        left: 129px;
     }
 }
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     #aboutme {
         position: relative;
-        top: 173em;
+        top: 159em;
     }
 }
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     #connect {
         position: relative;
-        top: 187em;
+        top: 172em;
+    }
+}
+
+@media only screen and (min-width:757px) and (max-width: 900px) {
+    .aboutLink {
+        position: relative;
+        top: 141px;
     }
 }
 
