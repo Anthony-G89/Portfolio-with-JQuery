@@ -18,7 +18,7 @@
  @media only screen and (min-width:701px) and (max-width: 756px) {
     .myHeader {
         position: relative;
-        width: 111%;
+        width: 145%;
     }
 }
 
@@ -27,7 +27,7 @@
     .picOfMe {
         position: relative;
         top: 10px;
-        left: 277px;
+        left: 405px;
     }
 }
 
@@ -35,7 +35,7 @@
     .myName {
         position: relative;
         top: 91px;
-        left: 229px;
+        left: 368px;
         max-width: 412px;
     }
 }
@@ -44,7 +44,7 @@
     .introPar {
         position: relative;
         top: 121px;
-        left: 9em;
+        left: 16em;
         max-width: 562px;
     }
 }
