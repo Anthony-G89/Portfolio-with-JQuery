@@ -22,11 +22,11 @@
     }
 }
 
-@media only screen and (min-width:701px) and (max-width: 756px) {
+/* @media only screen and (min-width:701px) and (max-width: 756px) {
     #myNavBar {
         padding: 20px 0 20px 0 ;
     }
-}
+} */
 
 
 @media only screen and (min-width:701px) and (max-width: 756px) {
@@ -184,7 +184,7 @@
 {
     .picOfMe {
     position: relative;
-    top: 10px;
+    top: 64px;
     left: 185px;
 }
 
