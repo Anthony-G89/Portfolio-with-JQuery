@@ -54,6 +54,7 @@
     .WeatherContainer {
         position: relative;
         bottom: 569px;
+        left: 7em;
         
     }
     .weatherTitle {
@@ -83,6 +84,7 @@
     .CodeQuizContainer {
         position: relative;
         bottom: 57em;
+        left: 7em;
         
     }
     .picOfCodeQuiz {
@@ -92,13 +94,13 @@
     }
     .codeDescription {
         position: relative;
-        left: 150px;
+        top: 95em;
         left: 17em;
         max-width: 343px;
     }
     .codeBtn {
         position: relative;
-        top: 98em;
+        top: 86em;
         left: 340px;
     }
 }
@@ -108,7 +110,8 @@
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .LocalWireContainer {
         position: relative;
-        bottom: 62em;
+        bottom: 75em;
+        left: 7em;
         
     }
     .LocalWireTitle {
@@ -132,8 +135,8 @@
     }
     .otherProjects {
         position: relative;
-        left: 9em;
-        top: 77em;
+        left: 17em;
+        top: 74em;
         
     } 
 }
@@ -143,7 +146,7 @@
     #aboutme {
         position: relative;
        top: 107em;
-       left: 4em;
+       left: 10em;
     }
 }
 
@@ -151,7 +154,7 @@
     #connect {
         position: relative;
        top: 123em;
-       left: 4em;
+       left: 10em;
     }
 }
 
