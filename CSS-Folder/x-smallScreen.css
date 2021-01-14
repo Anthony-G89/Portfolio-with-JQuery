@@ -18,7 +18,7 @@
  @media only screen and (min-width:701px) and (max-width: 756px) {
     .myHeader {
         position: relative;
-        width: 145%;
+        width: 160%;
     }
 }
 
@@ -27,7 +27,7 @@
     .picOfMe {
         position: relative;
         top: 10px;
-        left: 405px;
+        left: 463px;
     }
 }
 
@@ -35,7 +35,7 @@
     .myName {
         position: relative;
         top: 91px;
-        left: 368px;
+        left: 415px;
         max-width: 412px;
     }
 }
@@ -44,7 +44,7 @@
     .introPar {
         position: relative;
         top: 121px;
-        left: 16em;
+        left: 20em;
         max-width: 562px;
     }
 }
@@ -54,7 +54,7 @@
     .WeatherContainer {
         position: relative;
         bottom: 569px;
-        left: 7em;
+        left: 12em;
         
     }
     .weatherTitle {
@@ -84,7 +84,7 @@
     .CodeQuizContainer {
         position: relative;
         bottom: 57em;
-        left: 7em;
+        left: 12em;
         
     }
     .picOfCodeQuiz {
@@ -111,7 +111,7 @@
     .LocalWireContainer {
         position: relative;
         bottom: 75em;
-        left: 7em;
+        left: 12em;
         
     }
     .LocalWireTitle {
@@ -135,7 +135,7 @@
     }
     .otherProjects {
         position: relative;
-        left: 17em;
+        left: 20em;
         top: 74em;
         
     } 
@@ -146,7 +146,7 @@
     #aboutme {
         position: relative;
        top: 107em;
-       left: 10em;
+       left: 16em;
     }
 }
 
@@ -154,7 +154,7 @@
     #connect {
         position: relative;
        top: 123em;
-       left: 10em;
+       left: 16em;
     }
 }
 
