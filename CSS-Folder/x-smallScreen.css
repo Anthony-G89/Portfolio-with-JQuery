@@ -55,6 +55,14 @@
     }
 }
 
+
+/* Modal's content width */
+@media only screen and  (min-width:701px) and (max-width:756px) {
+    .contentsWidth {
+        width: 42%;
+    }
+}
+
 /* Mobile horizontal screen Weather Dashbored App */
 @media only screen and (min-width:701px) and (max-width: 756px) {
     .WeatherContainer {
