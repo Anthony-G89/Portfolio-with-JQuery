@@ -675,7 +675,7 @@
         position: relative;
         top: 308px;
         left: 76px;
-        height: 714px;
+        height: 665px;
         
     }
 }
@@ -684,9 +684,9 @@
 {
     .myName {
         position: absolute;
-        left: 12em;
+        left: 688px;
         top: 298px;
-        font-size: 72px;
+        font-size: 62px;
     }
 }
 
@@ -695,8 +695,8 @@
     .introPar {
         position: relative;
         top: 2em;
-        left: 19em;
-        font-size: 45px;
+        left: 646px;
+        font-size: 38px;
     }
 
 }
