@@ -611,7 +611,7 @@
 
 @media only screen and (min-width: 375px) and (max-width: 500px) {
     #myNavBar {
-        position: relative;
+        position: fixed;
         width: 249%;
         padding: 80px;
         text-align: center;
@@ -671,10 +671,10 @@
 @media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .picOfMe {
-        top: 213px;
         position: relative;
-        left: 127px;
-        height: 900px;
+        top: 308px;
+        left: 76px;
+        height: 714px;
         
     }
 }
@@ -683,9 +683,9 @@
 {
     .myName {
         position: absolute;
-        left: 15em;
-        top: 154px;
-        font-size: 83px;
+        left: 12em;
+        top: 298px;
+        font-size: 72px;
     }
 }
 
@@ -693,9 +693,9 @@
 {
     .introPar {
         position: relative;
-        top: -2em;
-        left: 24em;
-        font-size: 50px;
+        top: 2em;
+        left: 19em;
+        font-size: 45px;
     }
 
 }
