@@ -707,7 +707,7 @@
     .WeatherContainer {
         position: relative;
         width: 100%;
-        left: 478px;
+        left: 210px;
         bottom: 46em;
     }
 
@@ -719,7 +719,7 @@
     .weatherTitle {
         position: relative;
         top: 30em;
-        left: 205px;
+        left: 233px;
 
     }
 }
@@ -741,7 +741,8 @@
     .weatherDescription {
         position: relative;
         top: 81em;
-        left: 18em;
+        left: 17em;
+        max-width: 351px;
 
     }
 }
@@ -768,6 +769,7 @@
     .weatherBtn {
         position: relative;
         top: 33em;
+        left: 215px;
         width: 73%;
         padding: 6px 20px;
         font-size: 41px;
@@ -782,7 +784,7 @@
     .CodeQuizContainer {
         position: relative;
         width: 100%;
-        left: 478px;
+        left: 210px;
         bottom: 29em;
     }
 
@@ -813,7 +815,7 @@
 {
     .codeDescription {
         position: relative;
-        top: 99em;
+        top: 97em;
         left: 18em;
     }
 
@@ -843,6 +845,8 @@
     .codeBtn {
         position: relative;
         width: 73%;
+        top: 45em;
+        left: 215px;
         padding: 6px 20px;
         font-size: 41px;
     }
@@ -857,8 +861,8 @@
     .LocalWireContainer {
         position: relative;
         width: 100%;
-        left: 478px;
-        bottom: 450px;
+        left: 210px;
+        bottom: 467px;
 
         
     }
@@ -869,7 +873,7 @@
 {
     .LocalWireTitle {
         position: relative;
-        left: 273px;
+        left: 234px;
         font-size: 80px;
     }
 
@@ -891,7 +895,7 @@
     .LocalWireDescription {
         position: relative;
         top: 135em;
-        left: 15em;
+        left: 14em;
 
     }
 }
@@ -902,6 +906,7 @@
         position: relative;
        font-size: 40px;
        left: 77px;
+       top: -1em;
 
     }
 }
@@ -912,6 +917,7 @@
         position: relative;
         bottom: 244px;
         left: 50px;
+        
 
     }
 }
@@ -920,9 +926,11 @@
 {
     .LocalWireBtn {
         position: relative;
+        left: 208px;
         width: 73%;
         padding: 6px 20px;
         font-size: 41px;
+        top: 59em;
     }
 }
 
