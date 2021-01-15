@@ -708,7 +708,7 @@
     .WeatherContainer {
         position: relative;
         width: 100%;
-        left: 210px;
+        left: 121px;
         bottom: 46em;
     }
 
@@ -785,7 +785,7 @@
     .CodeQuizContainer {
         position: relative;
         width: 100%;
-        left: 210px;
+        left: 121px;
         bottom: 29em;
     }
 
@@ -862,7 +862,7 @@
     .LocalWireContainer {
         position: relative;
         width: 100%;
-        left: 210px;
+        left: 121px;
         bottom: 467px;
 
         
@@ -941,7 +941,7 @@
 @media only screen and (min-width: 375px) and (max-width: 499px) {
     .otherProjects {
         position: relative;
-        left: 15em;
+        left: 144px;
         width: 187%;
 
     }
@@ -990,7 +990,7 @@
     #aboutme {
         position: relative;
         top: 204em;
-        left: 17em;
+        left: 144px;
         width: 187%;
         height: 138vh;
     }
@@ -1045,7 +1045,7 @@
     #connect {
         position: relative;
         top: 236em;
-        left: 17em;
+        left: 144px;
         width: 187%;
         height: 100%;
     }
