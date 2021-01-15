@@ -940,7 +940,7 @@
 @media only screen and (min-width: 375px) and (max-width: 499px) {
     .otherProjects {
         position: relative;
-        left: 29em;
+        left: 15em;
         width: 187%;
 
     }
@@ -989,9 +989,9 @@
     #aboutme {
         position: relative;
         top: 204em;
-        left: 26em;
+        left: 17em;
         width: 187%;
-        height: 120vh;
+        height: 138vh;
     }
 }
 
@@ -1023,9 +1023,8 @@
     .linkToMyResume {
         position: absolute;
         padding: 1px 12px 0 14px;
-        bottom: -561px;
         font-size: 61px;
-        left: 400px;
+        right: 2px;
     }
 }
 
@@ -1045,7 +1044,7 @@
     #connect {
         position: relative;
         top: 236em;
-        left: 26em;
+        left: 17em;
         width: 187%;
         height: 100%;
     }
