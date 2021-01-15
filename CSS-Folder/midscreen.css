@@ -77,8 +77,8 @@
 @media only screen and (min-width:508px) and (max-width: 862px) {
     .linkToMyResume {
         position: absolute;
-        bottom: 101px;
-        right: -27px;
+        /* bottom: 101px;
+        right: -27px; */
         
     }
 }
@@ -199,11 +199,11 @@
 }
 
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+/* @media only screen and (min-width:757px) and (max-width: 900px) {
     .html {
         overflow-x: hidden;
     }
-}
+} */
 
 @media only screen and (min-width:375px) and (max-width: 900px) {
     #myNavBar {
@@ -387,11 +387,11 @@
 
 /* Ipad Screen size 901px till 1045px.. When IPad is horizontal */
 
-@media only screen and (min-width:901px) and (max-width: 1045px) {
+/* @media only screen and (min-width:901px) and (max-width: 1045px) {
     .PortfolioContainer {
         overflow-x: hidden;
     }
-}
+} */
 
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
@@ -708,7 +708,7 @@
 
 
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
-    .body {
+    .PortfolioContainer {
        overflow-x: hidden;
     }
 }

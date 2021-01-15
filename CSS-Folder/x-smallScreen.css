@@ -8,26 +8,26 @@
 
  /* Size Screen from 756px and going down till 700px.. When mobile is horizontal */
 
- @media only screen and (min-width:701px) and (max-width: 756px) {
+ @media only screen and (min-width:700px) and (max-width: 756px) {
     body {
         overflow-x: hidden;
     }
 }
 
 
- @media only screen and (min-width:701px) and (max-width: 756px) {
+ @media only screen and (min-width:700px) and (max-width: 756px) {
     .myHeader {
         position: relative;
         width: 175%;
     }
 }
 
-/* @media only screen and (min-width:701px) and (max-width: 756px) {
+/* @media only screen and (min-width:700px) and (max-width: 756px) {
     #myNavBar {
         padding: 20px 0 20px 0 ;
     }
 } */
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     .navbar {
         right: -680px;
         width: 50%;
@@ -38,7 +38,7 @@
 
 }
 
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     .picOfMe {
         position: relative;
         top: 103px;
@@ -46,7 +46,7 @@
     }
 }
 
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     .myName {
         position: relative;
         top: -236px;
@@ -55,7 +55,7 @@
     }
 }
 
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     .introPar {
         position: relative;
         top: -206px;
@@ -66,14 +66,14 @@
 
 
 /* Modal's content width */
-@media only screen and  (min-width:701px) and (max-width:756px) {
+@media only screen and  (min-width:700px) and (max-width:756px) {
     .contentsWidth {
         width: 42%;
     }
 }
 
 /* Mobile horizontal screen Weather Dashbored App */
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     .WeatherContainer {
         position: relative;
         bottom: 569px;
@@ -103,7 +103,7 @@
 
 }
  /* Mobile horizontal Code Quiz App */
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     .CodeQuizContainer {
         position: relative;
         bottom: 57em;
@@ -130,7 +130,7 @@
 
 
 
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     .LocalWireContainer {
         position: relative;
         bottom: 75em;
@@ -165,7 +165,7 @@
 }
 
 
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     #aboutme {
         position: relative;
        top: 107em;
@@ -173,7 +173,7 @@
     }
 }
 
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     #connect {
         position: relative;
        top: 123em;
@@ -182,7 +182,7 @@
 }
 
 
-@media only screen and (min-width:701px) and (max-width: 756px) {
+@media only screen and (min-width:700px) and (max-width: 756px) {
     .work {
         display: none
     }
@@ -280,9 +280,10 @@
 
 @media only screen and (min-width: 643px) and (max-width: 699px)
 {
-    .CodeTitle {
+    .codeTitle {
         position: absolute;
-        left: 228px;
+        left: 236px;
+        
 }
        
 }
@@ -357,7 +358,7 @@
         
 }
 
-/* @media only screen and (min-width: 660px) and (max-width: 700px)
+@media only screen and (min-width: 660px) and (max-width: 700px)
 {
     .otherProjects {
     position: relative;
@@ -365,7 +366,7 @@
     top: 149em;
 }
         
-} */
+}
 
 @media only screen and (min-width: 643px) and (max-width: 659px)
 {
@@ -1124,7 +1125,6 @@
 
 @media only screen and (min-width: 375px) and (max-width: 420px) {
     .aboutLink {
-        position: relative;
         bottom: 24px;
         right: 127px;
         width: 100%;
