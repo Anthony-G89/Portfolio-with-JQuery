@@ -992,7 +992,7 @@
         top: 204em;
         left: 144px;
         width: 187%;
-        height: 190vh;
+        height: 148vh;
     }
 }
 
@@ -1030,13 +1030,13 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 414px) 
+/* @media only screen and (min-width: 375px) and (max-width: 499px) 
 {
     .aboutme-content {
         position: relative;
         height: 123vh;
     }
-}
+} */
 
 /* Connect Section */
 
