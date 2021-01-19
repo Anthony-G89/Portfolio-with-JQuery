@@ -708,7 +708,7 @@
     .WeatherContainer {
         position: relative;
         width: 100%;
-        left: 121px;
+        left: 83px;
         bottom: 46em;
     }
 
@@ -785,7 +785,7 @@
     .CodeQuizContainer {
         position: relative;
         width: 100%;
-        left: 121px;
+        left: 83px;
         bottom: 29em;
     }
 
@@ -862,7 +862,7 @@
     .LocalWireContainer {
         position: relative;
         width: 100%;
-        left: 121px;
+        left: 83px;
         bottom: 467px;
 
         
@@ -992,7 +992,7 @@
         top: 204em;
         left: 144px;
         width: 187%;
-        height: 138vh;
+        height: 190vh;
     }
 }
 
@@ -1023,9 +1023,10 @@
 @media only screen and (min-width:375px) and (max-width: 499px) {
     .linkToMyResume {
         position: absolute;
+        left: 200px;
         padding: 1px 12px 0 14px;
         font-size: 61px;
-        right: 2px;
+    
     }
 }
 
@@ -1070,8 +1071,8 @@
 {
     .contentsWidth {
         width: 82%;
-        height: 244vh;
         margin: 33% auto;
+        box-shadow: 14px 26px 41px;
     }
     .titleH {
         font-size: 4em;

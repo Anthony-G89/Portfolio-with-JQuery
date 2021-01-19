@@ -48,14 +48,14 @@ html, body {
     z-index: 1;
 }
 
-
+/* 
 
 
 
 
 .landingSection {
     position: relative;
-}
+} */
 .links {
   
     padding-left: 20px;
@@ -828,6 +828,7 @@ html, body {
 }
 
 .aboutme-Text {
+    position: relative;
     padding: 0 15px 0 15px;
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
@@ -853,7 +854,7 @@ html, body {
 }
 
 .aboutLink  {
-    position: relative;
+    /* position: relative; */
     top: 84px;
     right: 101px;
     width: 100%;
