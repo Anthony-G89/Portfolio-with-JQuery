@@ -1,0 +1,73 @@
+@media only screen and (min-width: 370px) and (max-width:480px) {
+    .body {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (min-width:370px) and (max-width: 499px) {
+    #myNavBar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 60px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 480px) {
+    .navbar {
+        right: -400px;
+    }
+    .change {
+        right: 0;
+    }
+    .nav-link {
+        font-size: 4em;
+    }
+    .nav-item {
+        margin: 64px;
+    }
+    .hamburger-menu {
+        right: 50px;
+        width: 90px;
+        height: 90px;
+    }
+    .change .line-1{
+        transform: rotateZ(-405deg) translate(-37px, 31px);
+    }
+    .change .line-2{
+        opacity: 0;
+    }
+    .change .line-3{
+        transform: rotateZ(405deg)  translate(-8px, -6px);
+    }
+}
+
+@media only screen and (min-width:370px) and (max-width: 499px) {
+    .picOfMe {
+        position: absolute;
+        left: 25px;
+        top: 140px;
+    }
+    .myName {
+        position: absolute;
+        left: 462px;
+        font-size: 37px;
+        top: 160px;
+    }
+    .introPar{
+        position: absolute;
+        left: 458px;
+        top: 400px;
+        width: 200px;
+    }
+    .work {
+        display: none;
+    }
+}
+
+
+
+
+
+

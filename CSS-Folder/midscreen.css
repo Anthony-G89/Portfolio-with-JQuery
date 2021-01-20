@@ -53,11 +53,11 @@
     }
 } */
 
-@media only screen and (min-width:600px) and (max-width: 756px) {
+/* @media only screen and (min-width:600px) and (max-width: 756px) {
     .card {
        margin-bottom: 20px;
     }
-}
+} */
 
 /* @media only screen and (min-width:701px) and (max-width: 756px) {
     .myName {
@@ -109,14 +109,13 @@
         cursor: pointer;
         
     }
-    
     .navbar {
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 45% 0 0 60%;
         right: -400px;
-        transition: all 0.8s cubic-bezier(1,0,0,1)
+        transition: all 0.8s cubic-bezier(1,0,0,1);
     }
     .change{
         right: 0;
@@ -205,7 +204,7 @@
     }
 } */
 
-@media only screen and (min-width:375px) and (max-width: 900px) {
+@media only screen and (min-width:500px) and (max-width: 900px) {
     #myNavBar {
         position: fixed;
         top: 0;
@@ -706,12 +705,12 @@
 
 
 
-
-@media only screen and (min-width:1046px) and (max-width: 1296px) {
+ /*BUG!!!! WAS CAUSING TWO VERTICAL SCROLLBAR  */
+/* @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .PortfolioContainer {
        overflow-x: hidden;
     }
-}
+} */
 
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .otherProjects {
