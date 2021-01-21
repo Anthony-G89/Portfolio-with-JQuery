@@ -216,69 +216,62 @@
 
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
+    body {
+        overflow-x: hidden ;
+    }
+    #myNavBar {
+        position: fixed;
+        top: 0;
+        padding: 30px;
+        width: 100%;
+        z-index: 1;
+    }
     .picOfMe {
         position: relative;
         top: 145px;
-        left: 44px;
-        width: 30%;
-        height: 30%;
+        left: 31px;
+        height: 437px;
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .myName {
-        position: relative;
-        top: -216px;
-        left: 11em;
-        max-width: 286px;
+        position: absolute;
+        top: 154px;
+        left: 380px;
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .introPar {
-        position: relative;
-        top: -180px;
-        left: 32em;
-        max-width: 224px;
+        position: absolute;
+        top: 448px;
+        left: 426px;
+        max-width: 302px;
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .work {
        display: none;
     }
-}
 
+}
 /* Weather Dashbored App */
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .WeatherContainer {
         position: relative;
-        left: 38px;
-        bottom: 47em;
+        bottom: 333px;
     }
-}
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .weatherTitle {
-       left: 6em;
+        position: absolute;
+       left: 203px;
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .weatherPic {
-       left: 8em;
+        position: absolute;
+        width: 75%;
+        left: 98px;
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .weatherDescription {
-       left: 16em;
+        position: absolute;
+       left: 210px;
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .weatherBtn {
-       left: 18em;
+        position: absolute;
+        left: 289px;
+        
     }
 }
 
@@ -286,30 +279,18 @@
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .CodeQuizContainer {
         position: relative;
-        bottom: 38em;
-        left: 38px;
+        bottom: 66px;
+        
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .codeTitle {
        left: 8em;
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .picOfCodeQuiz {
        left: 8em;
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .codeDescription {
        left: 16em;
     }
-}
-
-@media only screen and (min-width:757px) and (max-width: 900px) {
     .codeBtn {
        left: 18em;
     }
@@ -319,9 +300,10 @@
 
 @media only screen and (min-width:757px) and (max-width: 900px) {
     .LocalWireContainer {
-        position: relative;
+        display: none;
+        /* position: relative;
         bottom: 30em;
-        left: 38px;
+        left: 38px; */
     }
 }
 
