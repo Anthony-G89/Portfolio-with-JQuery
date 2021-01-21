@@ -348,7 +348,7 @@
 
 /* 500 pixel  */
 
-@media only screen and (min-width:500px) and (max-width: 550px) {
+@media only screen and (min-width:500px) and (max-width: 600px) {
     body {
         overflow-x: hidden;
     }
@@ -362,27 +362,27 @@
     }
     .picOfMe {
         position: absolute;
-        left: 251px;
+        left: 82px;
         top: 33px;
-        height: 300px;
+        height: 440px;
     }
     .myName {
         position: absolute;
-        font-size: 37px;
-        top: 370px;
-        left: 234px;
+        font-size: 40px;
+        top: 530px;
+        left: 0px;
     }
     .introPar {
         position: absolute;
-        top: 578px;
-        left: 259px;
+        top: 703px;
+        left: 41px;
     }
     .work {
         display: none;
     }
     .WeatherContainer {
         position: relative;
-        left: 106px;
+        
     }
     .weatherTitle {
         position: absolute;
@@ -404,6 +404,78 @@
     .weatherBtn {
         position: absolute;
         left: 168px;
+    }
+    .CodeQuizContainer {
+        position: relative;
+        top: 200px;
+    }
+    .codeTitle {
+        position: absolute;
+        left: 148px;
+    }
+    .picOfCodeQuiz {
+        position: absolute;
+        width: 75%;
+        left: 71px;
+    }
+    .codeDescription {
+        position: absolute;
+        left: 160px;
+    }
+    .codeInfo {
+        font-size: 16px;
+        max-width: 200px;
+    }
+    .codeBtn {
+        position: absolute;
+        left: 168px;
+    }
+    .LocalWireContainer {
+        position: relative;
+        top: 352px;
+    }
+    .LocalWireTitle {
+        position: absolute;
+        left: 148px;
+        white-space: nowrap;
+    }
+    .LocalWirePic {
+        position: absolute;
+        width: 75%;
+        left: 71px;
+    }
+    .LocalWireDescription {
+        position: absolute;
+        top: 145em;
+        left: 160px;
+    }
+    .LocalWireInfo {
+        font-size: 16px;
+        max-width: 200px;
+    }
+    .LocalWireBtn {
+        position: absolute;
+        top: 138em;
+        left: 168px;
+    }
+
+    .otherProjects {
+        position: relative;
+        top: 191em;
+        left: 69px;
+    }
+    .myCards {
+        margin: 40px;
+    }
+    #aboutme {
+        position: relative;
+        top: 210em;
+        width: 80vw;
+    }
+    #connect {
+        position: relative;
+        top: 220em;
+        width: 80vw;
     }
 }
 
