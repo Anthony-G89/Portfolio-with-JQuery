@@ -363,7 +363,7 @@
     .picOfMe {
         position: absolute;
         left: 82px;
-        top: 33px;
+        top: 54px;
         height: 440px;
     }
     .myName {
@@ -478,6 +478,140 @@
         width: 80vw;
     }
 }
+
+/* 600 Pixel */
+@media only screen and (min-width:600px) and (max-width: 750px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #myNavBar {
+        position: fixed;
+        top: 0;
+        padding: 30px;
+        width: 100%;
+        z-index: 1;
+    }
+    .picOfMe {
+        position: absolute;
+        top: 50px;
+        left: 140px;
+    }
+    .myName {
+        position: absolute;
+        top: 490px;
+        left: 1px;
+    }
+    .introPar {
+        position: absolute;
+        top: 705px;
+        left: 26px;
+    }
+    .work {
+        display: none;
+    }
+    .WeatherContainer {
+        position: relative;
+        top: 175px;
+        
+    }
+    .weatherTitle {
+        position: absolute;
+        left: 108px;
+    }
+    .weatherPic {
+        position: absolute;
+        width: 75%;
+        left: 71px;
+    }
+    .weatherDescription {
+        position: absolute;
+        left: 203px;
+    }
+    .weatherInfo {
+        font-size: 16px;
+        max-width: 200px;
+    }
+    .weatherBtn {
+        position: absolute;
+        left: 204px;
+    }
+    .CodeQuizContainer {
+        position: relative;
+        top: 272px;
+    }
+    .codeTitle {
+        position: absolute;
+        left: 191px;
+    }
+    .picOfCodeQuiz {
+        position: absolute;
+        width: 75%;
+        left: 71px;
+    }
+    .codeDescription {
+        position: absolute;
+        left: 203px;
+    }
+    .codeInfo {
+        font-size: 16px;
+        max-width: 200px;
+    }
+    .codeBtn {
+        position: absolute;
+        left: 204px;
+    }
+    .LocalWireContainer {
+        position: relative;
+        top: 352px;
+    }
+    .LocalWireTitle {
+        position: absolute;
+        left: 191px;
+        white-space: nowrap;
+    }
+    .LocalWirePic {
+        position: absolute;
+        width: 75%;
+        left: 71px;
+    }
+    .LocalWireDescription {
+        position: absolute;
+        top: 145em;
+        left: 203px;
+    }
+    .LocalWireInfo {
+        font-size: 16px;
+        max-width: 200px;
+    }
+    .LocalWireBtn {
+        position: absolute;
+        top: 138em;
+        left: 204px;
+    }
+    .otherProjects {
+        position: relative;
+        top: 191em;
+        left: 101px;
+    }
+    .myCards {
+        margin: 40px;
+    }
+    #aboutme {
+        position: relative;
+        top: 210em;
+        width: 80vw;
+    }
+    #connect {
+        position: relative;
+        top: 220em;
+        width: 80vw;
+    }
+
+
+
+}
+
 
 
     

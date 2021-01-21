@@ -67,12 +67,12 @@
     }
 } */
 
-@media only screen and (min-width:600px) and (max-width: 810px) {
+/* @media only screen and (min-width:600px) and (max-width: 810px) {
     .aboutme-Text {
        padding-left: 0;
        max-width: 360px;
     }
-}
+} */
 
 @media only screen and (min-width:508px) and (max-width: 862px) {
     .linkToMyResume {
