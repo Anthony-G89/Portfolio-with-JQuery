@@ -86,7 +86,7 @@
 
 
 
-@media only screen and (min-width:375px) and (max-width: 414px) {
+/* @media only screen and (min-width:375px) and (max-width: 414px) {
     .linkToMyResume {
         position: absolute;
         font-size: 69px;
@@ -95,7 +95,7 @@
         
         
     }
-}
+} */
 
 
 
@@ -103,7 +103,7 @@
 
 
 /* Seeing menu when 900px and smaller */
-@media only screen and (min-width:375px) and (max-width: 900px) {
+@media only screen and (min-width:500px) and (max-width: 900px) {
     .hamburger-menu {
         display: flex;
         cursor: pointer;
@@ -800,7 +800,7 @@
     }
 }
 
-@media only screen and (max-width: 1536px) {
+@media only screen and (min-width:500px) and (max-width: 1536px) {
     .otherProjects {
         flex-wrap: wrap;
     }
