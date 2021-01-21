@@ -203,6 +203,7 @@
         top: 257px;
     }
     .linkToMyResume {
+        position: absolute;
         font-size: 32px;
         padding: 4px 21px;
     }
@@ -210,7 +211,7 @@
        position: relative;
        top: 454em;
        width: 127vw;
-       height: 42vh;
+       height: 353px;
        left: 63px;
     }
     .connect-header {
