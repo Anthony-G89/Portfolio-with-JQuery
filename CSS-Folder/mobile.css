@@ -65,6 +65,10 @@
     .work {
         display: none;
     }
+    .WeatherContainer {
+        position: relative;
+        right: 15px;
+    }
     .weatherTitle {
         position: absolute;
         left: 211px;
@@ -95,6 +99,7 @@
     .CodeQuizContainer {
         position: relative;
         top: 325px;
+        right: 15px;
     }
     .codeTitle {
         position: absolute;
@@ -124,6 +129,7 @@
     .LocalWireContainer {
         position: relative;
         top: 41em;
+        right: 15px;
     }
     .LocalWireTitle {
         position: absolute;
@@ -204,12 +210,13 @@
     }
     .linkToMyResume {
         position: absolute;
+        bottom: 120px;
         font-size: 32px;
         padding: 4px 21px;
     }
     #connect {
        position: relative;
-       top: 454em;
+       top: 469em;
        width: 127vw;
        height: 353px;
        left: 63px;
