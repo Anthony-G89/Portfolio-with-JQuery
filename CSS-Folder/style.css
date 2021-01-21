@@ -9,6 +9,8 @@ html, body {
 
 .body {
     background-image: url(../images/concrete-texture.png);
+    background-color: #16148e;
+    background-blend-mode: color-dodge;
 }
 
 #myNavBar {
@@ -840,7 +842,6 @@ html, body {
 .linkToMyResume {
     position: absolute;
     color: white;
-    
     font-size: 20px;
     cursor: pointer;
     background-color: #538c9f;
