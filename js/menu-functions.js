@@ -1,16 +1,16 @@
 const menu = document.querySelector(".hamburger-menu");
 const navbar = document.querySelector(".navbar");
 const body = document.querySelector(".body");
-// const navLink =document.querySelector(".nav-link");
+const navList =document.querySelector(".nav-list");
 
 menu.addEventListener("click", () =>{
     // console.log("clicked on")
     navbar.classList.toggle("change");
 });
 
-// navLink.addEventListener('click', () =>{
-//         navbar.style.display = "hidden" 
-// });
+navList.addEventListener('click', () =>{
+        navbar.classList.toggle("change");
+});
 
 // body.addEventListener('click', () => {
 //     navbar.style.display = "";
