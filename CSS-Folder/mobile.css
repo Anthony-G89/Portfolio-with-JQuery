@@ -174,7 +174,7 @@
        right: 52px;
        box-shadow: 0px 0px ;
        width: 127vw;
-       height: 100vh;
+       height: 120vh;
        left: 58px;
        box-shadow: 8px 10px 17px;
     }
@@ -228,6 +228,11 @@
         line-height: 40px;
         letter-spacing: 1px;
         font-weight: 600;
+    }
+    .connectSection {
+        position: absolute;
+        left: 178px;
+        top: 242px;
     }
     .topBtn {
         font-size: 70px;
