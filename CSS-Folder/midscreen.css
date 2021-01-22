@@ -393,6 +393,9 @@
         width: 152%;
         padding: 30px;
     }
+    .links {
+        font-size: 30px;
+    }
     .picOfMe {
         position: absolute;
         top: 123px;
@@ -468,7 +471,7 @@
     }
     .codeTitle {
         position: absolute;
-        left: 346px;
+        left: 422px;
         font-size: 70px;
     }
     .picOfCodeQuiz {
@@ -481,7 +484,7 @@
     .codeDescription {
         position: relative;
         top:97em;
-        left: 205px;
+        left: 313px;
 
     }
     .codeInfo {
@@ -491,7 +494,7 @@
     .codeBtn {
         position: relative;
         top: 56em;
-        left: 405px;
+        left: 484px;
         font-size: 28px;
     }
 }
@@ -502,11 +505,11 @@
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .LocalWireContainer {
         position: relative;
-        bottom: 12em;
+        bottom: 11em;
     }
     .LocalWireTitle {
         position: absolute;
-       left: 511px;
+       left: 575px;
        font-size: 70px;
     }
     .LocalWirePic {
@@ -519,7 +522,7 @@
     .LocalWireDescription {
         position: relative;
         top: 164em;
-       left: 372px;
+       left: 450px;
     }
     .LocalWireInfo {
         font-size: 38px;
@@ -528,7 +531,7 @@
     .LocalWireBtn {
         position: relative;
         top: 94em;
-       left:550px;
+       left:636px;
        font-size: 28px;
     }
 }
@@ -536,15 +539,38 @@
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .otherProjects {
         position: relative;
-        top: 73em;
-        left: 73px;
+        top: 170em;
+        left: 34px;
+    }
+    .myCards {
+        margin: 9px;
+    }
+    .card-text {
+        font-size: 23px;
+    }
+    .learnMoreBtn {
+        font-size: 22px;
     }
 }
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     #aboutme {
         position: relative;
-        top: 96em;
+        top: 194em;
+        left: 200px;
+        width: 100%;
+        height: 60vh;
+    }
+    .aboutMeTitle {
+        font-size: 56px;
+    }
+    .aboutme-Text {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 1px;
+    }
+    .linkToMyResume {
+        font-size: 26px;
     }
 }
 
@@ -552,7 +578,17 @@
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     #connect {
         position: relative;
-        top: 108em;
+        top: 215em;
+        left: 200px;
+        width: 100%;
+    }
+    .connectTitle {
+        font-size: 56px;
+    }
+    .connect-Text {
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: 1px;
     }
 }
 
@@ -786,11 +822,11 @@
     }
 }
 
-@media only screen and (min-width:500px) and (max-width: 1536px) {
+/* @media only screen and (min-width:500px) and (max-width: 1536px) {
     .otherProjects {
         flex-wrap: wrap;
     }
-}
+} */
 
 @media only screen and  (max-width: 1536px) {
     .headerText {
