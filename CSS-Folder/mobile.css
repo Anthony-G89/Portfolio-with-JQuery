@@ -479,8 +479,8 @@
     }
 }
 
-/* 600 Pixel */
-@media only screen and (min-width:600px) and (max-width: 760px) {
+/* 600 Pixel mobile Horizontal */
+@media only screen and (min-width:600px) and (max-width: 765px) {
     body {
         overflow-x: hidden;
     }
