@@ -386,6 +386,9 @@
 
 
 @media only screen and (min-width:901px) and (max-width: 1045px) {
+    body {
+        overflow-x: hidden;
+    }
 
     #myNavBar {
         position: relative;
@@ -822,11 +825,17 @@
     }
 }
 
-/* @media only screen and (min-width:500px) and (max-width: 1536px) {
+@media only screen and (min-width:1046px) and (max-width: 1536px) {
     .otherProjects {
         flex-wrap: wrap;
     }
-} */
+}
+
+@media only screen and (min-width:1536px) and (max-width: 1920px) {
+    .otherProjects {
+        flex-wrap: wrap;
+    }
+}
 
 @media only screen and  (max-width: 1536px) {
     .headerText {
