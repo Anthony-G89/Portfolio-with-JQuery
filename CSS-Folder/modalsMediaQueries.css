@@ -22,7 +22,31 @@
 
 @media only screen and  (min-width:901px) and (max-width:1045px) {
     .contentsWidth {
-        width: 60%
+        width: 47%;
+        height: 100%;
+    }
+    .closeIcon {
+        position: relative;
+        bottom: 15px;
+        font-size: 50px;
+    }
+    .titleH {
+        font-size: 45px;
+        padding-bottom: 25px;
+    }
+    .infoP {
+        font-size: 30px;
+        line-height: 36px;
+        padding: 0 10px;
+    }
+    .videoForModals {
+        height: 608px;
+    }
+    .repoLink {
+        font-size: 40px;
+    }
+    .appLink {
+        font-size: 35px;
     }
 }
 
