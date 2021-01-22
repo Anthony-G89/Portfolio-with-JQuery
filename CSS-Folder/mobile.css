@@ -380,6 +380,9 @@
     .work {
         display: none;
     }
+    .otherProjects {
+        flex-wrap: wrap;
+    }
     .WeatherContainer {
         position: relative;
         
@@ -483,6 +486,9 @@
 @media only screen and (min-width:600px) and (max-width: 765px) {
     body {
         overflow-x: hidden;
+    }
+    .otherProjects {
+        flex-wrap: wrap;
     }
 
     #myNavBar {

@@ -216,7 +216,7 @@
 
 
 @media only screen and (min-width:765px) and (max-width: 900px) {
-    body {
+    .body {
         overflow-x: hidden ;
     }
     #myNavBar {
@@ -246,6 +246,9 @@
     }
     .work {
        display: none;
+    }
+    .otherProjects {
+        flex-wrap: wrap;
     }
 
 }
@@ -420,6 +423,9 @@
     }    
     .work {
         display: none;
+    }
+    .otherProjects {
+        flex-wrap: wrap;
     }
 }
 
@@ -624,6 +630,9 @@
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
     .work {
        display: none;
+    }
+    .otherProjects {
+        flex-wrap: wrap;
     }
 }
 
