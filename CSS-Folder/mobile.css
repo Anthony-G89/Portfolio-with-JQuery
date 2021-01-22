@@ -593,20 +593,22 @@
     }
     .otherProjects {
         position: relative;
-        top: 191em;
-        left: 101px;
+        top: 195em;
+        left: 100px;
     }
     .myCards {
-        margin: 40px;
+        margin: 18px;
     }
     #aboutme {
         position: relative;
         top: 210em;
+        left: 48px;
         width: 80vw;
     }
     #connect {
         position: relative;
         top: 220em;
+        left: 48px;
         width: 80vw;
     }
 
