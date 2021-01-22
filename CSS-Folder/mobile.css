@@ -480,7 +480,7 @@
 }
 
 /* 600 Pixel */
-@media only screen and (min-width:600px) and (max-width: 756px) {
+@media only screen and (min-width:600px) and (max-width: 758px) {
     body {
         overflow-x: hidden;
     }
@@ -517,77 +517,79 @@
     }
     .weatherTitle {
         position: absolute;
-        left: 108px;
+        left: 236px;
     }
     .weatherPic {
         position: absolute;
         width: 75%;
-        left: 71px;
+        left: 142px;
     }
     .weatherDescription {
         position: absolute;
-        left: 203px;
+        left: 328px;
     }
     .weatherInfo {
-        font-size: 16px;
+        font-size: 19px;
         max-width: 200px;
     }
     .weatherBtn {
         position: absolute;
-        left: 204px;
+        top: 78em;
+        left: 336px;
     }
     .CodeQuizContainer {
         position: relative;
-        top: 272px;
+        top: 346px;
     }
     .codeTitle {
         position: absolute;
-        left: 191px;
+        left: 315px;
     }
     .picOfCodeQuiz {
         position: absolute;
         width: 75%;
-        left: 71px;
+        left: 142px;
     }
     .codeDescription {
         position: absolute;
-        left: 203px;
+        left: 328px;
     }
     .codeInfo {
-        font-size: 16px;
+        font-size: 19px;
         max-width: 200px;
     }
     .codeBtn {
         position: absolute;
-        left: 204px;
+        top: 107em;
+        left: 336px;
     }
     .LocalWireContainer {
         position: relative;
-        top: 352px;
+        top: 451px;
     }
     .LocalWireTitle {
         position: absolute;
-        left: 191px;
+        left: 315px;
         white-space: nowrap;
     }
     .LocalWirePic {
         position: absolute;
         width: 75%;
-        left: 71px;
+        left: 142px;
     }
     .LocalWireDescription {
         position: absolute;
         top: 145em;
-        left: 203px;
+        left: 328px;
     }
     .LocalWireInfo {
-        font-size: 16px;
+        font-size: 19px;
         max-width: 200px;
     }
     .LocalWireBtn {
         position: absolute;
-        top: 138em;
-        left: 204px;
+        top: 140em;
+        left: 336px;
     }
     .otherProjects {
         position: relative;
