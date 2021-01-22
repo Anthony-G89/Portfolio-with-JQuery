@@ -240,7 +240,7 @@
     }
     .introPar {
         position: absolute;
-        top: 448px;
+        top: 411px;
         left: 426px;
         max-width: 302px;
     }
@@ -353,6 +353,20 @@
     #aboutme {
         position: relative;
         top: 159em;
+        left: 61px;
+        width: 100%;
+    }
+    .aboutme-Text {
+        font-size: 28px ;
+        line-height: 32px;
+    }
+    .aboutLink {
+        position: relative;
+    }
+    .linkToMyResume {
+        position: absolute;
+        bottom: 0;
+        font-size: 26px;
     }
 }
 
@@ -360,18 +374,15 @@
     #connect {
         position: relative;
         top: 172em;
+        width: 100%;
+        left: 56px;
+    }
+    .connect-Text {
+        font-size: 28px;
+        line-height: 37px;
     }
 }
 
-@media only screen and (min-width:765px) and (max-width: 900px) {
-    .aboutLink {
-        position: relative;
-    }
-    .linkToMyResume {
-        position: absolute;
-        bottom: 0;
-    }
-}
 
 @media only screen and (min-width:765px) and (max-width: 900px) {
     .html, body {
@@ -548,17 +559,21 @@
 @media only screen and (min-width:901px) and (max-width: 1045px) {
     .otherProjects {
         position: relative;
-        top: 170em;
-        left: 34px;
+        top: 173em;
+        left: 308px;
     }
     .myCards {
-        margin: 9px;
+        margin: 20px;
+        width: 42%;
+    }
+    .card-title {
+        font-size: 27px;
     }
     .card-text {
-        font-size: 23px;
+        font-size: 26px;
     }
     .learnMoreBtn {
-        font-size: 22px;
+        font-size: 28px;
     }
 }
 
@@ -566,7 +581,7 @@
     #aboutme {
         position: relative;
         top: 194em;
-        left: 200px;
+        left: 288px;
         width: 100%;
         height: 60vh;
     }
@@ -588,7 +603,7 @@
     #connect {
         position: relative;
         top: 215em;
-        left: 200px;
+        left: 288px;
         width: 100%;
     }
     .connectTitle {
