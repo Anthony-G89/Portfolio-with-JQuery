@@ -215,7 +215,7 @@
 } */
 
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     body {
         overflow-x: hidden ;
     }
@@ -250,7 +250,7 @@
 }
 /* Weather Dashbored App */
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .WeatherContainer {
         position: relative;
         bottom: 333px;
@@ -276,7 +276,7 @@
 }
 
 /* Code Quiz App */
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .CodeQuizContainer {
         position: relative;
         bottom: 66px;
@@ -298,7 +298,7 @@
 
 /* LocalWire App  */
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .LocalWireContainer {
         display: none;
         /* position: relative;
@@ -307,31 +307,31 @@
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .LocalWireTitle {
        left: 8em;
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .LocalWirePic {
        left: 8em;
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .LocalWireDescription {
        left: 16em;
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .LocalWireBtn {
        left: 18em;
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .otherProjects {
         position: relative;
         top: 138em;
@@ -339,28 +339,28 @@
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     #aboutme {
         position: relative;
         top: 159em;
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     #connect {
         position: relative;
         top: 172em;
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .aboutLink {
         position: relative;
         top: 141px;
     }
 }
 
-@media only screen and (min-width:757px) and (max-width: 900px) {
+@media only screen and (min-width:760px) and (max-width: 900px) {
     .html, body {
         padding-bottom: 90%;
     }
