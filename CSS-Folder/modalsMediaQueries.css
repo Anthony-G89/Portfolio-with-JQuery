@@ -15,15 +15,38 @@
 
 @media only screen and  (min-width:1046px) and (max-width:1536px) {
     .contentsWidth {
-        width: 42%;
+        width: 60%;
         margin: 5% auto;
+        
+    }
+    .closeIcon {
+        position: relative;
+        bottom: 15px;
+        font-size: 50px;
+    }
+    .titleH {
+        font-size: 45px;
+        padding-bottom: 25px;
+    }
+    .infoP {
+        font-size: 30px;
+        line-height: 36px;
+        padding: 0 10px;
+    }
+    .videoForModals {
+        height: 608px;
+    }
+    .repoLink {
+        font-size: 40px;
+    }
+    .appLink {
+        font-size: 35px;
     }
 }
 
 @media only screen and  (min-width:901px) and (max-width:1045px) {
     .contentsWidth {
-        width: 47%;
-        height: 100%;
+        width: 60%;
     }
     .closeIcon {
         position: relative;
@@ -56,9 +79,9 @@
     }
 }
 
-@media only screen and  (min-width:500px) and (max-width:899px) {
+@media only screen and  (min-width:500px) and (max-width:900px) {
     .contentsWidth {
-        width: 92%;
+        width: 80%;
     }
 }
 
