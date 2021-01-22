@@ -3,12 +3,12 @@ const navbar = document.querySelector(".navbar");
 const body = document.querySelector(".body");
 const navList =document.querySelector(".nav-list");
 
-menu.addEventListener("click", () =>{
+menu.addEventListener("click", function(){
     // console.log("clicked on")
     navbar.classList.toggle("change");
 });
 
-navList.addEventListener('click', () =>{
+navList.addEventListener('click', function() {
         navbar.classList.toggle("change");
 });
 
