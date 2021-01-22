@@ -235,7 +235,7 @@
     .myName {
         position: absolute;
         top: 154px;
-        left: 380px;
+        left: 452px;
     }
     .introPar {
         position: absolute;
@@ -355,6 +355,7 @@
         position: relative;
         top: 208em;
         width: 84%;
+        left: 52px;
     }
     .aboutme-Text {
         position: relative;
@@ -376,6 +377,7 @@
         position: relative;
         top: 244em;
         width: 84%;
+        left: 52px;
     }
     .connect-Text {
         font-size: 28px;
