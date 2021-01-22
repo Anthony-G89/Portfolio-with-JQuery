@@ -396,19 +396,21 @@
     .picOfMe {
         position: absolute;
         top: 123px;
-        left: 100px;
+        left: 84px;
+        height: 500px;
     }
     .myName {
         position: relative;
         top: 217px;
-        left: 383px;
+        left: 478px;
+        font-size: 48px;
     }
     .introPar {
         position: absolute;
         top: 358px;
-        left: 504px;
+        left: 567px;
         white-space: nowrap;
-        font-size: 22px;
+        font-size: 30px;
     }    
     .work {
         display: none;
@@ -425,7 +427,7 @@
     }
     .weatherTitle {
         position: absolute;
-        left: 202px;
+        left: 289px;
         top: 11em;
         font-size: 70px;
         white-space: nowrap;
@@ -441,7 +443,7 @@
     .weatherDescription {
         position: relative;
         top: 57em;
-        left: 205px;
+        left: 313px;
     }
     .weatherInfo {
         font-size: 38px;
@@ -450,7 +452,7 @@
     .weatherBtn {
         position: relative;
         top: 33em;
-        left: 405px;
+        left: 484px;
         font-size: 28px;
     }
 }
