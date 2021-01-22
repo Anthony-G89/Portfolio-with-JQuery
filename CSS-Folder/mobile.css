@@ -524,6 +524,7 @@
     .weatherTitle {
         position: absolute;
         left: 236px;
+        white-space: nowrap;
     }
     .weatherPic {
         position: absolute;

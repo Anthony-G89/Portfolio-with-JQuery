@@ -233,15 +233,14 @@
         height: 437px;
     }
     .myName {
-        /* display: none; */
         position: absolute;
         top: 154px;
         left: 380px;
     }
     .introPar {
         position: absolute;
-        top: 411px;
-        left: 426px;
+        top: 371px;
+        left: 496px;
         max-width: 302px;
     }
     .work {
@@ -355,10 +354,10 @@
     #aboutme {
         position: relative;
         top: 208em;
-        left: 61px;
-        width: 100%;
+        width: 84%;
     }
     .aboutme-Text {
+        position: relative;
         font-size: 28px ;
         line-height: 32px;
     }
@@ -367,7 +366,7 @@
     }
     .linkToMyResume {
         position: absolute;
-        bottom: 0;
+        bottom: 43px;
         font-size: 26px;
     }
 }
@@ -376,8 +375,7 @@
     #connect {
         position: relative;
         top: 244em;
-        width: 100%;
-        left: 56px;
+        width: 84%;
     }
     .connect-Text {
         font-size: 28px;
@@ -623,6 +621,10 @@
 /* Screen Size 1046px and till 1296px */
 
 @media only screen and (min-width:1046px) and (max-width: 1296px) {
+
+    .body {
+        overflow-x: hidden;
+    }
     .topBtn {
         font-size: 65px;
     }
@@ -757,6 +759,15 @@
     }
 }
 
+@media only screen and (min-width:1409px) and (max-width: 1704px) {
+    #aboutme {
+       top: 230em;
+    }
+    #connect {
+        top: 258em;
+    }
+}
+
 
 
 
@@ -785,7 +796,7 @@
 @media only screen and (min-width:1047px) and (max-width: 1296px) {
     #aboutme {
         position: relative;
-        top: 178em;
+        top: 177em;
     }
 }
 
@@ -806,7 +817,7 @@
 @media only screen and (min-width:1047px) and (max-width: 1296px) {
     #connect {
         position: relative;
-        top: 189em;
+        top: 205em;
     }
 }
 
