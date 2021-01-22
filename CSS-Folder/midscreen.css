@@ -74,14 +74,14 @@
     }
 } */
 
-@media only screen and (min-width:508px) and (max-width: 862px) {
+/* @media only screen and (min-width:508px) and (max-width: 862px) {
     .linkToMyResume {
         position: absolute;
-        /* bottom: 101px;
-        right: -27px; */
+        bottom: 101px;
+        right: -27px;
         
     }
-}
+} */
 
 
 
@@ -233,10 +233,10 @@
         height: 437px;
     }
     .myName {
-        display: none;
-        /* position: absolute;
+        /* display: none; */
+        position: absolute;
         top: 154px;
-        left: 380px; */
+        left: 380px;
     }
     .introPar {
         position: absolute;
@@ -336,9 +336,15 @@
     .otherProjects {
         position: relative;
         top: 138em;
-        left: 1px;
+        left: 127px;
     }
+    .myCards {
+        margin: 15px;
+    }
+    
 }
+
+
 
 @media only screen and (min-width:765px) and (max-width: 900px) {
     #aboutme {
@@ -357,7 +363,10 @@
 @media only screen and (min-width:765px) and (max-width: 900px) {
     .aboutLink {
         position: relative;
-        top: 141px;
+    }
+    .linkToMyResume {
+        position: absolute;
+        bottom: 0;
     }
 }
 
