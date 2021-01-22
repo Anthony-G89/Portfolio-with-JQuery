@@ -233,9 +233,10 @@
         height: 437px;
     }
     .myName {
-        position: absolute;
+        display: none;
+        /* position: absolute;
         top: 154px;
-        left: 380px;
+        left: 380px; */
     }
     .introPar {
         position: absolute;
