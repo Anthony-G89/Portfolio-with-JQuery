@@ -9,7 +9,7 @@
         position: fixed;
         top: 0;
         width: 100%;
-        padding: 58px 0px;
+        padding: 50px 0px;
         z-index: 1;
     }
 }
@@ -46,21 +46,21 @@
 @media only screen and (min-width:410px) and (max-width: 499px) and (orientation: portrait) {
     .picOfMe {
         position: absolute;
-        left: 52px;
-        top: 136px;
-        height: 400px;
+        left: 83px;
+        top: 116px;
+        height: 350px;
     }
     .myName {
         position: absolute;
-        left: 445px;
+        left: 1px;
         font-size: 37px;
-        top: 160px;
+        top: 501px;
     }
     .introPar{
         position: absolute;
-        left: 445px;
-        top: 400px;
-        width: 200px;
+        left: 104px;
+        top: 652px;
+        width: 235px;
     }
     .work {
         display: none;
@@ -268,7 +268,8 @@
     .hamburger-menu {
         display: flex;
         cursor: pointer;
-        height: 79px;
+        height: 55px;
+        width: 15%;
         right: 20px;
         
     }
@@ -330,13 +331,13 @@
         transform: scaleX(1);
     }
     .change .line-1{
-        transform: rotateZ(-405deg) translate(-18px, 23px);
+        transform: rotateZ(-405deg) translate(-14px, 24px);
     }
     .change .line-2{
         opacity: 0;
     }
     .change .line-3{
-        transform: rotateZ(405deg)  translate(-16px, -18px);
+        transform: rotateZ(405deg)  translate(-1px, -13px);
     }
 
     .links {
