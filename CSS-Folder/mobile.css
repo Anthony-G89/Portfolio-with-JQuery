@@ -58,130 +58,133 @@
     }
     .introPar{
         position: absolute;
-        left: 104px;
+        left: 25px;
         top: 652px;
-        width: 235px;
+        max-width: 400px;
     }
     .work {
         display: none;
     }
     .WeatherContainer {
         position: relative;
-        right: 15px;
+        
     }
     .weatherTitle {
         position: absolute;
-        left: 211px;
-        font-size: 53px;
+        left: 42px;
+        font-size: 37px;
     }
     .weatherPic {
         position: absolute;
-        left: 87px;
-        width: 500px;
-        height: 300px;
-        top: 66em;
+        left: 15px;
+        width: 384px;
+        height: 271px;
+        top: 60em;
     }
     .weatherDescription {
         position: relative;
-        top: 87em;
-        left: 194px;
+        top: 78em;
+        left: 34px;
     }
     .weatherInfo {
         position: absolute;
         top: 0px;
-        font-size: 25px;
+        font-size: 19px;
     }
     .weatherBtn {
         position: absolute;
-        top: 87em;
-        left: 258px;
+        top: 75em;
+        left: 130px;
     }
     .CodeQuizContainer {
         position: relative;
         top: 325px;
-        right: 15px;
     }
     .codeTitle {
         position: absolute;
-        left: 274px;
-        font-size: 53px;
+        left: 119px;
+        font-size: 37px;
     }
     .picOfCodeQuiz {
         position: absolute;
-        left: 87px;
-        width: 500px;
-        height: 300px;
-        top: 100em;
+        left: 15px;
+        width: 384px;
+        height: 271px;
+        top: 93em;
     }
     .codeDescription {
         position: relative;
-        top: 121em;
+        top: 111em;
+        left: 34px;
+
     }
     .codeInfo {
         position: absolute;
-        font-size: 25px;
+        font-size: 19px;
     }
     .codeBtn {
         position: absolute;
-        top: 118em;
-        left: 258px;
+        top: 104em;
+        left: 130px;
     }
     .LocalWireContainer {
         position: relative;
-        top: 41em;
-        right: 15px;
+        top: 39em;
     }
     .LocalWireTitle {
         position: absolute;
-        left: 291px;
+        left: 119px;
+        font-size: 37px;
     }
     .LocalWirePic {
         position: absolute;
-        left: 87px;
-        width: 500px;
-        height: 300px;
-        top: 132em;
+        left: 15px;
+        width: 384px;
+        height: 271px;
+        top: 128em;
     }
     .LocalWireDescription {
         position: relative;
-        top: 153em;
+        top: 146em;
+        left: 35px;
+
     }
     .LocalWireInfo {
         position: absolute;
-        font-size: 25px;
+        font-size: 19px;
     }
     .LocalWireBtn {
         position: absolute;
-        top: 147em;
-        left: 258px;
+        top: 136em;
+        left: 130px;
     }
     .otherProjects {
         position: absolute;
         top: 220em;
-        left: 120px;
+        left: 1px;
         flex-flow: wrap; 
     }
     .myCards {
         margin: 52px auto;
-        width: 100vw;
+        width: 80vw;
     }
     .card-title {
         font-size: 30px;
     }
     .card-text {
-        font-size: 25px;
+        font-size: 20px;
     }
     .learnMoreBtn  {
-        font-size: 24px;
+        font-size: 17px;
     }
     #aboutme {
        position: relative;
        top: 434em;
        right: 52px;
        box-shadow: 0px 0px ;
-       width: 127vw;
-       height: 120vh;
-       left: 58px;
+       width: 92vw;
+       height: 151vh;
+       left: 1px;
        box-shadow: 8px 10px 17px;
     }
     .aboutme-header {
@@ -190,7 +193,10 @@
         left: 166px;
     }
     .aboutMeTitle {
+        position: absolute;
+        left: -70px;
         font-size: 62px;
+        text-decoration: underline;
     }
     .aboutme-content {
         position: relative;
@@ -217,9 +223,9 @@
     #connect {
        position: relative;
        top: 469em;
-       width: 127vw;
+       width: 92vw;
        height: 353px;
-       left: 63px;
+       left: 1px;
     }
     .connect-header {
         position: absolute;
@@ -227,7 +233,10 @@
         left: 131px;
     }
     .connectTitle {
+        position: absolute;
+        left: -63px;
         font-size: 62px;
+        text-decoration: underline;
     }
     .connect-Text {
         font-size: 30px;
@@ -238,18 +247,18 @@
     }
     .connectSection {
         position: absolute;
-        left: 178px;
+        left: 110px;
         top: 242px;
     }
     .topBtn {
-        font-size: 70px;
+        font-size: 50px;
     }
 
 }
 /*  media queries for Modals on mobile vertical */
 @media only screen and (min-width:410px) and (max-width: 499px) and (orientation: portrait) { 
 .contentsWidth {
-    width: 134vw;
+    width: 92vw;
     margin: 23% auto;
     box-shadow: 13px 22px 16px;
 }
