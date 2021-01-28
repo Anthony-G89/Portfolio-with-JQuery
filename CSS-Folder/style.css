@@ -11,6 +11,7 @@ html, body {
     background-image: url(../images/concrete-texture.png);
     background-color: #16148e;
     background-blend-mode: color-dodge;
+    /* mix-blend-mode:color-dodge */
 }
 
 #myNavBar {
@@ -50,14 +51,6 @@ html, body {
     z-index: 1;
 }
 
-/* 
-
-
-
-
-.landingSection {
-    position: relative;
-} */
 .links {
   
     padding-left: 20px;
@@ -84,7 +77,6 @@ html, body {
     border-radius: 65px;
     box-shadow: 5px 5px 6px rgb(100 97 97) ;
     height: 420px;
-    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 30% 100%, 0 90%); */
 }
 
 .topBtn {
@@ -164,6 +156,14 @@ html, body {
     background-color: white;
     color: black;
     border: none;
+}
+
+
+@media only screen and (min-width: 1297px) and (max-width: 1537px) {
+    .work {
+        position: absolute;
+        left: 50em;
+    }
 }
 
 .work:hover {
@@ -550,6 +550,53 @@ html, body {
     color: white;
 }
 
+.modalMovieSearch {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+    overflow-y: auto;
+}
+
+.MovieSearch-content {
+    margin: 10% auto;
+    background-color: #eceeef;
+    width: 32%;
+    padding: 20px;
+    animation: movieSearchModal;
+    animation-duration: 0.7s ;
+}
+
+.closeBtnForMovieSearch {
+    float: right;
+    font-size: 30px;
+    margin-top: -11px;
+    color: black;
+    cursor: pointer;
+}
+
+.closeBtnForMovieSearch:hover {
+    color: rgb(21, 118, 212);
+}
+.movieSearchTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.movieSearchText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.movieSearchVideo {
+    position: relative;
+    width: 100%;
+}
+
 .modalPassword-Generator {
     display: none;
     position: fixed;
@@ -806,7 +853,7 @@ html, body {
 
 #aboutme {
     position: relative;
-    top: 200em;
+    top: 230em;
     background-color: #ebeaea;
     width: 48%;
     margin: 10% auto;
@@ -876,7 +923,7 @@ html, body {
 
 #connect {
     position: relative;
-    top: 210em;
+    top: 245em;
     background-color: #ebeaea;
     width: 48%;
     margin: 10% auto;
@@ -949,6 +996,12 @@ html, body {
 } */
 
 /* Animation for Modals */
+@keyframes movieSearchModal {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
 @keyframes passwordGeneratorModal {
     from{opacity: 0;}
     to{opacity: 1;}

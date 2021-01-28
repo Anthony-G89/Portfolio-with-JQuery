@@ -15,6 +15,9 @@ const testingBtn = document.querySelector(".testingBtn");
 
 
 
+
+
+
 // Testing to see how many pixles am I scrolling
 window.addEventListener("scroll", () => {
     const scrolled = window.scrollY;

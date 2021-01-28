@@ -30,11 +30,17 @@ const modalLocalWire = document.querySelector("#modalForLocalWire");
 const btnToOpenLocalWire = document.querySelector(".LocalWireBtn");
 const btnToCloseLocalWire = document.querySelector(".modalLocalWireCloseBtn");
 
+const modalMovieSearch = document.querySelector("#modalForMovieSearch");
+const btnToOpenMovieSearch = document.querySelector(".btnformovieSearch");
+const btnTocloseMovieSearch = document.querySelector(".closeBtnForMovieSearch");
+
 
 
 
 
 // opening modals
+
+
 function openModal() {
     modalNoteTaker.style.display = "block";
 };
@@ -59,6 +65,9 @@ function openModalToCodeQuiz() {
 function openModalToLocalWire() {
     modalLocalWire.style.display = "block";
 }
+function openMovieSearchModal() {
+    modalMovieSearch.style.display = "block";
+};
 
 // closing modals
 function closeModal() {
@@ -85,6 +94,9 @@ function closeModalToCodeQuiz() {
 function closeModalToLocalWire() {
     modalLocalWire.style.display = "none";
 }
+function closeMovieSearchModal() {
+    modalMovieSearch.style.display = "none";
+};
 
 // Clicking outside the modal to close app's
 function outSideClick(e) {
@@ -128,6 +140,11 @@ function outSideClickForLocalWire(e){
         modalLocalWire.style.display = "none";
     }
 };
+function outSideClickForMovieSearch(e){
+    if(e.target == modalMovieSearch) {
+        modalMovieSearch.style.display = "none";
+    }
+};
 
 // Events
 btnToOpenNoteTaker.addEventListener("click",openModal);
@@ -162,6 +179,9 @@ btnToOpenLocalWire.addEventListener("click", openModalToLocalWire);
 btnToCloseLocalWire.addEventListener("click", closeModalToLocalWire);
 window.addEventListener("click", outSideClickForLocalWire);
 
+btnToOpenMovieSearch.addEventListener("click", openMovieSearchModal);
+btnTocloseMovieSearch.addEventListener("click", closeMovieSearchModal);
+window.addEventListener("click", outSideClickForMovieSearch);
 
 
 
