@@ -179,11 +179,10 @@
     }
     #aboutme {
        position: relative;
-       top: 434em;
+       top: 466em;
        right: 52px;
-       box-shadow: 0px 0px ;
        width: 92vw;
-       height: 151vh;
+       height: 115vh;
        left: 1px;
        box-shadow: 8px 10px 17px;
     }
@@ -204,15 +203,15 @@
     }
     .aboutme-Text {
         position: relative;
-        top: 5px;
-        font-size: 35px;
-        line-height: 45px;
-        letter-spacing: 1px;
+        top: 20px;
+        font-size: 34px;
+        line-height: 39px;
         font-weight: 600;
     }
     .aboutLink {
         position: relative;
-        top: 257px;
+        top: 296px;
+        white-space: nowrap;
     }
     .linkToMyResume {
         position: absolute;
@@ -222,7 +221,7 @@
     }
     #connect {
        position: relative;
-       top: 469em;
+       top: 529em;
        width: 92vw;
        height: 353px;
        left: 1px;
