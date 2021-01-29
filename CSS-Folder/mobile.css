@@ -291,6 +291,7 @@
     }
     .change{
         right: 0;
+        width: 64%;
     }
     .nav-list {
         text-align: center;
