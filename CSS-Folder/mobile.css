@@ -182,7 +182,7 @@
        top: 466em;
        right: 52px;
        width: 92vw;
-       height: 152vh;
+       min-height: 924px;
        left: 1px;
        box-shadow: 8px 10px 17px;
     }
@@ -247,7 +247,7 @@
     .connectSection {
         position: absolute;
         left: 110px;
-        top: 242px;
+        /* top: 242px; */
     }
     .topBtn {
         font-size: 50px;
