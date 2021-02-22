@@ -21,9 +21,11 @@ html, body {
 
 #myNavBar {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: darkblue;
     padding: 17px 0;
-    text-align: center;
     width: 100%;
 }
 
