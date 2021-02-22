@@ -916,7 +916,6 @@ html, body {
     box-shadow: 4px 6px 8px;
 }
 
-
 .myResumeIcon {
     position: absolute;
     font-size: 20px;
@@ -983,6 +982,10 @@ html, body {
     margin-top: -5px;
     box-shadow: 4px 6px 7px rgb(0,0,0,0.9);
     transform: rotate(360deg);
+    /* transform: rotateZ(150px); */
+    /* transform: rotateY(180deg); */
+   
+
 }
 
 .githubIcon {
