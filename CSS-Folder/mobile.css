@@ -9,7 +9,7 @@
         position: fixed;
         top: 0;
         width: 100%;
-        padding: 30px 0px;
+        padding: 40px 0px;
         z-index: 1;
     }
 }
@@ -71,7 +71,8 @@
     }
     .weatherTitle {
         position: absolute;
-        left: 42px;
+        top: 56rem;
+        left: 17px;
         font-size: 37px;
     }
     .weatherPic {
@@ -182,7 +183,7 @@
        top: 466em;
        right: 52px;
        width: 92vw;
-       min-height: 924px;
+       min-height: 997px;
        left: 1px;
        box-shadow: 8px 10px 17px;
     }
@@ -204,7 +205,7 @@
     .aboutme-Text {
         position: relative;
         top: 20px;
-        font-size: 34px;
+        font-size: 32px;
         line-height: 39px;
         font-weight: 600;
     }
